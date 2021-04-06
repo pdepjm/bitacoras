@@ -16,5 +16,6 @@ Fecha: 02/04/2020
 
 ### Fe de Erratas
 ![federataas.jpg](assets/federataas.jpg)
+
 Por otro lado, descubrimos un bug en el TP1 - Cerebro Mágico (BUUUUU!!!!): Antes de hacer stack ghci deben borrar el archivo stack.yaml.lock que se encuentra en la raíz del proyecto (la carpeta que se crea al clonar el repo). Sino les va fallar por querer bajarse algo de un lugar que no existe.
 Si el proyecto no tienen el archivo, porque aceptaron el assignment después de que nos diéramos cuenta, entonces debería andar todo normalmente.
