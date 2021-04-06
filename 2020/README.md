@@ -1,0 +1,1 @@
+Aquí están las bitácoras de las clases de Paradigmas de Programación del año 2020
