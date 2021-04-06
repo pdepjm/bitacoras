@@ -2,6 +2,8 @@
 
 Fecha: 16/04/2020
 
+![pizarraTipos.png](assets/pizarraTipos.png)
+
 ¡Buenas!
 
 Hoy respondimos consultas varias sobre la tarea dejada la clase pasada, y hablamos de Tipos y de Testing automatizado.
