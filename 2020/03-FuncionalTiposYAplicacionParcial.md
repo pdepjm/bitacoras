@@ -17,9 +17,9 @@ Materiales que dan soporte a los temas de hoy
 
 ### Tarea obligatoria
 
-*	Programar en IDE TP4 Individual. (Propinas) con tests. Tarea del [classroom](https://classroom.github.com/a/fnmPMu-Y) , y por las dudas [enunciado](https://docs.google.com/document/d/1HYSqusErnBmIugGaFbmqa1OJf9WTAh04n9O7tHqSo-I/edit#). Se entrega el Lunes 27/04 23:59hs.
+*	Programar en IDE **TP4 Individual**. (Propinas) con tests. Tarea del [classroom](https://classroom.github.com/a/fnmPMu-Y) , y por las dudas [enunciado](https://docs.google.com/document/d/1HYSqusErnBmIugGaFbmqa1OJf9WTAh04n9O7tHqSo-I/edit#). **Se entrega el Lunes 27/04 23:59hs.**
 
 ### Tarea recomendada
 
-* Video  [Guardas y Pattern Matching](https://www.youtube.com/watch?v=TIo7c4hWZi0). Fecha de entrega/finalización: Idealmente el Jueves que viene.
-* Mumuki	Terminar las dos guías que quedaron colgadas y hacer dos más: Guías 5,6,7,8 enteras. Fecha de entrega/finalización: Idealmente el Jueves que viene.
+* Video  [Guardas y Pattern Matching](https://www.youtube.com/watch?v=TIo7c4hWZi0). **Fecha de entrega/finalización:** Idealmente el Jueves que viene.
+* Mumuki	Terminar las dos guías que quedaron colgadas y hacer dos más: **Guías 5,6,7,8 enteras.** **Fecha de entrega/finalización:** Idealmente el Jueves que viene.
