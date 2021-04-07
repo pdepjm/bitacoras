@@ -21,5 +21,7 @@ Materiales que dan soporte a los temas de hoy
 
 ### Tarea recomendada
 
-* Video  [Guardas y Pattern Matching](https://www.youtube.com/watch?v=TIo7c4hWZi0). **Fecha de entrega/finalización:** Idealmente el Jueves que viene.
-* Mumuki	Terminar las dos guías que quedaron colgadas y hacer dos más: **Guías 5,6,7,8 enteras.** **Fecha de entrega/finalización:** Idealmente el Jueves que viene.
+* Video  [Guardas y Pattern Matching](https://www.youtube.com/watch?v=TIo7c4hWZi0).   
+**Fecha de entrega/finalización:** Idealmente el Jueves que viene.
+* Mumuki	Terminar las dos guías que quedaron colgadas y hacer dos más: **Guías 5,6,7,8 enteras.**  
+**Fecha de entrega/finalización:** Idealmente el Jueves que viene.
