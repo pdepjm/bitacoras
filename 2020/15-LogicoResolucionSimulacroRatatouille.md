@@ -27,7 +27,7 @@ los TPs, tanto de **lógico** como de **funcional.**
 
 Cómo ver las correcciones de parciales:
 
-1. En esta dirección tienen las notas por punto.
+1. En [esta dirección](https://docs.google.com/spreadsheets/d/1bXwWRbpdxYZ1KEYwwrHcFFZwDzNFDlw4u6273qvYvPk/edit#gid=0) tienen las notas por punto.
 2. Entran a su **Repositorio** -> pestaña **Pull Requests** y van a ver un PR así:
 ![feedbackparcial.png](./assets/feedbackparcial.png)
 3. En la pestaña **conversation** hay un resumen de todos los comentarios (en particular a algunes les escribimos un **comentario resumen** del parcial).
