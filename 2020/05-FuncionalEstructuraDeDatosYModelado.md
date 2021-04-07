@@ -15,7 +15,7 @@ Fecha: 07/05/2020
 * Capítulo del libro [Clases de tipos] (http://aprendehaskell.es/content/ClasesDeTipos.html) Libro: Learn you a Haskell for Great Good (en español). Li bra zo.
 * Artículo en la wiki   [No hay instancias para el Show](http://wiki.uqbar.org/wiki/articles/no-hay-instancias-para-el-show.html) es un artículo que explica lo que vimos de las funciones con Show, y explica cómo definir nuestra propia función show para los datos que queramos como el data.
 * Documento de 5 hojas [Guía de lenguajes](https://docs.google.com/document/d/e/2PACX-1vTlLkakSbp6ubcIq00PU4-Z96tg8CUSc8bO793_uftmiGjfkSn7Ug-F_y0-ieIWG6aWfuoHLJrRL8Fd/pub)
-* PDF de 10 páginas	[Resultados del menti de hoy](https://sites.google.com/site/paradigmasdeprogramacion/Cursos/cursadas-anteriores/2020/2020-man-jueves/2020-man-jueves-bitacora/clase05-estructurasdedatosymodelado/Repaso_PdeP_-_Principio_Clase05.pdf?attredirects=0&d=1) 
+* PDF de 10 páginas	[Resultados del menti de hoy](./assets/Repaso_PdeP_-_Principio_Clase05.pdf) 
 
 ### Tarea obligatoria
 

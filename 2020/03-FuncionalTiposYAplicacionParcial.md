@@ -11,7 +11,7 @@ Materiales que dan soporte a los temas de hoy
 * Apuntes [Módulo 2](https://docs.google.com/document/d/1n7TPE2qRpFSnj95lIZFD-q7Ko_DT9XZLH9_kEkNClrU/edit) y [Módulo 7](https://docs.google.com/document/d/1q2o2zCBU2LOfJs3nWG7-r6SaFHCIU5c0M4CJNmqOIO0/edit)
 * Video 4' [Paréntesis](https://www.youtube.com/watch?v=WV1fPlFAw8M) en Haskell vs otros lenguajes
 * Video 3' [Precedencia](https://www.youtube.com/watch?v=ymCuneefgKU) en Haskell.
-* Pdf 7 páginas Los [resultados del mentimeter](https://sites.google.com/site/paradigmasdeprogramacion/Cursos/cursadas-anteriores/2020/2020-man-jueves/2020-man-jueves-bitacora/clase03-clasesdetiposyaplicacionparcial/Clase%203%20Pdep%20jueves%20ma%C3%B1ana%20modo%20de%20trabajo.pdf?attredirects=0&d=1) de hoy.
+* Pdf 7 páginas Los [resultados del mentimeter](./assets/Clase%203%20Pdep%20jueves%20mañana%20modo%20de%20trabajo.pdf) de hoy.
 
 ### Tarea obligatoria
 

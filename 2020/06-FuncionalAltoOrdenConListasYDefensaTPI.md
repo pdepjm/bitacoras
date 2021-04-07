@@ -21,8 +21,8 @@ La clase de este jueves tiene la siguiente estructura:
 * Apuntes: [Módulo 5](https://drive.google.com/open?id=1Rzsp5A46R_WdC-NJ6_SKrUrtZ6LmR5A52BazE9XPLIc)
 * Capítulo del libro [Orden superior, asociaciones y filtros](http://aprendehaskell.es/content/OrdenSuperior.html#asociaciones-y-filtros) *Libro: Learn you a Haskell for Great Good (en español). Li bra zo*
 * Documento de 5 hojas [Guía de lenguajes](https://docs.google.com/document/d/e/2PACX-1vTlLkakSbp6ubcIq00PU4-Z96tg8CUSc8bO793_uftmiGjfkSn7Ug-F_y0-ieIWG6aWfuoHLJrRL8Fd/pub)
-* PDF de 10 páginas	[Resultados del menti de hoy](https://sites.google.com/site/paradigmasdeprogramacion/Cursos/cursadas-anteriores/2020/2020-man-jueves/2020-man-jueves-bitacora/clase05-estructurasdedatosymodelado/Repaso_PdeP_-_Principio_Clase05.pdf?attredirects=0&d=1) 
-* Hoja de cálculo de 2 hojas [Más resultados del menti de hoy](https://sites.google.com/site/paradigmasdeprogramacion/Cursos/cursadas-anteriores/2020/2020-man-jueves/2020-man-jueves-bitacora/clase06-altoordenconlistasdefensadetpi/Clase-5-Pdep-Jueves-Ma%C3%B1ana-2020---Repaso.ods?attredirects=0&d=1)
+* PDF de 10 páginas	[Resultados del menti de hoy](./assets/Clase%205%20Pdep%20Jueves%20Mañana%202020%20-%20Repaso.pdf) 
+* Hoja de cálculo de 2 hojas [Más resultados del menti de hoy](./assets/Clase-5-Pdep-Jueves-Mañana-2020---Repaso.ods)
 
 ### Tarea obligatoria
 
