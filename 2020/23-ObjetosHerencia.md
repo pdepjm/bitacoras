@@ -1,6 +1,6 @@
-# Clase 22 - La clase de clases
+# Clase 23 - Herencia
 
-Fecha: 24/09/2020
+Fecha: 01/10/2020
 
 ![DrCasas%202020%20-%20Clase%202.png](./assets/DrCasas%202020%20-%20Clase%202.png)
 
