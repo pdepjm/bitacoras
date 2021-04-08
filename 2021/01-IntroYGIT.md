@@ -7,7 +7,7 @@ Fecha: 08/04/2020
 ### Material que acompaña la clase de hoy
 
 * Leete [las pautas para una cursada feliz](https://docs.google.com/document/d/e/2PACX-1vQzHlc-zCneqosVAeyV7ItvytosboCFFI6akSTx7Mbs-MsDpq8XgpkolfhkbIOPtrjAnA_8YffuZxez/pub)
-* Todas las grabaciones de las clases van a aparecer en la carpeta que está en anuncios en Discord. 
+* Todas las grabaciones de las clases van a aparecer en la carpeta que está en anuncios en Discord. Si nunca usaste Discord te recomendamos mirar [este video instructivo](https://youtu.be/A7eZOivOid4). 
 * Las diapos [están acá](https://docs.google.com/presentation/d/1nhDXAcLihYw9qfvMH_A7lRUmieZJawzv7yDSJsAwkME/edit?usp=sharing)
 * Video de 1h de intro a la materia de los [jueves a la noche](https://www.youtube.com/watch?v=z20-xv5eLFA&ab_channel=ParadigmasdeProgramaci%C3%B3n-JuevesNoche).
 * Para profundizar: Video de **intro a GIT para Paradigmas** (al final del TP0)
