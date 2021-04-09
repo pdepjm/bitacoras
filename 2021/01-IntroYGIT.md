@@ -1,8 +1,8 @@
 # Clase 01: Intro y GIT
 
-Fecha: 08/04/2020
+Fecha: 08/04/2021
 
-¡Hola!
+![Carpileyendo](assets/Clase%2001%20-%20Carpi%20leyendo.png)
 
 ### Material que acompaña la clase de hoy
 
@@ -11,7 +11,7 @@ Fecha: 08/04/2020
 * Las diapos [están acá](https://docs.google.com/presentation/d/1nhDXAcLihYw9qfvMH_A7lRUmieZJawzv7yDSJsAwkME/edit?usp=sharing)
 * Video de 1h de intro a la materia de los [jueves a la noche](https://www.youtube.com/watch?v=z20-xv5eLFA&ab_channel=ParadigmasdeProgramaci%C3%B3n-JuevesNoche).
 * Para profundizar: Video de **intro a GIT para Paradigmas** (al final del TP0)
-* Video de [qué es stack](https://www.youtube.com/watch?v=FCwwOM_7jZo).
+* Acá está el código que escribimos hoy: [filtrarPares.c](assets/filtrarPares.c) y [filtrarPares.hs](assets/filtrarPares.hs)
 
 ### Para hacer en clase hoy
 
@@ -29,3 +29,8 @@ Fecha: 08/04/2020
 6. Mirar video [introducción al paradigma Funcional](https://www.youtube.com/watch?v=ypPigrP7XXs). (Puede hacerse antes de Mumuki si quieren) 
 
 
+### Resultados de los mentis de hoy:
+
+[PDF completo acá](assets/Clase%2001%20Conociéndonos%20-%20Pdep%20JM%202021.pdf), [xlsx acá](assets/Clase%2001%20Conociéndonos%20-%20Pdep%20JM%202021.xlsx).
+
+![Clase01Conociéndonos](assets/Clase%2001%20-%20Conociéndonos.png)
