@@ -26,7 +26,8 @@ Fecha: 08/04/2021
 3. Unirse al classroom de Mumuki con [este invite](https://mumuki.io/pdep-utn/join/6_FJ7Q). Recuerden entrar a Mumuki por https://mumuki.io/pdep-utn y no por mumuki.io.
 4. Hacer la [primera lección de Mumuki de Funcional](https://mumuki.io/pdep-utn/lessons/688-programacion-funcional-valores-y-funciones)  
 5. Hacer el [ejercicio de los pinos en Mumuki](https://mumuki.io/pdep-utn/exercises/9207-programacion-funcional-practica-valores-y-funciones-pinos). 
-6. Mirar video [introducción al paradigma Funcional](https://www.youtube.com/watch?v=ypPigrP7XXs). (Puede hacerse antes de Mumuki si quieren) 
+6. Mirar video [introducción al paradigma Funcional](https://www.youtube.com/watch?v=ypPigrP7XXs). (Puede hacerse antes de Mumuki si quieren)
+7. Recuerden que en el sitio están todos los [apuntes](https://www.pdep.com.ar/material/apuntes) y link útiles, sobre todo la [guía de lenguajes](https://docs.google.com/document/d/e/2PACX-1vTlLkakSbp6ubcIq00PU4-Z96tg8CUSc8bO793_uftmiGjfkSn7Ug-F_y0-ieIWG6aWfuoHLJrRL8Fd/pub) (la pueden usar siempre que quieran, incluso en los exámenes!)
 
 
 ### Resultados de los mentis de hoy:
