@@ -13,7 +13,7 @@ Tipos basicos. Funciones infijas y prefijas, booleanas y numéricas. Composició
 
 * Grabación de Meet en el link del aula virtual.
 * Las [diapos](https://docs.google.com/presentation/d/1sIYF6RsYUKkhoSS2tpnNO3TUJqGof8lQP_410AdPANM/edit?usp=sharing) de la clase
-* El [código]() de la clase de hoy (ejercicio de los Pinos) `<<próximamente>>`.
+* El [código](https://github.com/pdepjm/2021-f-clase2) de la clase de hoy (ejercicio de los Pinos).
 * [Video 12'](https://www.youtube.com/watch?v=FCwwOM_7jZo)	Qué es stack (Gestor de Proyectos).
 * Artículo Wikipedia	[Qué es testeo automatizado](https://es.wikipedia.org/wiki/Prueba_unitaria)
 *	Apunte 6 páginas	[Cómo se testea en Haskell con Hspec](https://docs.google.com/document/d/17EPSZSw7oY_Rv2VjEX2kMZDFklMOcDVVxyve9HSG0mE/edit).
