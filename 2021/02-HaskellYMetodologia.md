@@ -17,6 +17,6 @@ Fecha: 15/04/2021
 ### Tarea obligatoria
 
 *	Kata 1
- 1. Instalar el entorno GHC **con stack** [siguiendo estos pasos](https://www.pdep.com.ar/software/haskell)
+ 1. Instalar el entorno GHC **con stack** [siguiendo estos pasos](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/entorno.md), les van a servir los [errores comunes de acá](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/troubleshooting.md) si tienen algún problema, y también algunos [comandos útiles](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/trabajo.md).
  2. [Link a la tarea](https://classroom.github.com/a/l6H5Y95q)
  3. **Fecha de entrega**: Lunes 19/04 a las 23:59hs
