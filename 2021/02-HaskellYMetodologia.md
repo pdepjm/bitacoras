@@ -16,4 +16,7 @@ Fecha: 15/04/2021
 
 ### Tarea obligatoria
 
-*	Kata 1: 
+*	Kata 1
+ 1. Instalar el entorno GHC **con stack** [siguiendo estos pasos](https://www.pdep.com.ar/software/haskell)
+ 2. [Link a la tarea](https://classroom.github.com/a/l6H5Y95q)
+ 3. **Fecha de entrega**: Lunes 19/04 a las 23:59hs
