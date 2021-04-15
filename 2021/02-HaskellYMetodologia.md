@@ -1,8 +1,13 @@
-# Clase 02 - Testing y División en Subtareas
+# Clase 02 - Haskell y Metodología
 
 Fecha: 15/04/2021
 
 ¡Buenas!
+
+### Temas de hoy
+
+Intro al paradigma funcional, intro a Haskell, intro a testeo automatizado, división en subtareas, y metodología de desarrollo.
+Tipos basicos. Funciones infijas y prefijas, booleanas y numéricas. Composición como operación.  Comandos vs Expresiones. Una expresion ES el valor. 
 
 ### Materiales que dan soporte a los temas de hoy
 
