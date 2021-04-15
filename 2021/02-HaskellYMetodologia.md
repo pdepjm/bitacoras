@@ -17,10 +17,10 @@ Fecha: 15/04/2021
 
 ### Tarea obligatoria
 
-| Tarea | Descripción | Fecha de entrega |
+| Nombre | Descripción | Fecha de entrega |
 |-------|-------------|------------------|
 | Instalación Haskell | Instalar el entorno GHC **con stack** [siguiendo estos pasos](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/entorno.md), les van a servir los [errores comunes de acá](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/troubleshooting.md) si tienen algún problema, y también algunos [comandos útiles](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/trabajo.md).  | Lunes 19/04 a las 23:59hs |
-| **Kata 1** | [Link a la tarea](https://classroom.github.com/a/l6H5Y95q) | Lunes 19/04 a las 23:59hs | 
+| **Kata 1** | [Link a la task que les crea el repo](https://classroom.github.com/a/l6H5Y95q) | Lunes 19/04 a las 23:59hs | 
  
 
 ### Tarea opcional
