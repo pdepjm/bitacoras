@@ -12,11 +12,12 @@ Fecha: 15/04/2021
 * [Video 12'](https://www.youtube.com/watch?v=FCwwOM_7jZo)	Qué es stack (Gestor de Proyectos).
 * Artículo Wikipedia	[Qué es testeo automatizado](https://es.wikipedia.org/wiki/Prueba_unitaria)
 *	Apunte 6 páginas	[Cómo se testea en Haskell con Hspec](https://docs.google.com/document/d/17EPSZSw7oY_Rv2VjEX2kMZDFklMOcDVVxyve9HSG0mE/edit)
+* Se pueden hacer los [ejercicios de mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) hasta la guía 4 inclusive (práctica inferencia de tipos).
 
 
 ### Tarea obligatoria
 
-*	Kata 1
+#### Kata 1
  1. Instalar el entorno GHC **con stack** [siguiendo estos pasos](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/entorno.md), les van a servir los [errores comunes de acá](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/troubleshooting.md) si tienen algún problema, y también algunos [comandos útiles](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/trabajo.md).
  2. [Link a la tarea](https://classroom.github.com/a/l6H5Y95q)
  3. **Fecha de entrega**: Lunes 19/04 a las 23:59hs
