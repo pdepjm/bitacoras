@@ -18,4 +18,4 @@ Variables de tipo. Restricciones de tipo (formalicemos typeclasses existentes). 
 
 ### Tarea opcional
 
-* Se pueden hacer los [ejercicios de mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) hasta la guía 6 inclusive.
+* Se pueden hacer los [ejercicios de mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) hasta la guía 6 inclusive (_orden superior_ lo vamos a estar viendo la clase que viene).
