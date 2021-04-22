@@ -18,5 +18,4 @@ Variables de tipo. Restricciones de tipo (formalicemos typeclasses existentes). 
 
 ### Tarea opcional
 
-* Se pueden hacer los [ejercicios de mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) hasta la guía 8 inclusive.
-* Video  [Guardas y Pattern Matching](https://www.youtube.com/watch?v=TIo7c4hWZi0).   
+* Se pueden hacer los [ejercicios de mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) hasta la guía 6 inclusive.
