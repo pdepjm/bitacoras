@@ -18,4 +18,5 @@ Variables de tipo. Restricciones de tipo (formalicemos typeclasses existentes). 
 
 ### Tarea opcional
 
+* Terminar el ejercicio de Técnicas de Combate empezado en clase. Recuerden que si quieren crearse un repo les conviene usar [este template](https://github.com/pdepjm/2021-f-proyectoBase). (Al hacer click te crea el repo, vos le ponés un nombre, y después con la URL te lo podés clonar, y commitear/pushear, etc).
 * Se pueden hacer los [ejercicios de mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) hasta la guía 6 inclusive (_orden superior_ lo vamos a estar viendo la clase que viene).
