@@ -15,7 +15,7 @@ Definición de orden superior sin listas. Guardas. Pattern Matching. Funciones c
 * El [enunciado de Propinas](https://docs.google.com/document/d/e/2PACX-1vQWYwg9QonuxY7J1z74uv_GNXUqyZsvSn-Wy0jm6HX09phPoKciPLKATgYMcXGaOZf0z1nIcOTYvIp9/pub)
 * [Video 9'](https://youtu.be/mSJdiZ-0pXk) Intro a Orden Superior (Maiu y Alf).
 * Artículo en la wiki	[Orden Superior](http://wiki.uqbar.org/wiki/articles/orden-superior.html)
-* Video 2hs	[Guardas y Pattern Matching](https://www.youtube.com/watch?v=TIo7c4hWZi0) (clase de los miércoles tarde)
+* Videos sobre [Guardas](https://www.youtube.com/watch?v=qv5RuZl5iCo&list=PLoELfD_vSox-YVFmf8RsKmfphoIPg3KYU&index=4&ab_channel=Fundaci%C3%B3nUqbar) y	[Pattern Matching](https://www.youtube.com/watch?v=OaPxc03WVTU&list=PLoELfD_vSox-YVFmf8RsKmfphoIPg3KYU&index=3&ab_channel=Fundaci%C3%B3nUqbar) de 5' cada uno.
 * Los [ejercicios de mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) hasta la guía 8 inclusive cubren la parte de funcional vista hoy (y un poquito de la clase q viene). 
 
 
