@@ -23,7 +23,7 @@ Definición de orden superior sin listas. Guardas. Pattern Matching. Funciones c
 
 | Nombre | Descripción | Fecha de entrega |
 |-------|-------------|------------------|
-| Kata 2 | Individual. Son los puntos que quedan del ejercicio de propinas. [Aquí la tarea de Github]() <<próximamente>> | Lunes 03/05 a las 23:59hs |
+| Kata 2 | Individual. Son los puntos que quedan del ejercicio de propinas. [Aquí la tarea de Github](https://classroom.github.com/a/G7IZP29n) | Lunes 03/05 a las 23:59hs |
 
 ### Tarea opcional
 
