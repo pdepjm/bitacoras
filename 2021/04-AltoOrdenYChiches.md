@@ -11,7 +11,7 @@ Definición de orden superior sin listas. Guardas. Pattern Matching. Funciones c
 
 * Grabación de Meet en el link del aula virtual.
 * Las [diapos](https://docs.google.com/presentation/d/17eHNMFNyi5874CqJCKjdc3n0wXQJXnG_gVnFsJNXutg/edit?usp=sharing) de la clase.
-* El [código](https://github.com/pdepjm/2021-f-kata2-propinas) de la clase.
+* El [código](https://github.com/pdepjm/2021-f-clase4) de la clase.
 * El [enunciado de Propinas](https://docs.google.com/document/d/e/2PACX-1vQWYwg9QonuxY7J1z74uv_GNXUqyZsvSn-Wy0jm6HX09phPoKciPLKATgYMcXGaOZf0z1nIcOTYvIp9/pub)
 * [Video 9'](https://youtu.be/mSJdiZ-0pXk) Intro a Orden Superior (Maiu y Alf).
 * Artículo en la wiki	[Orden Superior](http://wiki.uqbar.org/wiki/articles/orden-superior.html)
