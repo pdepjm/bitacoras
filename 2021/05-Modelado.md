@@ -14,6 +14,7 @@ Modelado. Data, Múltiples constructores, tuplas, listas (básico), funciones. S
 * Las [diapos](https://docs.google.com/presentation/d/1iMRvi8WmkMO46F2ynPHn2mICM4vJ_cIqcv0zo-bZDGw/edit?usp=sharing) de la clase.
 * El [código](https://github.com/pdepjm/2021-f-clase5) de la clase.
 * El [apunte](https://docs.google.com/document/d/11C2UAbP70dP7sTID-ZxJm_a-5ypKxQUEuZr6GVk5yFI/edit) sobre los temas de hoy.
+* "Funciones totales y parciales", un concepto de matemática más que de programación: https://es.wikipedia.org/wiki/Funci%C3%B3n_parcial# **No confundir con aplicación parcial**
 
 
 ### Tarea obligatoria
