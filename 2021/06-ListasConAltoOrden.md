@@ -16,6 +16,7 @@ Fecha: 13/05/2021
 * El [código](https://github.com/pdepjm/2021-f-clase6) de la clase.
 * El [apunte](https://docs.google.com/document/d/1Rzsp5A46R_WdC-NJ6_SKrUrtZ6LmR5A52BazE9XPLIc/edit) sobre los temas de hoy. (**Atención** que incluye recursividad, que es un tema para la clase que viene)
 * [Video de 10’](https://www.youtube.com/watch?v=mSJdiZ-0pXk) sobre el **poder** detrás del Orden Superior (alto orden).
+* Documento de 5 hojas [Guía de lenguajes](https://docs.google.com/document/d/e/2PACX-1vTlLkakSbp6ubcIq00PU4-Z96tg8CUSc8bO793_uftmiGjfkSn7Ug-F_y0-ieIWG6aWfuoHLJrRL8Fd/pub)
 
 
 ### Tarea obligatoria
