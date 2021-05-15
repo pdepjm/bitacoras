@@ -24,8 +24,8 @@ Fecha: 13/05/2021
 | Nombre | Descripción | Fecha de entrega |
 |-------|-------------|------------------|
 | Kata 3 individual | [Este ejercicio de Mumuki](https://mumuki.io/pdep-utn/exercises/9307-programacion-funcional-practica-listas-cuantas-muzzas). Se hace en Mumuki. | Lunes 17/05 a las 23:59hs |
-| TPI Grupal Parte 1 | Hacer las correcciones de TPI marcadas por sus docentes. | Lunes 24/05 a las 23:59hs |
-| TPI Grupal Parte 2 | _próximamente_ | Lunes 24/05 a las 23:59hs |
+| TPI Grupal Parte 1 | Hacer las correcciones de TPI marcadas por sus docentes. | Lunes 31/05 a las 23:59hs |
+| TPI Grupal Parte 2 | _próximamente_ | Lunes 31/05 a las 23:59hs |
 
 ### Tarea opcional
 
