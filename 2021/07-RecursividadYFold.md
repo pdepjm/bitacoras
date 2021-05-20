@@ -28,9 +28,13 @@ Fecha: 20/05/2021
 
 | Nombre | Descripción | Fecha de entrega |
 |-------|-------------|------------------|
-| TPI Grupal Parte 2 | La segunda parte es _continuación_ de la primera, se pide modificar/agregar a la primera parte lo requerido en el mismo repo y archivos y todo. Enunciado: `<<próximamente>>` | Lunes 24/05 a las 23:59hs |
+| TPI Grupal Parte 2 | La segunda parte es _continuación_ de la primera, se pide modificar/agregar a la primera parte lo requerido en el mismo repo y archivos y todo. Enunciado: `<<próximamente>>` | Lunes 31/05 a las 23:59hs |
 
 
 ### Tarea opcional
+
+| Nombre | Descripción | Fecha de entrega |
+|-------|-------------|------------------|
+| Simulacro | Enunciado y classroom `<<próximamente>>` | Jueves 27/05 09:00 |
 
 * Ya se puede terminar con Mumuki. Falta un tema teórico que no está en Mumuki (El tema denominado científicamente "el huevo frito") y se verá el día del simulacro.
