@@ -28,7 +28,7 @@ Fecha: 20/05/2021
 
 | Nombre | Descripción | Fecha de entrega |
 |-------|-------------|------------------|
-| TPI Grupal Parte 2 | La segunda parte es _continuación_ de la primera, se pide modificar/agregar a la primera parte lo requerido en el mismo repo y archivos y todo. Enunciado: `<<próximamente>>` | Lunes 31/05 a las 23:59hs |
+| TPI Grupal Parte 2 | La segunda parte es _continuación_ de la primera, se pide modificar/agregar a la primera parte lo requerido en el mismo repo y archivos y todo. [Enunciado aquí](https://docs.google.com/document/d/1RGFzN3I1NR3ox_mV2CVKXws1w0K1HI_uNrDVo8O9v04/edit?usp=sharing) | Lunes 31/05 a las 23:59hs |
 
 
 ### Tarea recomendada para la clase que viene
