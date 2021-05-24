@@ -24,17 +24,17 @@ Fecha: 20/05/2021
   * [Módulo 5](https://drive.google.com/open?id=1Rzsp5A46R_WdC-NJ6_SKrUrtZ6LmR5A52BazE9XPLIc) Orden Superior.
   * [Módulo 6](https://drive.google.com/open?id=1LKVaZHuJqxf2FcOK17vZjxq0CTT4sohqSsfhWmhQ6ks) Expresiones lambda.
 
-### Tarea obligatoria
-
-| Nombre | Descripción | Fecha de entrega |
-|-------|-------------|------------------|
-| TPI Grupal Parte 2 | La segunda parte es _continuación_ de la primera, se pide modificar/agregar a la primera parte lo requerido en el mismo repo y archivos y todo. [Enunciado aquí](https://docs.google.com/document/d/1RGFzN3I1NR3ox_mV2CVKXws1w0K1HI_uNrDVo8O9v04/edit?usp=sharing) | Lunes 31/05 a las 23:59hs |
-
 
 ### Tarea recomendada para la clase que viene
 
 | Nombre | Descripción | Fecha de entrega |
 |-------|-------------|------------------|
-| Simulacro | [Enunciado aquí](https://docs.google.com/document/d/18p63BwQNgacxXDs553JtC7EVTsODcsxpouiRKSnsxoY/edit?usp=sharing) y [classroom aquí](https://classroom.github.com/a/vyWvcwps) | Jueves 27/05 09:00 |
+| Simulacro | [Enunciado aquí](https://docs.google.com/document/d/18p63BwQNgacxXDs553JtC7EVTsODcsxpouiRKSnsxoY/edit?usp=sharing) y [classroom aquí](https://classroom.github.com/a/vyWvcwps) y el instructivo para rendir [acá](https://docs.google.com/document/d/1Z4JKRK4F_HavhwBCmfbxcLzsur_Bg-kBK5nW575htms/edit?usp=sharing) | Jueves 27/05 09:00 |
 
 * Ya se puede terminar con Mumuki. Falta un tema teórico que no está en Mumuki (El tema denominado científicamente "el huevo frito") y se verá el día del simulacro.
+
+### Tarea obligatoria
+
+| Nombre | Descripción | Fecha de entrega |
+|-------|-------------|------------------|
+| TPI Grupal Parte 2 | La segunda parte es _continuación_ de la primera, se pide modificar/agregar a la primera parte lo requerido en el mismo repo y archivos y todo. [Enunciado aquí](https://docs.google.com/document/d/1RGFzN3I1NR3ox_mV2CVKXws1w0K1HI_uNrDVo8O9v04/edit?usp=sharing) | Lunes 31/05 a las 23:59hs |
