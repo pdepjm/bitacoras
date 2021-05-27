@@ -30,6 +30,6 @@ Fecha: 27/05/2021
 
 Parciales recomendados:
 * Ratones y Hierbas: [acá](https://docs.google.com/document/d/1Bishi92f5euhpSBD-epQznFdteW6SDD8IQpL-U_Q1I8/edit#). 
-* Minigolfito: [acá](https://docs.google.com/document/d/1LeWBI6pg_7uNFN_yzS2DVuVHvD0M6PTlG1yK0lCvQVE/edit).
+* Minigolfito: [acá](https://docs.google.com/document/d/1LeWBI6pg_7uNFN_yzS2DVuVHvD0M6PTlG1yK0lCvQVE/edit) con resolución en **video** [acá](https://www.youtube.com/watch?v=NEhCiL7JTo8).
 * A quemar grasitas: [acá](https://docs.google.com/document/d/1P5BDit1BNOG3AJu3Y0WhRAe4JR_B_zuXsjfdXvZ4uxw/edit). 
 * Lambda prop: [acá](https://docs.google.com/document/d/1Gc-ot4AStIaGePl-q2V1KJBhpiXL0ye6pWvLki4vWZg/edit).
