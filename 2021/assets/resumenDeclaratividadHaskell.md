@@ -10,8 +10,10 @@ Otra forma de verlo: me quedo con la que tiene **menos detalles algorítmicos**.
 primeroQueCumple1 criterio (x:xs) 
        | criterio x = x
        | otherwise = primeroQueCumple1 xs
-------------------------
-primeroQueCumple3 criterio = head . filter criterio
+```
+
+```hs
+primeroQueCumple2 criterio = head . filter criterio
 ```
 
 #### Ejercicio B:
@@ -21,11 +23,15 @@ primeroQueCumple3 criterio = head . filter criterio
 estaOrdenadaAscendentemente1 = all esMenorAlSegundo . construirPares
 construirPares lista = zip lista (drop 1 lista)
 esMenorAlSegundo (primero,segundo) = primero <= segundo
--------------------
+```
+
+```hs
 estaOrdenadaAscendentemente2 (primero:segundo:siguientes) = primero <= segundo && estaOrdenadaAscendentemente2 (segundo:siguientes)
 estaOrdenadaAscendentemente2 [_] = True
 estaOrdenadaAscendentemente2 [] = True
--------------------
+```
+
+```hs
 estaOrdenadaAscendentemente3 = fst ( foldl continuaSiendoMenor (True, head lista) lista )
 continuaSiendoMenor (continua,anterior) elemento = (continua && anterior <= elemento, elemento)
 ```
