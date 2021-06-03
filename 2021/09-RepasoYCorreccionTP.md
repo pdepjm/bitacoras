@@ -12,12 +12,11 @@ Fecha: 03/06/2021
 ### Materiales que dan soporte a los temas de hoy
 
 * Grabación de Meet en el link del aula virtual.
-* Las [diapos]() de la clase (próximamente).
-* El [código]() de la clase (próximamente).
+* Las [diapos](https://docs.google.com/presentation/d/1pREoEP-tOGwGm4pn3RZ462oO4x7BmI3UWmqiws5SuTs/edit?usp=sharing) de la clase (próximamente).
 * [Un resumen de declaratividad en Haskell](assets/resumenDeclaratividadHaskell.md)
 * [Un resumen de fold y recursión en Haskell](assets/resumenRecursividadHaskell.md)
 * [Reglas](https://docs.google.com/document/d/1Z4JKRK4F_HavhwBCmfbxcLzsur_Bg-kBK5nW575htms/edit) para rendir el parcial (horario, formato, etc.).
-* Apunte recomendado sobre [cómo resovler un parcial y no morir en el intento](https://docs.google.com/document/d/11X_4N1VfZB78f5Ff6M3VcW40nazlEFQu1d2p3Lyjg5c/edit#heading=h.4s3whc7yvau4)
+* Apunte recomendado sobre [cómo resolver un parcial y no morir en el intento](https://docs.google.com/document/d/11X_4N1VfZB78f5Ff6M3VcW40nazlEFQu1d2p3Lyjg5c/edit#heading=h.4s3whc7yvau4)
 
 ### Tarea obligatoria
 
