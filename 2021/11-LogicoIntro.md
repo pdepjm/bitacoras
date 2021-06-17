@@ -27,7 +27,6 @@ Fecha: 17/06/2021
 ### Tarea recomendada para la clase que viene
 | Nombre | Descripción | Fecha de entrega |
 |-------|-------------|------------------|
-| Terminar ej de hoy | Terminar el ejercicio de hoy (o leer el resumen) | Jueves q viene |
 | Leer apunte testing | Apunte	 [Testing en Prolog con PLUnit](https://docs.google.com/document/d/1vxDrdDeVmPeOoKWJvYbcEKFDgE14mnFDhUf0YPGGaM4/edit#) | Jueves q viene |
 | Mumuki | [Guías 3 a 7 de Mumuki lógico](https://mumuki.io/pdep-utn/chapters/436-programacion-logica): cubren los temas de la clase que viene. | El oootro jueves |
 | Desafío "café con leche" | Quien primero resuelva el desafío [pirámide de números](http://wiki.uqbar.org/wiki/articles/desafio--piramide-de-numeros.html) **en prolog** ¡respetando los conceptos de la materia! y lo envíe **por privado** a unx docente, gana desafío. | Lo q dé |
