@@ -8,6 +8,7 @@ Fecha: 17/06/2021
 
 * Google Meet  En el link de siempre.
 * Las [diapos](https://docs.google.com/presentation/d/1dYtufUBOd6tfkU0HskJTfH-_xbvXCyUGw_pazproPuc/edit?usp=sharing) de la clase
+* El [código hecho en clase](https://github.com/pdepjm/2021-l-clase11-pokemonAvatar)
 * Un [resumen completo](https://www.notion.so/Introducci-n-a-L-gico-409875f524e64d248d1d9738321c2333) de esta clase con código en Notion.
 * Video 45' de [Intro a Lógico](https://www.youtube.com/watch?v=4M-lzIOhVbI) ([diapos del video](https://docs.google.com/presentation/d/e/2PACX-1vRJTUxGna0bJtzyxfiy7_07z4wlMRMGbWWmcfdLE5b01Hn2Ez1vRIW3K67avTRlNJNOEEghY9ZnkM2k/pub?start=false&loop=false&delayms=3000&slide=id.p) del video)
 * Mumuki	[Guías 1, 2, y mitad de la 3 de mumuki](https://mumuki.io/pdep-utn/chapters/436-programacion-logica)
