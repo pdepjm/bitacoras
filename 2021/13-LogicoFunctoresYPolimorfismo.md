@@ -13,6 +13,7 @@ Fecha: 01/07/2020
 * Archivo pl	[Código de hoy](https://github.com/pdepjm/2021-l-clase13-polimorfismo)
 
 ### Recomendado
+* Explicación de polimorfismo [en la wiki](https://wiki.uqbar.org/wiki/articles/polimorfismo-en-el-paradigma-logico.html). (Recomendado por Rodri Gutson)
 * Mumuki	[Hasta la guía 9](https://mumuki.io/pdep-utn/chapters/436-programacion-logica) inclusive.
 * Apuntes 	
   * [Módulo 3](https://drive.google.com/open?id=1GGair_St5yWvItKRZH-FY_X2CdDREr60TrsV0zSiO5I) Estructuras de datos. Individuos simples y compuestos.
