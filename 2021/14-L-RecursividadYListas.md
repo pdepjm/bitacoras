@@ -9,7 +9,7 @@ Fecha: 08/07/2020
 
 * Google Meet  En el link de siempre.
 * Diapos	Las [diapos](https://docs.google.com/presentation/d/1pJpJ1PQ1XdC2U0AQ9TRTwyRrGxRr12ltEIU1eBdO6Gs/edit?usp=sharing) de la clase
-* Archivo pl	[Código de hoy]() [TODO]
+* Archivo pl	[Código de hoy](https://github.com/pdepjm/2021-l-clase14-listasyrecursion).
 
 ### Material de apoyo
 * Wiki de [lógico](https://wiki.uqbar.org/wiki/articles/paradigma-logico.html)
@@ -26,6 +26,7 @@ Fecha: 08/07/2020
 
 **Simulacro** de parcial: _Alquimia_: [Enunciado](https://docs.google.com/document/d/e/2PACX-1vQN920bSlKnkhV-geh6y8VmROsAB8B-I7Gne_QmS4JtSVW_tvSUUZQ3JHQsgWAQrGmCB6mV1cTMq5SG/pub) y [classroom](https://classroom.github.com/a/WDftELlD).  
 - ***Puesta en común la clase que viene:*** Jueves 15/07
+- Terminar la Kata 2.
 
 
 ### TP para después de las vacas
