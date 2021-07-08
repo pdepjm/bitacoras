@@ -24,8 +24,8 @@ Fecha: 08/07/2020
 
 ### Tarea obligatoria para la clase que viene 
 
-* **Simulacro** de parcial: _Alquimia_: [Enunciado](https://docs.google.com/document/d/e/2PACX-1vQN920bSlKnkhV-geh6y8VmROsAB8B-I7Gne_QmS4JtSVW_tvSUUZQ3JHQsgWAQrGmCB6mV1cTMq5SG/pub) y [classroom](https://classroom.github.com/a/WDftELlD).  
-***Puesta en común la clase que viene:*** Jueves 15/07
+**Simulacro** de parcial: _Alquimia_: [Enunciado](https://docs.google.com/document/d/e/2PACX-1vQN920bSlKnkhV-geh6y8VmROsAB8B-I7Gne_QmS4JtSVW_tvSUUZQ3JHQsgWAQrGmCB6mV1cTMq5SG/pub) y [classroom](https://classroom.github.com/a/WDftELlD).  
+- ***Puesta en común la clase que viene:*** Jueves 15/07
 
 
 ### TP para después de las vacas
