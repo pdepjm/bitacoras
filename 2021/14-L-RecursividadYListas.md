@@ -32,6 +32,6 @@ Fecha: 08/07/2020
 
 _Cursada universitaria_: [Enunciado](https://docs.google.com/document/d/1xuV0A4SSer015m3sV1m-OfEzYUKUzu51rlzdASptjRU/) y [classroom](https://classroom.github.com/g/q9BukgM6)
 - El TP es **grupal**: El classroom es grupal, al igual que en funcional, el primer integrante que acepte la tarea crea el grupo y el resto se une. AVISO: si tienen el mismo nombre que en funcional entonces agreguen un sufijo (como por ejemplo `-2`) o modificación al nombre para que no colisionen.
-- El **formato de entrega** es el mismo que con funcional. Pushean para la fecha de entrega al repo y el día del coloquio se juntarán con sus tutores por Discord para darles feedback y revisar lo realizado.
+- El **formato de entrega** es el mismo que con funcional. El código deberá estar pusheado al repositorio para la fecha de entrega y el día del coloquio se juntarán con sus tutores por Discord para darles feedback y revisar lo realizado.
 - **Fecha de entrega**: Lunes 09/08
 - **Fecha del coloquio**: Jueves 12/08 
