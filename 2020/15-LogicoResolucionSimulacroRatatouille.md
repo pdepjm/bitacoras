@@ -11,7 +11,7 @@ Hoy dimos la resolución del simulacro de Ratatouille.
 * Google Meet  En el link de siempre.
 * Simulacro [Enunciado](https://docs.google.com/document/d/14Yl1bvRpTeZSMc6ZW2JFEo8wsn7WTVQTBqUhiDwbYw0/edit?usp=sharing) y [Classroom](https://classroom.github.com/a/H5WQlUbT)
 * Documento Resultados del menti de hoy
-* Archivo pl	Código de hoy
+* Archivo pl	[Código de hoy](https://github.com/gdecuzzi/pdep-logico-2020-ratatouille)
 * Serie de videos [Resolución](https://youtu.be/FysNBkzJQ8o) paso a paso de parcial/ejercicio integrador Hogwarts. [Enunciado](https://docs.google.com/document/d/e/2PACX-1vR9SBhz2J3lmqcMXOBs1BzSt7N1YWPoIuubAmQxPIOcnbn5Ow9REYt4NXQzOwXXiUaEQ4hfHNEt3_C7/pub) y [repo](https://github.com/pdep-mit/practica-logico-casas-de-hogwarts) base.
 
 ### Tarea obligatoria para la clase que viene 
