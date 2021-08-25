@@ -10,6 +10,9 @@ Fecha: 26/08/2021
 * Google Meet  En el link de siempre
 * Las [diapos](https://docs.google.com/presentation/d/16ehh2kzqnNIO0eUWoNTHce8us3sL0ybskzFVGTWM2Ck) de la clase
 * Repo con el	[Código de hoy](https://github.com/pdepjm/2021-o-clase18-pepita)
+* Configurar SSH para Github
+  * Versión para usueries de Ubuntu: https://youtu.be/44ZDe6MtLEE
+  * Versión para usuaries de Windows: https://youtu.be/-LM4ST0973g
 
 ### Material de apoyo
 * Wiki
