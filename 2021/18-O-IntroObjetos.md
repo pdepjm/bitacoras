@@ -32,3 +32,7 @@ Fecha: 26/08/2021
 * [Instalarse Wollok](https://www.wollok.org/instalacion/)
 * Probar el [ejemplo de Pepita](https://github.com/pdepjm/2021-o-clase18-pepita)
 * Hacerse algunos ejercicios de Mumuki (los que quieran, cuantos quieran)
+
+---
+
+> _Si te interesa ver el código del bot [está acá](https://github.com/pdepjm/bot-dc-ahorcado)_
