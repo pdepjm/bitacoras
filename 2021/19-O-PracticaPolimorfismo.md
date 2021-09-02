@@ -12,7 +12,7 @@ Fecha: 02/09/2021
 
 * Google Meet  En el link de siempre
 * Las [diapos](https://docs.google.com/presentation/d/1VrmryI-d6U1pAKWiNFCzOFTljoiyq4L4yolpiYTkvO8/edit?usp=sharing) de la clase
-* Apunte 	Algunas [conclusiones](https://docs.google.com/document/d/1wUrUw4EyEHXG65uI4eT74EXwDVvJrzyqMYR2ngofVek/edit) de la clase.
+* Apunte 	Algunas [conclusiones](https://dorcs.google.com/document/d/1wUrUw4EyEHXG65uI4eT74EXwDVvJrzyqMYR2ngofVek/edit) de la clase.
 
 ### Tarea obligatoria para la clase que viene 
 * Hacer la Kata 1 individual. Enunciado en el [repo de la tarea]() <próximamente> Fecha de entrega: Lunes 6/9 23:59hs
