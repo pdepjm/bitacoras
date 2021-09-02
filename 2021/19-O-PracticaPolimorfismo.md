@@ -5,8 +5,8 @@ Fecha: 02/09/2021
 ![image](http://i.imgur.com/7pm5r.jpg)
 
 ### Ejercicio de clase
-* [Enunciado](https://docs.google.com/document/u/0/d/1YqR9PzIkVSkrhyN5EhvD6EhAWnk5YuvXAo0t8Oyk4RA/edit) <próximamente>
-* [Tarea del classroom](https://classroom.github.com/a/YWpIXUWS) <próximamente>
+* [Enunciado](https://docs.google.com/document/u/0/d/1YqR9PzIkVSkrhyN5EhvD6EhAWnk5YuvXAo0t8Oyk4RA/edit) 
+* [Tarea del classroom](https://classroom.github.com/a/YWpIXUWS) 
 
 ### Materiales que dan soporte a los temas de hoy
 
