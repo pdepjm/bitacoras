@@ -2,7 +2,7 @@
 
 Fecha: 02/09/2021
 
-![image](http://i.imgur.com/7pm5r.jpg)
+<img src="http://i.imgur.com/7pm5r.jpg" width="30%" height="30%" />
 
 ### Ejercicio de clase
 * [Enunciado](https://docs.google.com/document/u/0/d/1YqR9PzIkVSkrhyN5EhvD6EhAWnk5YuvXAo0t8Oyk4RA/edit) 
@@ -25,4 +25,5 @@ Fecha: 02/09/2021
 * Tour de Wollok para manejar todas las herramientas que trae: [acá](https://www.wollok.org/tour/).
 * Mumuki 	Ya puede hacer todos los ejercicios de las guías 1 hasta 5.
 
-![csu](https://pdep-utn.github.io/viejogooglesite/Cursos/cursadas-anteriores/2020/2020-man-jueves/2020-man-jueves-bitacora/clase31-clasefinalfiesta/protocolo.jpg)
+<img src="https://pdep-utn.github.io/viejogooglesite/Cursos/cursadas-anteriores/2020/2020-man-jueves/2020-man-jueves-bitacora/clase31-clasefinalfiesta/protocolo.jpg" width="30%" height="30%" />
+
