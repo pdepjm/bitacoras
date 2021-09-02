@@ -15,7 +15,7 @@ Fecha: 02/09/2021
 * Apunte 	Algunas [conclusiones](https://docs.google.com/document/d/1wUrUw4EyEHXG65uI4eT74EXwDVvJrzyqMYR2ngofVek/edit) de la clase.
 
 ### Tarea obligatoria para la clase que viene 
-* Hacer la Kata 1 individual. Enunciado en el [repo de la tarea](https://classroom.github.com/a/ghxy2B7x) Fecha de entrega: Lunes 6/9 23:59hs
+* Hacer la Kata 1 individual. Enunciado en el [repo de la tarea](https://classroom.github.com/a/ghxy2B7x) Fecha de entrega: Lunes 6/9 23:59hs . Hay un bonus, que no es obligatorio pero pueden hacerlo para practicar.   
 * Definir los nuevos **grupos** y cargarlos en [este form](https://docs.google.com/forms/d/e/1FAIpQLSeSSz7SFaklc6IJeW91uU2qOxPgZVxqeAncEisZS7xN9z9ERw/viewform). Tienen tiempo hasta la semana que viene.
 
 ### Tarea recomendada para la clase que viene
