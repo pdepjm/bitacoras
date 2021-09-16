@@ -10,7 +10,7 @@ Fecha: 16/09/2021
 * [Resumen completo de la clase en Notion](https://ambiguous-decimal-9e5.notion.site/Clase-de-Clases-745e2ea0be1849a5b475dd01203ce440)
 * Diapos 	[Acá](https://docs.google.com/presentation/d/1dsQlzx2Xzb1c7tkbiCH4OZ1g0bTUZEf33EgCK2YWb8Q/edit#slide=id.gf07048263b_1_13)
 * Enunciado Ejercicio de clase: [Wollok Game Worlds](https://docs.google.com/document/d/11TbK24ojSHOfInboa5mi0ptENhloaXOINLwa5vLlwnQ/edit)
-* Repos con código de la clase [Próximamente]()
+* Repos con código de la clase [Acá](https://github.com/pdepjm/2021-o-WollokGameWorlds)
 * Mumuki	[Guía 10](https://mumuki.io/pdep-utn/lessons/721-programacion-con-objetos-clases-e-instancias) (Se pueden hacer todas las guías hasta la 10)
 * Apuntes	[Módulo 8](https://docs.google.com/document/d/1Dgq_PfCbJHO1M7dXe-vGXtj4mbEUWlYhfvQ2i0RWOsk/edit#)
 
