@@ -2,7 +2,7 @@
 
 Fecha: 30/09/2021
 
-![imagen](assets/globitos.png)
+![globitos0](assets/globitos0.png)![globitos1](assets/globitos1.png)
 
 ### Materiales que dan soporte a los temas de hoy
 
@@ -16,3 +16,6 @@ Fecha: 30/09/2021
 
 - Avanza con el TP Integrador [(Pautas/Enunciado)](https://docs.google.com/document/d/18WIn-4vs75gLPpGrZO-O_kmRLVmd9CnnnYzon_aTjzQ/edit#) 
 - Cerrar las Katas que deban.
+
+![diagramaEstaticoDrCasa](assets/diagramaEstaticoDrCasa.png)
+![diagramaDinamicoDrCasa](assets/diagramaDinamicoDrCasa.png)
