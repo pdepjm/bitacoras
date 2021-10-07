@@ -14,7 +14,7 @@ Fecha: 07/10/2021
   * [Módulo 13 Herencia](https://docs.google.com/document/d/1KdG7NrKPgPh4bAcyLuDG2G1iWP7Ze2GFs91qzlvDKqI/edit)
   * [Anexo A: Guías para comunicar un diseño](https://docs.google.com/document/d/1eXLlNppAX-7E2M8Xxs0MCckdn4XVEYmeQNaS_E1RqTc/edit)
 
-![image](https://user-images.githubusercontent.com/4098184/136396642-1c62d27a-cb6d-47a1-99a7-a90de79aab51.png)
+![image](https://user-images.githubusercontent.com/4098184/136402152-62a5c8a5-3af7-4f03-bde9-90442fdaed13.png)
 
 ### Tarea obligatoria para la clase que viene 
 
