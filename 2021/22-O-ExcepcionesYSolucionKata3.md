@@ -1,4 +1,4 @@
-# Clase 23 - Excepciones y Solución Kata 3
+# Clase 22 - Excepciones y Solución Kata 3
 
 Fecha: 30/09/2021
 
