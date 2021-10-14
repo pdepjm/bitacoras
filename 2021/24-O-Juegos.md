@@ -4,7 +4,7 @@ Fecha: 14/10/2021
 
 ### TP
 
-Hoy nos estuvimos juntando con los grupos para ver los avances del TP de los juegos.
+Hoy nos estuvimos juntando con los grupos para ver los avances del TP de los juegos. Esperamos que les haya servido el encuentro con sus tutores.
 
 
 ### Tarea obligatoria para la clase que viene 
