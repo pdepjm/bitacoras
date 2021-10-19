@@ -14,9 +14,9 @@ Les traemos un tuto que hizo Brian un docente de la cátedra en varias partes co
 
 Les enseña a usar la herramienta **PlantUML**, que es con la que se hacen los diagramas de clase de los apuntes de la cátedra.
 
-1era parte: https://youtu.be/N9dToO1RDcw -> clases que se conocen entre sí.
-2da parte: https://youtu.be/uZcwjDdY324 -> interfaces (¡polimorfismo!)
-3era parte: https://youtu.be/Zjo0aJxDztw -> herencia
+- 1era parte: https://youtu.be/N9dToO1RDcw -> clases que se conocen entre sí.
+- 2da parte: https://youtu.be/uZcwjDdY324 -> interfaces (¡polimorfismo!)
+- 3era parte: https://youtu.be/Zjo0aJxDztw -> herencia
 
 El repo con el código
 https://github.com/brianUtn98/PlantUml-Tutorial
