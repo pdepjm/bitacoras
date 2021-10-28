@@ -23,3 +23,8 @@ Fecha: 28/10/2021
 ### Más enunciados para practicar
 
 * Pueden encontrar [parciales viejos](https://www.pdep.com.ar/material/parciales#h.4aekszbi9wrr) en el sitio de la materia. Recomendamos resolver de los más nuevitos (últimos 5 años). Ya linkeamos los enunciados que nos consultaron en clase y faltaban.
+
+### ¿Los juegos en la web? [Opcional]
+
+Si quieren probar la herramienta que se está construyendo desde Uqbar para **correr los juegos en la web**: https://game.wollok.org/game
+Como todavía sus repos son privados lo van a tener que **cargar de manera local**, cuando hagamos las presentaciones los haremos públicos y van a poder generar una URL para correr el juego desde Github. Si algo falla avisen a sus tutores así lo revisamos.
