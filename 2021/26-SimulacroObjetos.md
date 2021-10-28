@@ -14,7 +14,11 @@ Fecha: 28/10/2021
 | Nombre | Descripción | Fecha de entrega |
 |-------|-------------|------------------|
 | Juego | TPI Grupal entrega final |  Lunes 01/11 23:59hs. |
-- La defensa del TP será la clase que viene Jueves 04/11 
+- La defensa del TP será la clase que viene Jueves 04/11 y se espera todo lo acordado en las [pautas del TP](https://docs.google.com/document/d/18WIn-4vs75gLPpGrZO-O_kmRLVmd9CnnnYzon_aTjzQ/edit#heading=h.5x4kmxbylg1p): 
+  - el juego funcionando
+  - tests que validen la calidad del código
+  - el documento contando el diseño de cierta(s) parte(s) del software
+  - y obviamente _que hayan aplicado las buenas prácticas de programación_ que vimos a lo largo de todo el año
 
 ### Más enunciados para practicar
 
