@@ -8,7 +8,7 @@ Fecha: 21/10/2021
 
 * Google Meet  En el link de siempre.
 * Diapos 	[Acá](https://docs.google.com/presentation/d/1WnN9eG2Qr8yxY-rhKZgGu-IpdBm6nFXwAI3PoUWIA84/edit)
-* Repo con código de la clase [Próximamente](https://github.com/pdepjm/)
+* [Repo con código de la clase](https://github.com/pdepjm/2020-o-propinas-her-vs-com)
 * Mumuki	[todo](https://mumuki.io/pdep-utn/chapters/437-programacion-con-objetos)
 * Apuntes	[Módulo 13](https://docs.google.com/document/d/1KdG7NrKPgPh4bAcyLuDG2G1iWP7Ze2GFs91qzlvDKqI/edit) y [Módulo 16](https://docs.google.com/document/d/1VPKwf_cHcFTCj9JSYZ-xJmchX_n10bSJwxTUcmpd3w0/edit)
 
