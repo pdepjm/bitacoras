@@ -8,7 +8,7 @@ Hoy nos juntamos con los grupos y tuvismos la entrega final de los juegos, esper
 ### Próximas fechas importantes
 - 11/11 (clase que viene) -> **Parcial de Objetos**. Recomendar volver a leer las [pautas del parcial](https://docs.google.com/document/d/1Z4JKRK4F_HavhwBCmfbxcLzsur_Bg-kBK5nW575htms/edit).
 - 18/11 -> **Presentación de los juegos**. Se trata de una mini-presentación de cada juego frente al resto del curso (10' aprox).
-- Luego, las últimas dos clases, serán de sobre temas **BONUS** y **la vida en la facultad**. _Están muy buenas, no se las pierdan!_
+- Luego, las últimas dos clases, serán de sobre temas bonus y la vida en la facultad. ¡Están muy buenas, **no se las pierdan**!
 
 
 ### ¿Los juegos en la web?
