@@ -13,5 +13,5 @@ Hoy nos juntamos con los grupos y tuvismos la entrega final de los juegos, esper
 
 ### ¿Los juegos en la web?
 
-Recuerden que si al final de la cursada quieren **generar un link para poder jugar su juego en la web** (y por ejemplo pasárselo a alguien que no conoce Wollok) deben probar la herramienta que se está construyendo desde [Uqbar](http://uqbar.org/): https://game.wollok.org/game. Si algo falla avisen a sus tutores así lo revisamos.
+Recuerden que si al final de la cursada quieren **generar un link para poder jugar su juego en la web** (y por ejemplo pasárselo a alguien que no conoce Wollok) deben probar la herramienta que se está construyendo desde [Uqbar](http://uqbar.org/) en https://game.wollok.org/game. Si algo falla avisen a sus tutores así lo revisamos.
 _¡Esta herramienta todavía está en construcción, con esto nos ayudan a testearla y saber dónde poner los esfuerzos, muchas gracias!_
