@@ -12,3 +12,10 @@ Fecha: 02/12/2021
 - :musical_note: Lista de **Spotify** con los temas del año  https://open.spotify.com/playlist/5CWSl4mOibtJx812gBMypt?si=6e8db011370348bf
 - :video_game: Les recomendamos inscribirse en el [**concurso de Wollok Game** de la Fundación Uqbar](https://www.uqbar.org/#/eventos) donde no sólo se evalúa lo copado del juego sino la originalidad y el código y conceptos del paradigma. ¡Tienen una semana todavía!
 - :clapper: Ya está subido el **video** de la clase de hoy.
+
+
+### ¡GRACIAS POR TODO!
+
+
+![Grafo PDEP en materias de la carrera](https://user-images.githubusercontent.com/5421992/144469160-3876a33a-6bee-461a-b928-8297ed158158.png)
+
