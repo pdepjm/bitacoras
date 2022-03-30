@@ -8,11 +8,10 @@ Fecha: 31/03/2022
 
 * Leete [las pautas para una cursada feliz](https://docs.google.com/document/d/e/2PACX-1vTKoI8On5mP6SVd1UhBQEV85StwYeFoLaLH6E-yjAPzMRzK9BhHI_IKk-atcDfkp5ORfz1_c_zi-ErQ/pub)
 * La comunicación será por Discord. Si nunca usaste Discord te recomendamos mirar [este video instructivo](https://youtu.be/A7eZOivOid4). 
-* Video de [introducción al paradigma Funcional](https://www.youtube.com/watch?v=ypPigrP7XXs).
 * Video de 1h de intro a la materia de los [jueves a la noche](https://www.youtube.com/watch?v=z20-xv5eLFA&ab_channel=ParadigmasdeProgramaci%C3%B3n-JuevesNoche).
 * Para profundizar: Video de **intro a GIT para Paradigmas** (al final del TP0)
 * [Lecciones 1 y 2 de Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) salvo la parte de composición.
-* Recuerden que en el sitio están todos los [apuntes](https://www.pdep.com.ar/material/apuntes) y link útiles, sobre todo la [guía de lenguajes](https://docs.google.com/document/d/e/2PACX-1vTlLkakSbp6ubcIq00PU4-Z96tg8CUSc8bO793_uftmiGjfkSn7Ug-F_y0-ieIWG6aWfuoHLJrRL8Fd/pub) (la pueden usar siempre que quieran, incluso en los exámenes!)
+* Recuerden que en el sitio están todos los [apuntes](https://www.pdep.com.ar/material/apuntes) **videos** y links útiles, sobre todo la [guía de lenguajes](https://docs.google.com/document/d/e/2PACX-1vTlLkakSbp6ubcIq00PU4-Z96tg8CUSc8bO793_uftmiGjfkSn7Ug-F_y0-ieIWG6aWfuoHLJrRL8Fd/pub) (la pueden usar siempre que quieran, incluso en los exámenes!)
 
 ### Para hacer en el labo hoy
 
