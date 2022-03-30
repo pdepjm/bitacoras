@@ -17,7 +17,7 @@ Fecha: 31/03/2022
 
 1. Unirse al [Discord](https://discord.gg/Q7aDJPVE7R)
 2. Unirse al **classroom de Mumuki** con [este invite](https://mumuki.io/pdep-utn/join/vzcatA). Recuerden entrar a Mumuki por https://mumuki.io/pdep-utn y no por mumuki.io.
-3. Hacer el TP 0 (aprendiendo GIT y Github). Hay que seguir los pasos de [este documento](https://docs.google.com/document/d/120KYLdaCWBydd2CZ5mYfwU2I5G1GbfwntOKqbOxvwbM/edit?usp=sharing).
+3. Hacer el TP 0 (aprendiendo GIT y Github). Hay que seguir los pasos de [este documento](https://docs.google.com/document/d/1bqmKzp4DsbW8GUBB_GdCihU6x3LPHwirPMDw9Wpqz1Y/edit?usp=sharing).
 4. Luego, pueden comenzar con la tarea para la clase que viene:
 
 ### Tarea obligatoria para la clase que viene
