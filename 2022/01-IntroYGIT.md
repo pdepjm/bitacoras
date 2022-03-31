@@ -13,6 +13,25 @@ Fecha: 31/03/2022
 * [Lecciones 1 y 2 de Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) salvo la parte de composición.
 * Recuerden que en el sitio están todos los [apuntes](https://www.pdep.com.ar/material/apuntes) **videos** y links útiles, sobre todo la [guía de lenguajes](https://docs.google.com/document/d/e/2PACX-1vTlLkakSbp6ubcIq00PU4-Z96tg8CUSc8bO793_uftmiGjfkSn7Ug-F_y0-ieIWG6aWfuoHLJrRL8Fd/pub) (la pueden usar siempre que quieran, incluso en los exámenes!)
 
+
+**Código que hicimos en clase**
+```hs
+-- Labo Azul
+esPar nro = mod nro 2 == 0
+esLargo nombre = length nombre > 3
+
+-- Vimos las funciones mod (resto de la división), elem (saber si un caracter está en un string), not (negación lógica), && y || (el and y el or).
+
+-- Propuesta para practicar:
+-- Hacer una función que diga si un password es bueno: cuando es largo y no tiene una 'a'. 
+-- Pueden pasar y discutir las soluciones por #consultas de Discord
+
+-- Labo Rojo
+tieneMuchasLetras palabra = length palabra > 15
+sumaCuadrados x y = cuadrado x + cuadrado y
+cuadrado nro = nro * nro
+```
+
 ### Para hacer en el labo hoy
 
 1. Unirse al [Discord](https://discord.gg/Q7aDJPVE7R)
