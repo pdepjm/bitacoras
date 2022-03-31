@@ -23,7 +23,7 @@ Fecha: 31/03/2022
 ### Tarea obligatoria para la clase que viene
 
 1. Terminar (o hacer) el TP0 quien no lo haya hecho.
-2. Hacer el [TP1 en Mumuki](próximamente). 
+2. Hacer el [TP1 en Mumuki Individual: "Es Bisiesto"](https://mumuki.io/pdep-utn/exercises/9201-programacion-funcional-practica-valores-y-funciones-esbisiesto). 
 3. Grupos. Definirlos y completar **una vez por grupo** este [formulario de grupo](https://docs.google.com/forms/d/e/1FAIpQLSdnqJcAOK4u0zsHg51-d7a8qxwUSuzBPFDD-F0Z_y3jZtJfIA/viewform)
 
 ### Tarea opcional para la clase que viene
