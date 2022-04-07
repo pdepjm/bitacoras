@@ -16,7 +16,7 @@ Fecha: 07/04/2022
 
 ### Tarea obligatoria para la clase que viene
 
-1. TP2 Individual en máquina. [Tarea del classroom (les crea el repo)](https://classroom.github.com/a/P5U3KxdV)
+1. TP2 Individual en máquina. [Tarea del classroom (les crea el repo)](https://classroom.github.com/a/P5U3KxdV) junto con el [Enunciado](https://docs.google.com/document/d/1tn_emo5lNXzN6tBQovMKGc-eZObF0jQpqenG051tFiA/edit?usp=sharing)
 2. Grupos. Quienes todavía no los definieron, definirlos y completar **una vez por grupo** este [formulario de grupo](https://docs.google.com/forms/d/e/1FAIpQLSdnqJcAOK4u0zsHg51-d7a8qxwUSuzBPFDD-F0Z_y3jZtJfIA/viewform)
 
 ### Tarea opcional para la clase que viene
