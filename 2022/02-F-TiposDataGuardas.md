@@ -1,49 +1,23 @@
 # Clase 01: Intro y GIT
 
-Fecha: 31/03/2022
-
-![Carpileyendo](../2021/assets/Clase%2001%20-%20Carpi%20leyendo.png)
+Fecha: 07/04/2022
 
 ### Material que acompaña la clase de hoy
 
-* Leete [las pautas para una cursada feliz](https://docs.google.com/document/d/e/2PACX-1vTKoI8On5mP6SVd1UhBQEV85StwYeFoLaLH6E-yjAPzMRzK9BhHI_IKk-atcDfkp5ORfz1_c_zi-ErQ/pub)
-* La comunicación será por Discord. Si nunca usaste Discord te recomendamos mirar [este video instructivo](https://youtu.be/A7eZOivOid4). 
-* Video de 1h de intro a la materia de los [jueves a la noche](https://www.youtube.com/watch?v=z20-xv5eLFA&ab_channel=ParadigmasdeProgramaci%C3%B3n-JuevesNoche).
-* Para profundizar: Video de **intro a GIT para Paradigmas** (al final del TP0)
-* [Lecciones 1 y 2 de Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) salvo la parte de composición.
-* Recuerden que en el sitio están todos los [apuntes](https://www.pdep.com.ar/material/apuntes) **videos** y links útiles, sobre todo la [guía de lenguajes](https://docs.google.com/document/d/e/2PACX-1vTlLkakSbp6ubcIq00PU4-Z96tg8CUSc8bO793_uftmiGjfkSn7Ug-F_y0-ieIWG6aWfuoHLJrRL8Fd/pub) (la pueden usar siempre que quieran, incluso en los exámenes!)
+* Las guías 7, 8, y 14 de [Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) cubren los temas de hoy (Guardas, Pattern Matching y Modelado). 
+* En los [Apuntes](https://www.pdep.com.ar/material/apuntes), Módulos 1, 3 y 7 de funcional.
+* Videos
 
 
 **Código que hicimos en clase**
 ```hs
--- Labo Azul
-esPar nro = mod nro 2 == 0
-esLargo nombre = length nombre > 3
-
--- Vimos las funciones mod (resto de la división), elem (saber si un caracter está en un string), not (negación lógica), && y || (el and y el or).
-
--- Propuesta para practicar:
--- Hacer una función que diga si un password es bueno: cuando es largo y no tiene una 'a'. 
--- Pueden pasar y discutir las soluciones por #consultas de Discord
-
--- Labo Rojo
-tieneMuchasLetras palabra = length palabra > 15
-sumaCuadrados x y = cuadrado x + cuadrado y
-cuadrado nro = nro * nro
+<Próximamente>
 ```
-
-### Para hacer en el labo hoy
-
-1. Unirse al [Discord](https://discord.gg/Q7aDJPVE7R)
-2. Unirse al **classroom de Mumuki** con [este invite](https://mumuki.io/pdep-utn/join/vzcatA). Recuerden entrar a Mumuki por https://mumuki.io/pdep-utn y no por mumuki.io.
-3. Hacer el TP 0 (aprendiendo GIT y Github). Hay que seguir los pasos de [este documento](https://docs.google.com/document/d/1bqmKzp4DsbW8GUBB_GdCihU6x3LPHwirPMDw9Wpqz1Y/edit?usp=sharing).
-4. Luego, pueden comenzar con la tarea para la clase que viene:
 
 ### Tarea obligatoria para la clase que viene
 
-1. Terminar (o hacer) el TP0 quien no lo haya hecho.
-2. Hacer el [TP1 en Mumuki Individual: "Es Bisiesto"](https://mumuki.io/pdep-utn/exercises/9201-programacion-funcional-practica-valores-y-funciones-esbisiesto). 
-3. Grupos. Definirlos y completar **una vez por grupo** este [formulario de grupo](https://docs.google.com/forms/d/e/1FAIpQLSdnqJcAOK4u0zsHg51-d7a8qxwUSuzBPFDD-F0Z_y3jZtJfIA/viewform)
+1. TP2 Individual en máquina. [Tarea del classroom (les crea el repo)](https://classroom.github.com/a/P5U3KxdV)
+2. Grupos. Quienes todavía no los definieron, definirlos y completar **una vez por grupo** este [formulario de grupo](https://docs.google.com/forms/d/e/1FAIpQLSdnqJcAOK4u0zsHg51-d7a8qxwUSuzBPFDD-F0Z_y3jZtJfIA/viewform)
 
 ### Tarea opcional para la clase que viene
-1. Se pueden ir adelantando hasta la guía 4 de [Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) inclusive
+1. Se puede ir adelantando (además de las guías mencionadas arriba) la guía 9 (listas) de [Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) inclusive
