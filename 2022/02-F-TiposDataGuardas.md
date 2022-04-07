@@ -6,7 +6,7 @@ Fecha: 07/04/2022
 
 * Las guías 7, 8, y 14 de [Mumuki](https://mumuki.io/pdep-utn/chapters/435-programacion-funcional) cubren los temas de hoy (Guardas, Pattern Matching y Modelado). 
 * En los [Apuntes](https://www.pdep.com.ar/material/apuntes), Módulos 1, 3 y 7 de funcional.
-* Videos
+* En los [Videos](https://www.pdep.com.ar/material/videos) de la página, hay videos cortos (de 5 minutos) explicando temas como paréntesis, precedencia, guardas, pattern matching. También hay videos un poco más largos (30') sobre los otros temas de hoy (Tipos, Data, etc.)
 
 
 **Código que hicimos en clase**
