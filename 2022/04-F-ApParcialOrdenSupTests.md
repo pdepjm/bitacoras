@@ -3,6 +3,9 @@
 Fecha: 28/04/2022
 
 ![multiprocesadora](assets/multiprocesadora.png)
+> `rayar` es una función que agarra un tomate y devuelve la cantidad de pedacitos en los que lo raya
+> `cortar` es una función que también agarra un tomate y devuelve la cantidad de pedacitos
+> La `multiprocesadora` es una **función de orden superior** porque recibe por parámetro **una función** (el accesorio) para trocear una lista de tomates en muchos más pedacitos. Si le pasás un accesorio troza de una forma, si le pasás el otro, troza de otra forma. 
 
 ### Material que acompaña la clase de hoy
 
