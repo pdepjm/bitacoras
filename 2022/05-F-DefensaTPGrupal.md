@@ -5,8 +5,8 @@ Fecha: 05/05/2022
 - Revisen [la planificación](https://www.pdep.com.ar/cursos/jueves-ma%C3%B1ana) porque cambiamos algunas fechas para adaptarnos al cese de actividades de la semana que viene. No hay clase **pero hay tarea!**.
 
 ### Tarea obligatoria para la SEMANA que viene
-- La semana que viene no hay clase porque **hay TP individual**. (Más detalles próximamente)
+- La semana que viene no hay clase porque **hay TP individual en Mumuki**. [Cuantas Muzzas](https://mumuki.io/pdep-utn/exercises/9307-programacion-funcional-practica-listas-cuantas-muzzas)
 
 ### Tarea opcional para la clase que viene
-- Adelantar el [TP Grupal parte 2](https://docs.google.com/document/d/1V2LYeaIEN4VOg3pYJsPU5Oj1OpbjgAi72o71rBAs9pM/edit?usp=sharing)
+- Toda esa
 - La clase que viene ya cerraremos con todos los temas, así que Mumuki ya se puede terminar. ¡Será **presencial**!
