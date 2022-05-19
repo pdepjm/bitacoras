@@ -27,7 +27,7 @@ Fecha: 19/05/2022
 1. TP Grupal en máquina última entrega. [Enunciado de la Entrega 2](https://docs.google.com/document/d/1V2LYeaIEN4VOg3pYJsPU5Oj1OpbjgAi72o71rBAs9pM/edit?usp=sharing)
 
 #### para la próxima clase (en 2 semanas)
-1. Comenzar a leer el [simulacro de parcial <próximamente>](). Habrá un ratito para avanzarlo la semana que viene, así que si quieren pueden empezarlo en casa y lo terminan en clase. 
+1. Comenzar a leer el simulacro de parcial: [Enunciado FMS](https://docs.google.com/document/d/1AtD9mZGiUNEKmZ_aaWSCoNaeowLTMUhFRVHm-GZIF-w/edit?usp=sharing) y la [task con el repo](https://classroom.github.com/a/WSJ9fq9Z). Habrá un ratito para avanzarlo la semana que viene, así que si quieren pueden empezarlo en casa (un buen límite es hasta las Conjugaciones inclusive, o hasta el punto siguiente) y lo terminan en clase. 
 2. Recuerden que **quien piense rendir el parcial con su notebook, debe traerla también próxima clase**. Es simulacro, la idea es solucionar todos los problemas técnicos que pueda haber antes del día del parcial.
 
 ### Tarea opcional para la clase que viene
