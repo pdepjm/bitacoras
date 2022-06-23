@@ -4,6 +4,7 @@
 Fecha: 23/06/2022
 
 ![spell](assets/spell.jpeg)
+![noexiste](assets/noexiste.png)
 
 ### Materiales que dan soporte a los temas de hoy
 
