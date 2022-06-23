@@ -16,5 +16,5 @@ Fecha: 23/06/2022
 
 
 ### Tarea obligatoria para la clase que viene 
-* TP Individual 2 de Lógico, en PC, usando SWI.Prolog con tests. `<próximamente>`
+* TP Individual 2 de Lógico, en PC, usando SWI.Prolog con tests. [Enunciado acá](https://docs.google.com/document/d/1EkptEkw-U9mk4TFPN01qt0UWhuI-yq8CbxE5BkH2r60) y la [tarea con el repo acá](https://classroom.github.com/a/F8II9jS2).
 
