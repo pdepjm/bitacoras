@@ -14,13 +14,9 @@ Fecha: 30/06/2022
   * [Módulo 3](https://drive.google.com/open?id=1GGair_St5yWvItKRZH-FY_X2CdDREr60TrsV0zSiO5I) Estructuras de datos. Individuos simples y compuestos.
   * [Módulo 6](https://drive.google.com/open?id=1eWnjBoiQTRJKx4THhmPnGYbBWTDlgx4Fph18GPtIqC0):Elementos de Diseño. Delegación. Acoplamiento. Code smells. (Primera parte)
 
-### Tarea obligatoria para la clase que viene 
-
-* `<próximamente>`
-* Para la otra clase (en 2 semanas) la idea sería comenzar el simulacro. Y quizás ver el TP Grupal que se entrega al volver del receso y pronto publicaremos.
-
-
 ### Tarea recomendada para la clase que viene
 
+* En principio, terminar los TP pendientes.
+* Se puede comenzar a ver el [Enunciado del TP Grupal](https://docs.google.com/document/d/1mXm6TUTL99WnqCR4vSvmAfzgBSuF0TjI89Ui395OWE4/edit) (única entrega) y les dejamos la [Tarea del classroom](https://classroom.github.com/a/s-QPiW32) que se entrega en unas semanas al volver del receso.
 * Práctica de forall, polimorfismo, etc. recomendada: [TEG](https://docs.google.com/document/d/12RK1DhOHEH9PgKYJo3zH_trn1fOn8jB9bg304ZLMXbQ/edit) 
-* Guía Mumuki	[El resto de las guías de Mumuki](https://mumuki.io/pdep-utn/chapters/436-programacion-logica): cubren los temas de hoy y algo de la clase que viene.
+* Guía Mumuki	[El resto de las guías de Mumuki](https://mumuki.io/pdep-utn/chapters/436-programacion-logica): cubren los temas de hoy y lo de la clase que viene.
