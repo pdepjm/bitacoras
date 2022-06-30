@@ -7,6 +7,7 @@ Fecha: 30/06/2022
 
 ### Materiales que dan soporte a los temas de hoy
 
+* [Enunciado (próximamente)]() para hacer en el labo. [Tarea del classroom](https://classroom.github.com/a/AWD5pdm1) si les interesa tenerlo subido.
 * Repo con el [código de hoy](https://github.com/pdepjm/2022-l-clase11Polimorfismo)
 * Explicación de polimorfismo [en la wiki](https://wiki.uqbar.org/wiki/articles/polimorfismo-en-el-paradigma-logico.html). 
 * Mumuki	[Hasta la guía 9](https://mumuki.io/pdep-utn/chapters/436-programacion-logica) inclusive.
@@ -22,4 +23,5 @@ Fecha: 30/06/2022
 
 ### Tarea recomendada para la clase que viene
 
-* Guía Mumuki	[El resto de las guías de Mumuki](https://mumuki.io/pdep-utn/chapters/436-programacion-logica): cubren los temas de hoy y algo de la clase que viene.  
+* Práctica de forall, polimorfismo, etc. recomendada: [TEG](https://docs.google.com/document/d/12RK1DhOHEH9PgKYJo3zH_trn1fOn8jB9bg304ZLMXbQ/edit) 
+* Guía Mumuki	[El resto de las guías de Mumuki](https://mumuki.io/pdep-utn/chapters/436-programacion-logica): cubren los temas de hoy y algo de la clase que viene.
