@@ -7,8 +7,7 @@ Fecha: 30/06/2022
 
 ### Materiales que dan soporte a los temas de hoy
 
-* [Enunciado (próximamente)]() para hacer en el labo. [Tarea del classroom](https://classroom.github.com/a/AWD5pdm1) si les interesa tenerlo subido.
-* Repo con el [código de hoy](https://github.com/pdepjm/2022-l-clase11Polimorfismo)
+* [Enunciado en el repo con el código de hoy](https://github.com/pdepjm/2022-l-clase11Polimorfismo/blob/main/programa.pl) para hacer en el labo. [Tarea del classroom](https://classroom.github.com/a/AWD5pdm1) si les interesa tenerlo subido.
 * Explicación de polimorfismo [en la wiki](https://wiki.uqbar.org/wiki/articles/polimorfismo-en-el-paradigma-logico.html). 
 * Mumuki	[Hasta la guía 9](https://mumuki.io/pdep-utn/chapters/436-programacion-logica) inclusive.
 * Apuntes 	
