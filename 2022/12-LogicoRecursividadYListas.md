@@ -14,7 +14,7 @@ Fecha: 07/07/2022
 
 ### Tarea obligatoria para la clase que viene
 
-* Traer comenzado el [Simulacro <próximamente>](). El repo lo pueden crear a partir del [repo base de lógico](https://github.com/pdepjm/2021-l-repoBase) con el botón "Use this template". Lo copado de ese template es que les corre los tests cada vez que pushean.
+* Traer comenzado el [Simulacro](https://docs.google.com/document/d/1ceEtqSEAgIpGZ-qdx4qhevLr7nmU80H9Dn4DD5y1Rp4/edit?usp=sharing). El repo lo pueden crear a partir del [repo base de lógico](https://github.com/pdepjm/2021-l-repoBase) con el botón "Use this template". Lo copado de ese template es que les corre los tests cada vez que pushean.
 
 ### Tarea recomendada para la clase que viene
 
