@@ -5,7 +5,7 @@ Fecha: 25/08/2022
 ### Materiales que dan soporte a los temas de hoy
 
 * Enunciado de [Peligro por distracción](https://docs.google.com/document/d/1vfJ-57RhA0txQoxkjWE8xo7yvEZNYthe0VuxK-rbhFo/edit#).
-* Aquí la [tarea del classroom (próximamente)]() para el **trabajo en el laboratorio**.
+* Aquí la [tarea del classroom](https://classroom.github.com/a/Wx_nQoPV) para el **trabajo en el laboratorio**.
 * Wiki
   * [Mensajes y métodos](https://wiki.uqbar.org/wiki/articles/mensajes-y-metodos.html)
   * [Variables](https://wiki.uqbar.org/wiki/articles/variables.html)
