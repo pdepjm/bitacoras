@@ -20,4 +20,4 @@ Fecha: 25/08/2022
 
 ### Tarea obligatoria para la clase que viene 
 
-* Trabajo práctico individual 1: Enunciado (próximamente) y classroom (próximamente)
+* Trabajo práctico individual 1: Quedó en la bitácora de la clase siguiente
