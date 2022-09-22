@@ -14,6 +14,6 @@ Fecha: 22/09/2022
 
 ### Tarea para la clase que viene
 TP Grupal
-* [Asignacion] (https://classroom.github.com/a/cePUn0i9)
-* [Consigna] (https://docs.google.com/document/d/16nCOx3Nvm_E-c6FRQ2669CQnNoALWToFUBMsJY12Rzw/edit?usp=sharing)
+* [Asignacion](https://classroom.github.com/a/cePUn0i9)
+* [Consigna](https://docs.google.com/document/d/16nCOx3Nvm_E-c6FRQ2669CQnNoALWToFUBMsJY12Rzw/edit?usp=sharing)
 
