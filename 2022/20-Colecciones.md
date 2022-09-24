@@ -15,8 +15,9 @@ Fecha: 22/09/2022
 ### Tarea para la clase que viene
 
 TP Grupal: Ecosistemas Espaciales
-* [Asignacion](https://classroom.github.com/a/cePUn0i9)
+* [Asignacion Classroom](https://classroom.github.com/a/cePUn0i9)
 * [Consigna](https://docs.google.com/document/d/16nCOx3Nvm_E-c6FRQ2669CQnNoALWToFUBMsJY12Rzw/edit?usp=sharing)
 
 TP Grupal: Juego
+* [Asignacion Classroom](https://classroom.github.com/a/BmmsZ8dF)
 * [Consigna](https://docs.google.com/document/d/1e3oZyCJD0-c55gTmNZG72RpOFEAEt-4gKqzKgdMVI_w/edit?usp=drivesdk)
