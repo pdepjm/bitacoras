@@ -1,4 +1,4 @@
-# Clase de Herencia
+# Clase 22: Herencia
 
 ![diagramaDeClases](https://www.plantuml.com/plantuml/png/fPBBQkim48RtUWgHrJc5-0bAYGcXNHPwsV-sHAoYIpiZ6KgQTozY8e8nPDEbVcc--PZHZZCeb-3LwC6idp2uZAnFIclDbYo_kpbnFGqk1J3-_Qy7onc7UFWgphk1N99qmdVlZoMcMYJHATWy9NFMNTUfixgqUVQ86T85FXT2Wqhbgbz6G7GtcNrq0LwOdvRJtucFXFW18Se3pHX1Rr7AMZWvGyYWrsGIrvjsiPxI5VvYgPe9VNPpzMsaqQMuriyfWFfZmItdVR7pLPaIxmiCmInsA1xDuFvdkxrCRvd9bbJx4zi7lRdRDF4MorCPrI8J5RMpqPJWVm40)
 
