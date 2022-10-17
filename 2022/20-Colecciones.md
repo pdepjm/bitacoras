@@ -10,6 +10,7 @@ Fecha: 22/09/2022
 * Mumuki	 Hasta la [guías 7 y 8](https://mumuki.io/pdep-utn/chapters/437-programacion-con-objetos).
 * Apuntes	 [Hasta el módulo 12 inclusive](https://sites.google.com/site/paradigmasdeprogramacion/material/apuntes).
 * Guía de lenguajes	 La [guía](https://docs.google.com/document/d/e/2PACX-1vTlLkakSbp6ubcIq00PU4-Z96tg8CUSc8bO793_uftmiGjfkSn7Ug-F_y0-ieIWG6aWfuoHLJrRL8Fd/pub) tiene los mensajes de colecciones agrupados por funcionalidad.
+* [Grabación de clase](https://youtu.be/Cr781jHJ2wY) 
 
 
 ### Tarea para la clase que viene
