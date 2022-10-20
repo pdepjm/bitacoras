@@ -6,6 +6,7 @@ Fecha: 01/09/2022
 
 ### Materiales que dan soporte a los temas de hoy
 
+* [Grabación de la clase](https://drive.google.com/drive/folders/1uh2wY0OtLgCz4s7Rnwv02RimeM-2HiR1?usp=sharing)
 * Hoy hicimos un repaso en el que hicimos entre todes los ejercicios de la [guía 5 de Mumuki](https://mumuki.io/pdep-utn/lessons/716-programacion-con-objetos-practica-objetos-y-mensajes)
 * Vimos cómo funciona Wollok Game:
   * [Ejemplo Juego Game - Puma Game](https://github.com/wollok/pumaGame)
