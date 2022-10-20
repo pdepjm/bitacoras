@@ -4,6 +4,7 @@
 
 Fecha: 06/10/2022
 
+- [Grabación de la clase](https://drive.google.com/drive/folders/1BwVvFlQGqyVM_BePxwwyX_cRB5-PnRJ3?usp=sharing)
 - [Enunciado Ecosistemas 2 - Colonización](https://docs.google.com/document/d/1BKAOWa0yY5GbMemU3BBdxooUVR4mwlqutfLG5Mta384/edit) para trabajar en clase.
 - [Código](https://github.com/pdepjm/2022-o-ecosHerencia) sobre el que trabajaremos (al finalizar la clase agregaremos el código hecho en clase).
 - [:pencil: Resultados del menti](assets/mentiHerencia.pdf)
