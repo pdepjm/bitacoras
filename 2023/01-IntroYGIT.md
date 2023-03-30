@@ -9,6 +9,7 @@ Fecha: 30/03/2023
 
 * Para profundizar: Video de **intro a GIT para Paradigmas** (al final del TP0). Además el apunte [Github Classroom - Uso básico y suscripcion](https://docs.google.com/document/d/166ksg4rSAIrYWStR5yHrUQjFp1OY3DvSoLMcA8CYc34/edit#heading=h.tte3r1lnfpv4).
 * Recuerden que en el sitio están todos los [apuntes](https://www.pdep.com.ar/material/apuntes) **videos** y links útiles, sobre todo la [guía de lenguajes](https://docs.google.com/document/d/e/2PACX-1vTlLkakSbp6ubcIq00PU4-Z96tg8CUSc8bO793_uftmiGjfkSn7Ug-F_y0-ieIWG6aWfuoHLJrRL8Fd/pub) (la pueden usar siempre que quieran, incluso en los exámenes!)
+* Apunte [Integración de conceptos](https://docs.google.com/document/d/1QP1ftd6jvAlVZOAsVPJ_1I0O7WW9MaIrn6zfW-iJdrY/edit) con algunos temas mencionados hoy.
 
 * La comunicación será por Discord. Si nunca usaste Discord te recomendamos mirar [este video instructivo](https://youtu.be/A7eZOivOid4). **Reglas de convivencia:**
     * No escribir en mayúsculas, expresarse y explicar claramente (no valen los mails modo chat), siempre respetarse (¡no existen preguntas tontas!)
