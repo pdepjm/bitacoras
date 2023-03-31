@@ -23,9 +23,8 @@ Fecha: 30/03/2023
 * Se aprueban con 6 o más en cada uno.
 
 **Recuperación:**
-* Hay 2 por parcial. La mayoría son en diciembre y en febrero.
-* No habrá más fechas de recuperación que esas. Quien falta pierde la chance.
-* Se puede recuperar una nota aprobada, pero siempre la nota final es la última (podrías llegar a desaprobar el parcial que ya aprobaste).
+* Hay 2 por parcial. Los primeros están dentro de la cursada, y los segundos en diciembre.
+* Se puede complementar una nota aprobada, para llegar a la promoción directa.
 
 **TPS:**
 * Habrá individuales y grupales.
@@ -34,10 +33,9 @@ Fecha: 30/03/2023
 
 **Promoción:**
 
-* Hay que tener en cada parcial **8 ó más** y tener al menos 8 TP aprobados en tiempo y forma.
+* Hay que tener **8 ó más** en cada parcial (o en su correspondiente primer recuperatorio) y tener al menos 8 TP aprobados en tiempo y forma.
 * Hay que ser regular.  (Si dejás de ser regular y te aprueban la reincorporación, no podés promocionar)
-* Puede promocionar aún quien rinda un recuperatorio, pero si rinde dos recuperatorios no puede promocionar, saque la nota que se saque.
 
-### Tarea obligatoria para la clase que viene
+### Tarea para la clase que viene
 
 Hacer el TP 0 (aprendiendo GIT y Github). Hay que seguir los pasos de [este documento](https://docs.google.com/document/d/1tgMRn7HWwyBGvf--SKM-oVhIn8621b5IXC1z2JudZ0g/edit?usp=sharing). [Link del classroom](https://classroom.github.com/a/zhQpjJvR).
