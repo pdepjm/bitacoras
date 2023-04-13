@@ -9,6 +9,7 @@ Fecha: 13/04/2023
 * [Apunte](https://docs.google.com/document/d/1W5BcOmIJMCylqAjqPw1RzPlujycbvNJueh8-Uyc2fMY/) Introducción a Funcional.
 * [Video](https://www.youtube.com/watch?v=WV1fPlFAw8M&ab_channel=Mumuki) 4' sobre **paréntesis** y [video](https://www.youtube.com/watch?v=ymCuneefgKU&ab_channel=Mumuki) de 3' sobre **precedencia** en Haskell.
 * [Video](https://www.youtube.com/watch?v=qv5RuZl5iCo&ab_channel=Fundaci%C3%B3nUqbar) 5' con ejemplo cortito sobre **Guardas**.
+* [Apunte](https://wiki.uqbar.org/wiki/articles/expresividad.html) sobre **expresividad**.
 * Para quienes quieran saber sobre `stack` y lo que es un **Gestor de proyectos**, acá hay un [videito](https://www.youtube.com/watch?v=FCwwOM_7jZo&ab_channel=Fundaci%C3%B3nUqbar) de 12'.
 * Hoy en el labo hicimos la ejercitación de **Pinos**, acá está la [Tarea del classroom (les crea el repo)](https://classroom.github.com/a/IOppVobu). Recomendamos que intenten terminarlo como práctica y nos consulten las dudas que surjan.
 
