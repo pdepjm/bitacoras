@@ -12,6 +12,7 @@ Fecha: 13/04/2023
 * [Apunte](https://wiki.uqbar.org/wiki/articles/expresividad.html) sobre **expresividad**.
 * Para quienes quieran saber sobre `stack` y lo que es un **Gestor de proyectos**, acá hay un [videito](https://www.youtube.com/watch?v=FCwwOM_7jZo&ab_channel=Fundaci%C3%B3nUqbar) de 12'.
 * Hoy en el labo hicimos la ejercitación de **Pinos**, acá está la [Tarea del classroom (les crea el repo)](https://classroom.github.com/a/IOppVobu). Recomendamos que intenten terminarlo como práctica y nos consulten las dudas que surjan.
+   * [Una posible resolución](https://github.com/pdepjm/2023-f-pinos-tfloxolodeiro/blob/main/src/Library.hs) al ejercicio.
 
 ### Tarea obligatoria para la clase que viene
 
