@@ -2,7 +2,7 @@
 
 Fecha: 13/04/2023
 
-
+![tiposHaskell](https://user-images.githubusercontent.com/48812037/231883846-d8926ab7-df67-4bdf-8c1b-ce175a8785d8.png)
 
 ### Material que acompaña la clase de hoy
 
