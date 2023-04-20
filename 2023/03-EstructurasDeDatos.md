@@ -2,6 +2,8 @@
 
 Fecha: 20/04/2023
 
+![eyvhhjkdb3671](https://user-images.githubusercontent.com/48812037/233458097-17deff57-59a3-44a6-a434-c0503d7c7551.jpg)
+
 ### Material que acompaña la clase de hoy
 
 * [Diapos de hoy](https://docs.google.com/presentation/d/1hrWNfHwcbKr47_u63DSofbcPGobPokq7TJzzHkBdFrE/edit#slide=id.g76e11be163_0_90) con el ejercicio visto en clase.
