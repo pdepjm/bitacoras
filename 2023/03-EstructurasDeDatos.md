@@ -1,4 +1,4 @@
-# Clase 02: Estructuras de datos
+# Clase 03: Estructuras de datos
 
 Fecha: 20/04/2023
 
