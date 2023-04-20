@@ -7,8 +7,7 @@ Fecha: 20/04/2023
 ### Material que acompaña la clase de hoy
 
 * [Diapos de hoy](https://docs.google.com/presentation/d/1hrWNfHwcbKr47_u63DSofbcPGobPokq7TJzzHkBdFrE/edit#slide=id.g76e11be163_0_90) con el ejercicio visto en clase.
-* [Código hecho en clase] (proximamente...)
-* [Posible resolución TP1] (proximamente...)
+* [Código hecho en clase + Posible resolución del TP1](https://github.com/pdepjm/2023-f-clase03/blob/master/src/Clase03.hs)
 * [Apunte](https://docs.google.com/document/d/11C2UAbP70dP7sTID-ZxJm_a-5ypKxQUEuZr6GVk5yFI/edit) Modelado de información.
 * [Apunte](https://docs.google.com/document/d/1q2o2zCBU2LOfJs3nWG7-r6SaFHCIU5c0M4CJNmqOIO0/edit) Sistema de tipos.
 * [Video](https://www.youtube.com/watch?v=OaPxc03WVTU&ab_channel=Fundaci%C3%B3nUqbar) 5' sobre **Pattern matching**
