@@ -13,7 +13,7 @@ Fecha: 20/04/2023
 * [Video](https://www.youtube.com/watch?v=OaPxc03WVTU&ab_channel=Fundaci%C3%B3nUqbar) 5' sobre **Pattern matching**
 * [Video](https://www.youtube.com/watch?v=-nxoHX45o48&ab_channel=LucasSpigariol) 32' sobre definición de tipos de datos (clase grabada).
 
-### Tarea obligatoria para la clase que viene
+### Tarea para la clase que viene
 
 Armar grupos de 3 a 5 integrantes. Para comunicarnos que tienen el grupo armado les pedimos que envíen un mensaje al canal `#búsqueda-grupo` con los nombres de sus integrantes, junto con su usuario de discord (así podemos reconocerlas/os) y un nombre para el grupo. 
 Quienes aún no tengan grupo, pueden utilizar el mismo canal para conectar con otras personas sin grupos. 
