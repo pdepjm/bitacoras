@@ -7,7 +7,7 @@ Fecha: 27/04/2023
 ### Material que acompaña la clase de hoy
 
 * [Enunciado visto en clase](https://docs.google.com/document/u/1/d/e/2PACX-1vSKmakjzIOjbynjlhDTbYrmTJSGf6QCrpfXOKn9O6XGmM_e5iT9yfUS-e4jRX_yLaXyCtIz9L8difZ2/pub): Jujutsu Haskell
-* [Solución hecha en clase](https://github.com/pdepjm/2023-f-jujutsu-haskell-dlopezalvas/tree/master/src) junto con sus [tests](https://github.com/pdepjm/2023-f-jujutsu-haskell-dlopezalvas/blob/master/src/Spec.hs)
+* [Solución hecha en clase](https://github.com/pdepjm/2023-f-jujutsu-haskell-dlopezalvas/blob/master/src/Library.hs) junto con sus [tests](https://github.com/pdepjm/2023-f-jujutsu-haskell-dlopezalvas/blob/master/src/Spec.hs)
 * [Apunte](https://docs.google.com/document/d/1Rzsp5A46R_WdC-NJ6_SKrUrtZ6LmR5A52BazE9XPLIc/edit) sobre **Orden superior**.
 * [Apunte](https://docs.google.com/document/d/17EPSZSw7oY_Rv2VjEX2kMZDFklMOcDVVxyve9HSG0mE/edit#heading=h.s41ggdjqkuv6) sobre **Testing**.
 * [Apunte](https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit) sobre **Git**.
