@@ -70,3 +70,12 @@ Vemos que nos aparecen los archivos en los que hicimos cambios en rojo. Luego va
    * En ambos casos, si es la primera vez que pusheamos se nos va a abrir una pestaña pidiendo que iniciemos sesión con mediante el browser, o mediante un token. Si deciden hacerlo mediante el token, pueden crearlo [desde esta página](https://github.com/settings/tokens). Es importante copiarlo y guardarlo en algun lugar, por si en algún momento necesitan usarlo de nuevo.
 
 7. ¡Ya subimos nuestro primer punto! Para el resto del TP realizamos los mismos pasos (2 a 6) cada vez que creamos necesario realizar un commit.
+
+### Resumen de comandos:
+
+* `git clone <link>`: nos clona el repositorio a nuestra computadora con el link que le indiquemos.
+* `code <nombre-proyecto>`: nos abre el visual en el proyecto (carpeta) que le indiquemos. 
+* `git status`: nos muestra el _estado_ actual en el que estamos, si tenemos archivos preparados para el commit, si tenemos cambios, etc. Este comando está bueno tirarlo antes de hacer cosas como el commit o push para asegurarnos que está todo como queremos que esté.
+* `git add <nombre-archivo>`: nos prepara archivos para el commit, según los que le indiquemos. Si queremos agregar todos usamos `git add .`.
+* `git commit -m "nombre de commit"`: nos commitea localmente los archivos que preparamos.
+* `git push`: sincroniza los cambios con el repositorio que se encuentra en Github.
