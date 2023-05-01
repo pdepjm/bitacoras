@@ -11,7 +11,7 @@ Fecha: 27/04/2023
 * [Apunte](https://docs.google.com/document/d/1Rzsp5A46R_WdC-NJ6_SKrUrtZ6LmR5A52BazE9XPLIc/edit) sobre **Orden superior**.
 * [Apunte](https://docs.google.com/document/d/17EPSZSw7oY_Rv2VjEX2kMZDFklMOcDVVxyve9HSG0mE/edit#heading=h.s41ggdjqkuv6) sobre **Testing**.
 * [Apunte](https://docs.google.com/document/d/1ozqfYCwt-37stynmgAd5wJlNOFKWYQeIZoeqXpAEs0I/edit) sobre **Git**.
-* [Tutorial sobre git + github]() (proximamente...)
+* [Tutorial sobre git + github](./assets/gitTuto.md)
 
 ### Tarea para la clase que viene
 
