@@ -15,6 +15,9 @@ Una vez que aceptemos la tarea, vamos a tener un **repositorio** bajo el nombre 
 
 ![clone](https://user-images.githubusercontent.com/48812037/235389402-4d827867-8410-4b14-867d-a17a76d0bf55.png)
 
+**Otro protocolo para Git**
+Si tenes problemas con HTTPS o preferis no usar el token podes probar usar SSH. Aca podes leer [este apunte](https://docs.google.com/document/d/1IX53nPHcQnq5r8ahnEULP73c-CjLETZfGLhnkI8jGUQ/edit#) detallando sobre como configurar ssh.
+
    * Teniendo el link vamos a nuestra carpeta y abrimos una terminal (Git Bash en Windows). Acá vamos a escribir el comando `git clone <link>` completando con el link que copiamos previamente
 ![clone-2](https://user-images.githubusercontent.com/48812037/235389438-681025c3-64d7-4017-89c5-32555fdb3ead.png)
 
