@@ -38,7 +38,7 @@ Luego apretamos el botón `+` de cada archivo, para así agregarlos para el comm
 
 ![archivos-modificados](https://user-images.githubusercontent.com/48812037/235389647-458dc15a-e1c3-45e2-b6a4-f8227f074321.png)
 
-   * Desde la terminal (Git Bash en Windows), podemos primero fijarnos los cambios con el comando `git status`:
+   * Desde la terminal (Git Bash en Windows), es importante que estemos parados en la carpeta del repositorio, en este caso `2023-f-propinas-dlopezalvas`. Si estamos fuera de la carpeta podemos entrar desde la misma consola haciendo: `cd 2023-f-propinas-dlopezalvas`. Luego podemos primero fijarnos los cambios con el comando `git status`:
   
 ![archivos-modificados](https://user-images.githubusercontent.com/48812037/235390502-eff35b60-80fc-4460-b37a-dc31cc3ad4b9.png)
 
