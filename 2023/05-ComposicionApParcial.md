@@ -3,10 +3,10 @@
 Fecha: 04/05/2023
 
 ### Material que acompaña la clase de hoy
+* Resolucion TP Propinas: [Video de la clase](https://youtu.be/wDpxi31b3CI) [Código](https://github.com/pdepjm/2023-f-clase05)
+* Explicacion de aplicacion parcial: [Video de la clase](https://youtu.be/ktYkj7gQhjM) [Código](https://github.com/pdepjm/2023-aplicacionParcial)   
+* [Apunte complementario](https://docs.google.com/document/d/1n7TPE2qRpFSnj95lIZFD-q7Ko_DT9XZLH9_kEkNClrU/edit).
 
-* [Apunte](https://docs.google.com/document/d/1n7TPE2qRpFSnj95lIZFD-q7Ko_DT9XZLH9_kEkNClrU/edit) sobre Composición y Aplicación Parcial.
-* [Código visto en clase](https://github.com/pdepjm/2023-f-clase05)
-* [Video de la clase]() (próximamente...)
 
 ### Trabajo práctico grupal
 
