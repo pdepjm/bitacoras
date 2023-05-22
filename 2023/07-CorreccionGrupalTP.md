@@ -1,4 +1,4 @@
-# Clase 05: Composición y Aplicación Parcial
+# Clase 07: Corrección de TP grupal + simulacro parcial
 
 Fecha: 18/05/2023
 
