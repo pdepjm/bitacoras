@@ -10,12 +10,12 @@ Fecha: 18/05/2023
 
 ### Parciales para prácticar
 
-Les dejamos el template de un [repo vacío](https://github.com/pdepjm/2020-f-proyectoVacio) para resolver los parciales que quieren.
+Les dejamos el template de un [repo vacío](https://github.com/pdepjm/2020-f-proyectoVacio) para resolver los parciales que quieren. Para crear su propio repo a partir de este tienen que apretar **Use this template**, y luego en donde dice **Create new repository**.
 
 * [Ratones y hierbas](https://docs.google.com/document/d/1Bishi92f5euhpSBD-epQznFdteW6SDD8IQpL-U_Q1I8/edit) - Parcial tomado en 2019. Posible resolución [acá](https://github.com/pdepjm/2019-f-parcialHierbas-MarianoPessina)
-* [Vacaciones](https://docs.google.com/document/d/18p63BwQNgacxXDs553JtC7EVTsODcsxpouiRKSnsxoY/edit#heading=h.jqehittq4m6) - Parcial tomado en 2020.
+* [Vacaciones](https://docs.google.com/document/d/18p63BwQNgacxXDs553JtC7EVTsODcsxpouiRKSnsxoY/edit#heading=h.jqehittq4m6) - Parcial tomado en 2020. Posible resolución [acá](https://github.com/pdepjm/2020-f-parcialVacaciones-solucion)
 * [Minigolfito](https://docs.google.com/document/d/1LeWBI6pg_7uNFN_yzS2DVuVHvD0M6PTlG1yK0lCvQVE/edit) con [resolución en video](https://www.youtube.com/watch?v=NEhCiL7JTo8&ab_channel=ParadigmasdeProgramaci%C3%B3n-Mi%C3%A9rcolesTarde).
-* [FMS](https://docs.google.com/document/d/1AtD9mZGiUNEKmZ_aaWSCoNaeowLTMUhFRVHm-GZIF-w/edit) - Parcial tomado en 2021.
-* [Harry Postre](https://docs.google.com/document/d/1jNjWDojVUCg_PtY3_0XLCbGYkEOP-Jus0_BRzGGI2_o/edit) - Parcial tomado en 2022.
+* [FMS](https://docs.google.com/document/d/1AtD9mZGiUNEKmZ_aaWSCoNaeowLTMUhFRVHm-GZIF-w/edit) - Parcial tomado en 2021. Posible resolución [acá](https://github.com/pdepjm/2021-f-parcialfms-PalumboN)
+* [Harry Postre](https://docs.google.com/document/d/1jNjWDojVUCg_PtY3_0XLCbGYkEOP-Jus0_BRzGGI2_o/edit) - Parcial tomado en 2022. Posible resolución [acá](https://github.com/pdepjm/2022-f-parcialhp-asanzo)
 
  En la [página](https://www.pdep.com.ar/material/parciales) hay más parciales para practicar.
