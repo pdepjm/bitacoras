@@ -5,7 +5,7 @@ Fecha: 18/05/2023
 ### Material que acompaña la clase de hoy
 
 * [Solución posible](https://github.com/pdepjm/2023-f-resolucion-gobstones) del TP grupal.
-* [Enunciado de simulacro](https://docs.google.com/document/d/1i9rB5AzRswz_0Z4T1v5IgRhC3UT-d_Ib1K7LUeq5sa0/edit#) Minecraft, su [classroom](https://classroom.github.com/a/DLLJGinN) para practicar con git y su [solución posible]() (proximamente...)
+* [Enunciado de simulacro](https://docs.google.com/document/d/1i9rB5AzRswz_0Z4T1v5IgRhC3UT-d_Ib1K7LUeq5sa0/edit#) Minecraft, su [classroom](https://classroom.github.com/a/DLLJGinN) para practicar con git y su [solución posible](https://github.com/haskell-uqbar/integrador-minecraft).
 * Apunte recomendado sobre [cómo resolver un parcial y no morir en el intento](https://docs.google.com/document/d/11X_4N1VfZB78f5Ff6M3VcW40nazlEFQu1d2p3Lyjg5c/edit#heading=h.4s3whc7yvau4).
 
 ### Parciales para prácticar
