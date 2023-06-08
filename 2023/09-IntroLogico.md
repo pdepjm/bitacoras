@@ -2,7 +2,7 @@
 
 Fecha: 08/06/2023
 
-![maestroPika.jpg](2021/assets/maestroPika.jpg)
+![maestroPika.jpg](../2021/assets/maestroPika.jpg)
 
 ### Materiales que dan soporte a los temas de hoy
 
