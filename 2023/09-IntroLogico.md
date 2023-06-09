@@ -15,3 +15,7 @@ Fecha: 08/06/2023
 
 ### Tarea recomendada para la clase que viene
 * [Guía de instalación de SWI-Prolog](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/prolog/entorno.md)
+
+### Machetito de nomeclatura
+![image](https://github.com/pdepjm/bitacoras/assets/48812037/d6453202-46d9-4370-8bd7-71f5a31bedeb)
+
