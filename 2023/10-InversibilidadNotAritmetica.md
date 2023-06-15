@@ -15,7 +15,7 @@ Fecha: 15/06/2023
 
 ### Tarea obligatoria para la clase que viene
 
-* Entrega a de TP **Individual** para el 22/06, para llevar impreso a clase. 
+* Entrega a de TP **Individual** para el 22/06, para llevar **en papel** a clase. 
   * Enunciado: https://docs.google.com/document/d/18VMNw0u0B58TFfxaMtYdXV4ZQOUEAWL87HAP8K1jKLs/edit
   * Classroom (para quien lo necesite): https://classroom.github.com/a/mDY7tqIw
 
