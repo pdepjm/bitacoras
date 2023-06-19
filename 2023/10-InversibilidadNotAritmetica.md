@@ -9,7 +9,7 @@ Fecha: 15/06/2023
 * Enunciado [El patio de Pepe](https://docs.google.com/document/d/1rfAYxCIm6ID6MSNUeJoMA3VAL_uZ5g4Ue78mt9RKy7U/edit).
 * Enunciado de "Labo" (más práctica) [The Dundies](https://docs.google.com/document/d/1qAkopQdhtHRMviZ8CMW3uuYitBorU44WxZTJUeeakro/edit) junto con su [classroom](https://classroom.github.com/a/-4V1MedB).
 * Código [hecho en clase](https://github.com/pdepjm/2023-l-pepe-and-the-dundies/blob/main/programa.pl) (solución a ambos ejercicios).
-* [Video de la clase] (próximamente...)
+* [Video de la clase](https://www.youtube.com/watch?v=FoLpMOecm14&ab_channel=LucasSpigariol)
 * [Individuos simples (aritmética)](https://docs.google.com/document/d/1I8Xvss7LBuUjV-GGiag7C8d9wa3vUB6B37Qi4LG-ts0/edit). Invdividuos compuestos lo vamos a ver más adelante.
 * Apunte sobre [inversibilidad](https://wiki.uqbar.org/wiki/articles/paradigma-logico---inversibilidad.html).
 
