@@ -2,7 +2,7 @@
 
 Fecha: 29/06/2022
 
-![homero-feliz.gif](../2020/assets/homero-feliz.gif)
+![homero-feliz.gif](../2021/assets/homero-feliz.gif)
 
 ### Materiales que dan soporte a los temas de hoy
 
