@@ -17,7 +17,7 @@ Fecha: 29/06/2022
 
 * [Módulo 6](https://drive.google.com/open?id=1eWnjBoiQTRJKx4THhmPnGYbBWTDlgx4Fph18GPtIqC0): Elementos de Diseño. Delegación. Acoplamiento. Code smells.
 * Ejercicio de [práctica de TEG](https://docs.google.com/document/d/12RK1DhOHEH9PgKYJo3zH_trn1fOn8jB9bg304ZLMXbQ/edit) (sin tests).
-  * **Aclaracion**: El enunciado plantea que el predicado "cuantosPaisesOcupaEn" no se puede resolver porque "todavía no tenemos los conceptos". Como hoy vimos listas entonces podemos resolverlo sin hechos, recomendamos que no lo planteen con hechos como dice el enunciado y lo resuelvan con una regla.
+  * **Aclaracion**: El enunciado plantea que el predicado "cuantosPaisesOcupaEn" no se puede resolver con una regla porque "todavía no tenemos los conceptos". Como hoy vimos listas entonces podemos resolverlo sin hechos, recomendamos que no lo planteen con hechos como dice el enunciado y lo resuelvan con una regla.
   
 ### Tarea obligatoria para la clase que viene 
 
