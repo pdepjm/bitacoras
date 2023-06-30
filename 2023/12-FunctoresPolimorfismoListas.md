@@ -1,6 +1,6 @@
 # Clase 12: Functores y polimorfismo. Listas.
 
-Fecha: 29/06/2022
+Fecha: 29/06/2023
 
 ![homero-feliz.gif](../2021/assets/homero-feliz.gif)
 
@@ -17,8 +17,12 @@ Fecha: 29/06/2022
 
 * [Módulo 6](https://drive.google.com/open?id=1eWnjBoiQTRJKx4THhmPnGYbBWTDlgx4Fph18GPtIqC0): Elementos de Diseño. Delegación. Acoplamiento. Code smells.
 * Ejercicio de [práctica de TEG](https://docs.google.com/document/d/12RK1DhOHEH9PgKYJo3zH_trn1fOn8jB9bg304ZLMXbQ/edit).
+* Ejercicio de [acertijos](https://docs.google.com/document/d/1ceEtqSEAgIpGZ-qdx4qhevLr7nmU80H9Dn4DD5y1Rp4/edit):
+  -  El punto 1 es sencillo
+  -  El segundo es otro caso policial a resolver
+  -  Y el último item requiere hacer un predicado recursividad con listas, que veremos la próxima clase, pero está bueno que intenten hacerlo para ir entrando en tema.
   
-### Tarea obligatoria para la clase que viene 
+### Tarea para la clase que viene 
 
 * TP integrador:
   * [Enunciado](https://docs.google.com/document/d/1zCWrMU9x8CQ_Vf0hkx5yw13lsGdU_MBMJQVmAuEW0oI/edit)
