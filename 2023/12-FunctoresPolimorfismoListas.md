@@ -26,5 +26,5 @@ Fecha: 29/06/2023
 
 * TP integrador:
   * [Enunciado](https://docs.google.com/document/d/1zCWrMU9x8CQ_Vf0hkx5yw13lsGdU_MBMJQVmAuEW0oI/edit)
-  * [Classroom](https://classroom.github.com/a/ReOnBy2z).
+  * [Classroom](https://classroom.github.com/a/CVcU8h6k).
   * ***Fecha de entrega:*** 06/07
