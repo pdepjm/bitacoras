@@ -2,8 +2,6 @@
 
 Fecha: 13/07/2023
 
-### Parcial lógico
-
-* Enunciado: 
-* Link al classroom: https://classroom.github.com/a/rECwfue_
+### Parcial lógico 
+* [Link al classroom](https://classroom.github.com/a/rECwfue_)
 * [Solución propuesta]()
