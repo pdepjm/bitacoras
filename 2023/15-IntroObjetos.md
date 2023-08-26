@@ -26,7 +26,7 @@ Fecha: 24/08/2023
 
 * **Funcional**:
     * [Enunciado](https://docs.google.com/document/d/1V9kjrRJd9es53fwuZOPUd8psnYPXOsvHc0-r4j4KIbU)
-    * [Solución propuesta]()
+    * [Solución propuesta](https://github.com/pdepjm/2023-f-solucion-primer-recu/blob/master/src/Library.hs)
 * **Lógico**:
     * [Enunciado](https://docs.google.com/document/d/10TN43FNN4EOhhO9QrMHs8UYueVcSoDlEheH-Rd8Tt7o/edit?usp=sharing)
     * [Solución propuesta]()
