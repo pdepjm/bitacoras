@@ -360,18 +360,18 @@ Tenemos también a Bagdad, del cual sabemos:
 - Su recuerdo va cambiando con los años -> podemos guardarlo entonces en un atributo y que se cambie en el momento que deba cambiarse.
 - No tiene restricciones -> ¡Ojo! Tiene que entender el mensaje igual, ya que comparte la interfaz de ser una _ciudad_, y luke va a preguntar de todas formas si puede o no. En este caso decimos que **siempre puede**, ya que no tiene restricciones
 
-```object
+```wollok
 object bagdad{
 	var recuerdo = "bidon con petroleo crudo"
 
-  //getter
-  method recuerdo() = recuerdo
-
-  //setter
-  method recuerdo(nuevoRecuerdo){
-    recuerdo = nuevoRecuerdo
-  }
-
+	 //getter
+	method recuerdo() = recuerdo
+	
+	//setter
+	method recuerdo(nuevoRecuerdo){
+	recuerdo = nuevoRecuerdo
+	}
+	
 	method puedeViajarCon(vehiculo) = true //no tiene restricciones
 }
 ```
@@ -419,24 +419,24 @@ object lasVegas{
 	var homenajeado = "buenos aires"
 	
 	method recuerdo(){
-    if(ciudad == "buenos aires){
-      return "mate con yerba"
-    }else if(ciudad == "paris"){
-      return "llavero"
-    }else if(){
-      ...//etc
-    }
-  }
+	    if(ciudad == "buenos aires"){
+	      return "mate con yerba"
+	    }else if(ciudad == "paris"){
+	      return "llavero"
+	    }else if(){
+	      ...//etc
+	    }
+ 	 }
 	
 	method puedeViajarCon(vehiculo){
-    if(ciudad == "buenos aires){
-      return vehiculo.esRapido()
-    }else if(ciudad == "paris"){
-      return vehiculo == alambiqueVeloz && alambiqueVeloz.tieneTanqueLleno() || vehiculo != alambiqueVeloz
-    }else if(){
-      ...//etc
-    }
-  }
+	    if(ciudad == "buenos aires"){
+	      return vehiculo.esRapido()
+	    }else if(ciudad == "paris"){
+	      return vehiculo == alambiqueVeloz && alambiqueVeloz.tieneTanqueLleno() || vehiculo != alambiqueVeloz
+	    }else if(){
+	      ...//etc
+	    }
+	}
 }
 ```
 
@@ -448,3 +448,47 @@ Esto nos trae los problemas que habíamos visto antes:
 Si vamos por la solución polimorfica, directamente preguntando a la ciudad homenajeada (a la cual tratamos como objeto) no tenemos estos problemas.
 
 #### Volviendo al ejercicio
+
+Ahora nos queda únicamente los vehiculos, ¡casi estamos! 
+
+Al igual que con las ciudades, ya sabemos gracias al analisis que hicimos antes, que necesitamos que las ciudades entiendan el mensaje `esRapido`, también tienen que tener consecuencias al viajar, por lo que habíamos definido que tenían que entender el mensaje `viajar`; y además que el vehiculo particular `alambiqueVeloz` tiene que entender el mensaje `tieneElTanqueLleno`.
+
+Hagamos al alambique que es del cual tenemos información:
+> Cada viaje que hace el alambique veloz consume una cierta cantidad de combustible.
+
+Planteamos entonces el objeto y los mensajes que debe entender -> agregamos el atributo combustible, ya que es algo que irá cambiando con el tiempo
+
+```wollok
+object alambiqueVeloz {
+	var combustible = 100
+	
+	method tieneTanqueLleno() = combustible == 500 //inventamos un valor máximo del tanque, podría ser una constante también
+	
+	method esRapido() = true 
+	
+	method viajar(){ //hacemos que gaste combustible
+		combustible -= 10
+	}
+}
+```
+
+Podemos inventar otro vehiculo, siempre y cuando entienda `viajar` y `esRapido`:
+
+```wollok
+object espantoMovil{ //es rapido si tiene menos de 2 ruedas pinchadas
+	var ruedasPinchadas = 0
+	
+	method esRapido() = ruedasPinchadas < 2
+	
+	method viajar(){} //no tiene consecuencias al viajar
+}
+```
+
+#### ⚠ Error común
+
+El `espantoMovil` **no tiene por qué entender** el mensaje `tieneTanqueLleno`, ya que en ningún momento se usa ese método de forma polimorfica, solamente se usa en `paris` para preguntarle al `alambiqueVeloz`. En cambio sí necesita poder entender `viajar` (que usa Luke) y `esRapido` que usa Buenos Aires.
+
+#### Volvemos al ejercicio
+
+¡Y listo! Terminamos el TP 😎
+
