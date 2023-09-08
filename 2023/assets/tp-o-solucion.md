@@ -104,4 +104,218 @@ object luke{
 }
 ```
 
-Ya tenemos los métodos que necesitabamos para lo que nos pedía el enunciado :D 
+Ya tenemos los métodos que necesitabamos para lo que nos pedía el enunciado. Pero nos hablan también de la idea de que Luke pueda **viajar**, veamos qué otra información nos dan sobre esto:
+> El vehículo utilizado para viajar sufre las consecuencias. Cuando pretende visitar una ciudad a la que no puede ir, simplemente no va.
+
+Por lo que leímos, viajar implica las siguientes cosas:
+- El vehiculo con el que viaja sufre consecuencias.
+- Sumamos en 1 a la _cantidad de lugares visitados_, ya que justamente visitamos un lugar al viajar
+- Nos cambia el último recuerdo, siendo este el recuerdo típico de la ciudad a la que viajó
+
+Y además de esto tenemos que tener en cuenta qué
+- Hay ciudades a las cuales no puede ir, por lo que no siempre va a viajar
+
+Son un montón de cosas 🤯, pensemos primero cómo lo usaríamos en la consola, ¿quién va a viajar? ¡Luke! Entonces tiene sentido que en la consola hagamos algo como:
+
+```wollok
+>>> luke.viajar()
+```
+
+Pero nos hablan de ciudades, es decir que no siempre viaja al mismo lugar -> es algo que va a ser diferente cada vez que enviemos el mensaje ¡usemos un parámetro entonces!
+
+```wollok
+>>> luke.viajarA(ciudad)
+```
+
+Ahora podemos ver más claro que necesitamos que Luke entienda el mensaje `viajarA`, dandole una ciudad a la cual viajar -> ¡tenemos que definir un método! ¿De efecto o de consulta? Si analizamos la lista que vimos antes sobre las cosas que debían ocurrir cuando se viajaba, apuntan a que son cosas que cambian estado, por lo que tiene sentido por ahora que sea un método de efecto.
+
+```wollok
+object luke{
+  var cantidadLugaresVisitados = 0
+  var ultimoRecuerdo = ""
+
+  method cantidadLugaresVisitados() = cantidadLugaresVisitados
+
+  method ultimoRecuerdo() = ultimoRecuerdo
+
+  method viajarA(ciudad){
+    //solo viajar si puede
+    //el vehiculo tiene consecuencias
+    //sumar cantidad de lugares visitados
+    //cambiar ultimo recuerdo
+  }
+}
+```
+
+#### ⚠ Error común 
+
+Algunas personas pueden haberlo modelado a `luke` y a la `casa` como dos objetos diferentes, y que uno de los dos cambie el estado del otro (por ejemplo que Luke cambie atributos de la Casa) al viajar. Podría ser una solución válida si la csas tuviera algun valor agregado a solo guardar la cantidad de visitar y el recuerdo, dado que no tiene más complejidad que esa, podemos simplemente dejar esto como atributos de Luke y simplificar las cosas.
+
+#### Volviendo al ejercicio
+Sumar la cantidad es algo que sale rápido, ya que tenemos un atributo que guarda esto, simplemente podemos aumentarlo en 1: 
+
+```wollok
+method viajarA(ciudad){
+  //solo viajar si puede
+  //el vehiculo tiene consecuencias
+  cantidadLugaresVisitados += 1
+  //cambiar ultimo recuerdo
+}
+```
+
+Cambiar el último recuerdo también suena como algo sencillo, es solo hacer `ultimo recuerdo = algo` ¿no? ¿Pero ese `algo` que es? Viendo cómo sigue el enunciado:
+
+>Se conocen los siguientes recuerdos
+> - El recuerdo típico de París es un llavero de la torre eiffel
+> - Buenos Aires tiene como recuerdo típico un mate, pero dependiendo de quién sea el presidente puede venir con yerba o no.
+> - etc
+
+Vemos que cada una de las ciudades tiene un recuerdo diferente, entonces una opción para solucionar esto es ¡preguntarle a la ciudad!
+
+```wollok
+method viajarA(ciudad){
+  //solo viajar si puede
+  //el vehiculo tiene consecuencias
+  cantidadLugaresVisitados += 1
+  ultimoRecuerdo = ciudad.recuerdo()
+}
+```
+
+De esta forma, nos despreocupamos si a futuro tenemos muchas más ciudades posibles, siempre y cuando tengan un recuerdo podemos agregar muuchas más y nuestro código sigue funcionando. 
+
+Estamos planteando con esto: `ciudad.recuerdo()` que las ciudades serán **objetos** que compartan una interfaz: el mensaje `recuerdo`. Las veremos más adelante pero nos sirve ya comenzar a pensar en ellas como objetos.
+
+#### ⚠ Error común 
+
+Otra forma de modelar esta parte es usando _strings_ para representar las ciudades y hacer varios `ifs`:
+
+```wollok
+method viajarA(ciudad){
+  ...//resto de código
+  if(ciudad == "buenos aires"){
+    ultimoRecuerdo = "mate"
+  }else if(ciudad == "paris"){
+    ultimoRecuerdo = "llavero"
+  }else if{
+    ...//etc
+  }
+}
+```
+
+El problema de esto es que estamos limitando bastante a las ciudades, habiendo leído el enunciado podemos ver que hay más cosas que dependen de las ciudades, por lo que significa que tenerlas como strings nos ata a plagar nuestro código de `ifs` anidados cada vez que tengamos algo que dependa de ellas.
+Además de esto, caemos en que no es tan fácil agregar nuevas ciudades, agregar una implicaría cambiar todos estos ifs.
+
+En lugar de esto, la opción que presentamos **usando polimorfismo** nos permite que mientras las nuevas ciudades entiendan el mensaje polimorfico `recuerdo`, ¡no cambiemos nada!
+
+#### Volviendo al ejercicio
+
+Siguiendo con el método `viajarA` que dejamos a la mitad, nos queda completar que solo viaje si puede, ¿qué significa esto? Leamos un poco más el enunciado:
+
+> Para poder ir a las ciudades, hay diferentes restricciones dependiendo del vehículo en que se pretenda ir.
+> - París, el alambique veloz tiene que tener el tanque de combustible lleno
+> - Buenos Aires, el vehículo tiene que ser rápido
+> - Bagdad no hay restricciones
+> - Las Vegas: la misma restricción del lugar que se esté homenajeando
+
+Estas restricciones, implican que si no cumplen con ellas, no deberíamos _viajar_, es decir que no deberíamos ni cambiar el recuerdo, ni sumar un lugar visitado, ni hacer que el vehiculo tenga consecuencias (que veremos más adelante). Suena a que necesitamos que esto solo se cumpla, si se cumple cierta condición ¡necesitamos una alternativa condicional!
+
+```wollok
+method viajarA(ciudad){
+  if(/*una condicion*/){
+    //el vehiculo tiene consecuencias
+    cantidadLugaresVisitados += 1
+    ultimoRecuerdo = ciudad.recuerdo()
+  }
+}
+```
+
+Hacemos que estas tres cosas sucedan unicamente cuando la condición se cumple. ¿Cuál es la condición? Por lo que leímos recién, depende **de cada ciudad**, ¡y las ciudades son objetos! Es decir que podemos **delegar** esto a ellas, de la misma forma que hicimos con el recuerdo:
+
+```wollok
+method viajarA(ciudad){
+  if(ciudad.puedeViajar()){
+    //el vehiculo tiene consecuencias
+    cantidadLugaresVisitados += 1
+    ultimoRecuerdo = ciudad.recuerdo()
+  }
+}
+```
+
+#### ⚠ Error común 
+
+Utilizar ifs anidados para saber por cada ciudad si puede o no viajar, cae en el mismo problema mencionado antes con el recuerdo, nos conviene usar una solución con **polimorfismo**, que a luke no le interese cómo implementa cada ciudad la restricción, si no que justamente sea responsabilidad de las ciudades.
+
+#### Volviendo al ejercicio
+
+¿Pero con eso ya está la condición? 🤔 Leímos que las restricciones dependen del **vehiculo** que esté usando Luke, por lo que tiene sentido quizás que le demos por parámetro un vehiculo, y que a partir de este pueda considerar si cumple o no con la restricción.
+
+El vehículo, además, vemos que sufre consecuencias -> ¿quizás también es un objeto? Podemos tratarlos como tales por el momento y ver más adelante si nos sirve o no. Vamos a agregarle a luke un atributo con el vehiculo, y hacer que el vehiculo viaje cuando luke viaje:
+
+```wollok
+object luke{
+  var cantidadLugaresVisitados = 0
+  var ultimoRecuerdo = ""
+  var vehiculo
+
+  method cantidadLugaresVisitados() = cantidadLugaresVisitados
+
+  method ultimoRecuerdo() = ultimoRecuerdo
+
+  method viajarA(ciudad){
+    if(ciudad.puedeViajarCon(vehiculo)){
+      vehiculo.viajar()
+      cantidadLugaresVisitados += 1
+      ultimoRecuerdo = ciudad.recuerdo()
+    }
+  }  
+}
+```
+
+Ya que estamos, podemos delegar un poco más la lógica de este método, de forma que nos quede más _declarativo_. Lo que debería ocuparse `viajarA` es de _realizar el viaje_ si es que _puede hacerlo_, entonces podemos delegar la lógica de **realmente realizar el viaje** (hacer que el vehiculo viaje, etc) a otro método:
+
+```wollok
+object luke{
+  var cantidadLugaresVisitados = 0
+  var ultimoRecuerdo = ""
+  var vehiculo
+
+  method cantidadLugaresVisitados() = cantidadLugaresVisitados
+
+  method ultimoRecuerdo() = ultimoRecuerdo
+
+  method viajarA(ciudad){
+    if(ciudad.puedeViajarCon(vehiculo)){
+      self.realmenteViajar() //es un mensaje mio, uso self entonces
+    }
+  }
+
+  method realmenteViajar(){
+      vehiculo.viajar()
+      cantidadLugaresVisitados += 1
+      ultimoRecuerdo = ciudad.recuerdo()
+  }  
+}
+```
+
+¡Tenemos a Luke! Cumple con lo que nos pide el enunciado, pero todavía nos está faltando codear las ciudades y los vehiculos; pero habiendo hecho primero a Luke, partiendo del problema principal, hicimos un montón de análisis que ya nos sirve para saber por ejemplo que las ciudades son objetos y que necesitan entender los mensajes `recuerdo` y `puedeViajarCon`, ¡es un montón!
+
+#### ⚠ Error común 
+
+Un modelado que surgió con este TP fue hacer que las **ciudades** o los **vehiculos** se encargaran de cambiar la cantidad de lugares visitados y el ultimo recuerdo de Luke. Esto nos trae dos problemas ligados a la repetición de lógica:
+
+- Al repetirlo en todas las ciudades (porque siempre sucede, por ende todas las ciudades deberían repetirlo), si queremos cambiar algo en esa lógica, como decir que el último recuerdo es siempre "chocolate", hay que recordar que hay que cambiarlo en **toooodas** las ciudades (bastante engorroso).
+- Estamos atandonos a recordar que si agregamos nuevas ciudades, hay que agregar que cambien el estado de este otro objeto que a primera vista no vemos qué tiene que ver -> resulta en código confuso de escalar.
+
+Tanto el último recuerdo y la cantidad de lugares visitados son parte del estado propio de Luke, por lo que tiene sentido que la responsabilidad de hacer estos cambios sea de ese objeto. 
+
+Por otro lado, queremos que todos estos cambios se realicen al enviar un solo mensaje, si no nos atamos a que viajar implica enviar varios mensajes a varios objetos, es decir algo como:
+
+```wollok
+>>>luke.viajar()
+>>>ciudad.viajar()
+>>>vehiculo.viajar()
+```
+
+¿Qué pasa si me olvido de ejecutar uno de esos comandos? Mi sistema ya no es consistente, es preferible hacerlo solo con un mensaje, y justamente el objeto que más sentido tiene que lo haga es Luke.
+
+#### Volviendo al ejercicio
