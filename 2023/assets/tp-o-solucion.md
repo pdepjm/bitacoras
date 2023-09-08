@@ -319,3 +319,132 @@ Por otro lado, queremos que todos estos cambios se realicen al enviar un solo me
 ¿Qué pasa si me olvido de ejecutar uno de esos comandos? Mi sistema ya no es consistente, es preferible hacerlo solo con un mensaje, y justamente el objeto que más sentido tiene que lo haga es Luke.
 
 #### Volviendo al ejercicio
+
+Como dijimos, ya sabemos que las ciudades necesitan dos mensajes para funcionar polimorficamente con Luke:
+
+- `recuerdo`
+- `puedeViajarCon`
+
+Hagamos entonces el código necesario. Podemos empezar con `Paris` del cual sabemos que:
+
+- Su recuerdo es un llavero de la torre eiffel
+- Luke puede viajar con el vehiculo dependiendo de:
+  - Si el vehiculo es el alambique veloz, que tenga el tanque lleno -> como dijimos que los vehiculos eran objetos, podemos tomar la decisión de que entienda el mensaje `tieneTanqueLLeno`, que luego podemos codear
+  - Los demás no tiene restricciones
+
+Entonces, podemos definir el objeto y los métodos:
+
+```wollok
+object paris{
+	method recuerdo() = "llavero"
+	method puedeViajarCon(vehiculo) = vehiculo == alambiqueVeloz && alambiqueVeloz.tieneTanqueLleno() || vehiculo != alambiqueVeloz
+}
+```
+
+Luego tenemos a Buenos Aires, del cual sabemos que:
+
+- Su recuerdo depende de quién es el presidente, es siempre un mate pero puede o no ir con yerba.
+- Luke puede viajar si el vehiculo es rápido -> siendo que los vehiculos son objetos, podemos hacer que entiendan `esRapido`, que luego podemos codear
+
+```wollok
+object buenosAires{
+	var presidente = "Pepita"
+
+	method recuerdo() = "mate" + if(presidente == "Pepita") " con yerba" else ""
+	method puedeViajarCon(vehiculo) = vehiculo.esRapido()
+}
+```
+
+Tenemos también a Bagdad, del cual sabemos:
+
+- Su recuerdo va cambiando con los años -> podemos guardarlo entonces en un atributo y que se cambie en el momento que deba cambiarse.
+- No tiene restricciones -> ¡Ojo! Tiene que entender el mensaje igual, ya que comparte la interfaz de ser una _ciudad_, y luke va a preguntar de todas formas si puede o no. En este caso decimos que **siempre puede**, ya que no tiene restricciones
+
+```object
+object bagdad{
+	var recuerdo = "bidon con petroleo crudo"
+
+  //getter
+  method recuerdo() = recuerdo
+
+  //setter
+  method recuerdo(nuevoRecuerdo){
+    recuerdo = nuevoRecuerdo
+  }
+
+	method puedeViajarCon(vehiculo) = true //no tiene restricciones
+}
+```
+
+Pará pará pará... Vos me dijiste que si necesitaba el setter y el getter podía usar `property` -> en este caso sí:
+
+- El getter es **necesario** ya que Luke va a preguntar por el recuerdo
+- El setter es **necesario** ya que nos dicen que puede ir cambiando con los años, es decir que queremos poder cambiarlo desde el exterior del objeto.
+
+¡Usemos property entonces!
+
+```wollok
+object bagdad{
+	var property recuerdo = "bidon con petroleo crudo"
+	
+	method puedeViajarCon(vehiculo) = true //no tiene restricciones
+}
+```
+
+Por último tenemos a Las Vegas:
+
+- Su recuerdo depende del pais que esté homenajeando en el momento
+- Su restriccion es la misma que el país que esté homenajeando en el momento
+
+La ciudad que esté homenajeando suena a algo que queremos guardarnos, ya que de esta va a depende el comportamiento del recuerdo y la restriccion. Tiene sentido también, que como el recuerdo y la restricción son iguales a esta ciudad homenajeada, que sea entonces del tipo de una de estas ciudades, y aprovechemos a preguntarles a ellas cuál es el comportamiento que debe tener:
+
+```wollok
+object lasVegas{
+	var homenajeado = buenosAires
+	
+	method recuerdo() = homenajeado.recuerdo()
+	
+	method puedeViajarCon(vehiculo) = homenajeado.puedeViajarCon(vehiculo)
+}
+```
+
+En este caso, siendo la ciudad homenajeada Buenos Aires, el recuerdo será el mismo que Buenos Aires, al igual que la restricción.
+
+#### ⚠ Error común 
+
+Un modelado que se vió también es modelar la ciudad homenajeada como un _string_, y anidar ifs para saber qué comportamiento tiene que usar:
+
+```wollok
+object lasVegas{
+	var homenajeado = "buenos aires"
+	
+	method recuerdo(){
+    if(ciudad == "buenos aires){
+      return "mate con yerba"
+    }else if(ciudad == "paris"){
+      return "llavero"
+    }else if(){
+      ...//etc
+    }
+  }
+	
+	method puedeViajarCon(vehiculo){
+    if(ciudad == "buenos aires){
+      return vehiculo.esRapido()
+    }else if(ciudad == "paris"){
+      return vehiculo == alambiqueVeloz && alambiqueVeloz.tieneTanqueLleno() || vehiculo != alambiqueVeloz
+    }else if(){
+      ...//etc
+    }
+  }
+}
+```
+
+Esto nos trae los problemas que habíamos visto antes:
+
+- Repetir la lógica de las restricciones nos complica si a futuro cambian esas lógicas. Si mañana pueden viajar a buenos aires aquellos vehiculos que no sean rapidos, hay que cambiarlo en dos lugares
+- No podemos agregar fácilmente más ciudades, ya que habría que completar no uno, si no dos ifs con la condición `ciudad == "nueva ciudad"` además de codear la ciudad en sí.
+
+Si vamos por la solución polimorfica, directamente preguntando a la ciudad homenajeada (a la cual tratamos como objeto) no tenemos estos problemas.
+
+#### Volviendo al ejercicio
