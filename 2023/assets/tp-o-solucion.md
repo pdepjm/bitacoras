@@ -87,6 +87,7 @@ object luke{
 }
 ```
 
+#### Volviendo al ejercicio
 
 Sigamos con el método `ultimoRecuerdo`, para esto necesitamos recordar qué nos dice el enunciado sobre los recuerdos:
 > Cuando viaja se trae un recuerdo típico del lugar visitado que conserva en un lugar destacado de su casa. El problema es que su casa es pequeña, por lo que tira el recuerdo que haya traído de algún viaje anterior. 
