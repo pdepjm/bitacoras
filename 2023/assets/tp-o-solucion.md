@@ -148,9 +148,9 @@ object luke{
 }
 ```
 
-#### ⚠ Error común 
+#### ⚠ Variante 
 
-Algunas personas pueden haberlo modelado a `luke` y a la `casa` como dos objetos diferentes, y que uno de los dos cambie el estado del otro (por ejemplo que Luke cambie atributos de la Casa) al viajar. Podría ser una solución válida si la csas tuviera algun valor agregado a solo guardar la cantidad de visitar y el recuerdo, dado que no tiene más complejidad que esa, podemos simplemente dejar esto como atributos de Luke y simplificar las cosas.
+Algunas personas pueden haberlo modelado a `luke` y a la `casa` como dos objetos diferentes, y que uno de los dos le envíe un mensaje al otro para cambiar su estado al viajar (por ejemplo que Luke le pida a la casa que guarse su recuerdo). Podría ser una solución válida, y sería interesante si la csas tuviera algun valor agregado a solo guardar los valores, pero dado que no tiene más complejidad que esa, podemos simplemente dejar esto como atributos de Luke y simplificar las cosas.
 
 #### Volviendo al ejercicio
 Sumar la cantidad es algo que sale rápido, ya que tenemos un atributo que guarda esto, simplemente podemos aumentarlo en 1: 
@@ -159,7 +159,7 @@ Sumar la cantidad es algo que sale rápido, ya que tenemos un atributo que guard
 method viajarA(ciudad){
   //solo viajar si puede
   //el vehiculo tiene consecuencias
-  cantidadLugaresVisitados += 1
+  cantidadLugaresVisitados = cantidadLugaresVisitados + 1
   //cambiar ultimo recuerdo
 }
 ```
@@ -177,7 +177,7 @@ Vemos que cada una de las ciudades tiene un recuerdo diferente, entonces una opc
 method viajarA(ciudad){
   //solo viajar si puede
   //el vehiculo tiene consecuencias
-  cantidadLugaresVisitados += 1
+  cantidadLugaresVisitados = cantidadLugaresVisitados + 1
   ultimoRecuerdo = ciudad.recuerdo()
 }
 ```
@@ -212,9 +212,9 @@ En lugar de esto, la opción que presentamos **usando polimorfismo** nos permite
 
 Siguiendo con el método `viajarA` que dejamos a la mitad, nos queda completar que solo viaje si puede, ¿qué significa esto? Leamos un poco más el enunciado:
 
-> Para poder ir a las ciudades, hay diferentes restricciones dependiendo del vehículo en que se pretenda ir.
+> Para poder ir a las ciudades, hay diferentes restricciones en las que interviene el vehículo que maneja Luke.
 > - París, el alambique veloz tiene que tener el tanque de combustible lleno
-> - Buenos Aires, el vehículo tiene que ser rápido
+> - Buenos Aires, el alambique veloz tiene que ser rápido
 > - Bagdad no hay restricciones
 > - Las Vegas: la misma restricción del lugar que se esté homenajeando
 
@@ -224,7 +224,7 @@ Estas restricciones, implican que si no cumplen con ellas, no deberíamos _viaja
 method viajarA(ciudad){
   if(/*una condicion*/){
     //el vehiculo tiene consecuencias
-    cantidadLugaresVisitados += 1
+    cantidadLugaresVisitados = cantidadLugaresVisitados + 1
     ultimoRecuerdo = ciudad.recuerdo()
   }
 }
@@ -236,7 +236,7 @@ Hacemos que estas tres cosas sucedan unicamente cuando la condición se cumple. 
 method viajarA(ciudad){
   if(ciudad.puedeViajar()){
     //el vehiculo tiene consecuencias
-    cantidadLugaresVisitados += 1
+    cantidadLugaresVisitados = cantidadLugaresVisitados + 1
     ultimoRecuerdo = ciudad.recuerdo()
   }
 }
@@ -248,24 +248,22 @@ Utilizar ifs anidados para saber por cada ciudad si puede o no viajar, cae en el
 
 #### Volviendo al ejercicio
 
-¿Pero con eso ya está la condición? 🤔 Leímos que las restricciones dependen del **vehiculo** que esté usando Luke, por lo que tiene sentido quizás que le demos por parámetro un vehiculo, y que a partir de este pueda considerar si cumple o no con la restricción.
-
-El vehículo, además, vemos que sufre consecuencias -> ¿quizás también es un objeto? Podemos tratarlos como tales por el momento y ver más adelante si nos sirve o no. Vamos a agregarle a luke un atributo con el vehiculo, y hacer que el vehiculo viaje cuando luke viaje:
+¿Pero con eso ya está la condición? 🤔 Leímos que en las restricciones interviene el vehiculo que esté usando Luke, que por lo que nos plantea la consigna hasta el momento es el Alambique Veloz. 
+El vehículo, además, vemos que sufre consecuencias -> ¿quizás también es un objeto? Podemos definir el Alambique Veloz como un objeto, empezar a enviarle mensaje y más adelante vemos si nos sirve o no, si nos alcanza o no. 
 
 ```wollok
 object luke{
   var cantidadLugaresVisitados = 0
   var ultimoRecuerdo = ""
-  var vehiculo
 
   method cantidadLugaresVisitados() = cantidadLugaresVisitados
 
   method ultimoRecuerdo() = ultimoRecuerdo
 
   method viajarA(ciudad){
-    if(ciudad.puedeViajarCon(vehiculo)){
-      vehiculo.viajar()
-      cantidadLugaresVisitados += 1
+    if(ciudad.puedeViajar()){
+      alambiqueVeloz.viajar()
+      cantidadLugaresVisitados = cantidadLugaresVisitados + 1
       ultimoRecuerdo = ciudad.recuerdo()
     }
   }  
@@ -278,31 +276,30 @@ Ya que estamos, podemos delegar un poco más la lógica de este método, de form
 object luke{
   var cantidadLugaresVisitados = 0
   var ultimoRecuerdo = ""
-  var vehiculo
 
   method cantidadLugaresVisitados() = cantidadLugaresVisitados
 
   method ultimoRecuerdo() = ultimoRecuerdo
 
   method viajarA(ciudad){
-    if(ciudad.puedeViajarCon(vehiculo)){
-      self.realmenteViajar() //es un mensaje mio, uso self entonces
+    if(ciudad.puedeViajar()){
+      self.realmenteViajar() //es un mensaje de Luke, uso self entonces
     }
   }
 
   method realmenteViajar(){
-      vehiculo.viajar()
-      cantidadLugaresVisitados += 1
+      alambiqueVeloz.viajar()
+      cantidadLugaresVisitados = cantidadLugaresVisitados + 1
       ultimoRecuerdo = ciudad.recuerdo()
   }  
 }
 ```
 
-¡Tenemos a Luke! Cumple con lo que nos pide el enunciado, pero todavía nos está faltando codear las ciudades y los vehiculos; pero habiendo hecho primero a Luke, partiendo del problema principal, hicimos un montón de análisis que ya nos sirve para saber por ejemplo que las ciudades son objetos y que necesitan entender los mensajes `recuerdo` y `puedeViajarCon`, ¡es un montón!
+¡Tenemos a Luke! Cumple con lo que nos pide el enunciado, pero todavía nos está faltando codear las ciudades y al Alambique Veloz; pero habiendo hecho primero a Luke, partiendo del problema principal, hicimos un montón de análisis que ya nos sirve para saber por ejemplo que las ciudades son objetos y que necesitan entender los mensajes `recuerdo` y `puedeViajarCon`, ¡es un montón!
 
 #### ⚠ Error común 
 
-Un modelado que surgió con este TP fue hacer que las **ciudades** o los **vehiculos** se encargaran de cambiar la cantidad de lugares visitados y el ultimo recuerdo de Luke. Esto nos trae dos problemas ligados a la repetición de lógica:
+Un modelado que surgió con este TP fue hacer que las **ciudades** se encargaran de cambiar la cantidad de lugares visitados y el ultimo recuerdo de Luke. Esto nos trae dos problemas ligados a la repetición de lógica:
 
 - Al repetirlo en todas las ciudades (porque siempre sucede, por ende todas las ciudades deberían repetirlo), si queremos cambiar algo en esa lógica, como decir que el último recuerdo es siempre "chocolate", hay que recordar que hay que cambiarlo en **toooodas** las ciudades (bastante engorroso).
 - Estamos atandonos a recordar que si agregamos nuevas ciudades, hay que agregar que cambien el estado de este otro objeto que a primera vista no vemos qué tiene que ver -> resulta en código confuso de escalar.
@@ -314,7 +311,7 @@ Por otro lado, queremos que todos estos cambios se realicen al enviar un solo me
 ```wollok
 >>>luke.viajar()
 >>>ciudad.viajar()
->>>vehiculo.viajar()
+>>>alambiqueVeloz.viajar()
 ```
 
 ¿Qué pasa si me olvido de ejecutar uno de esos comandos? Mi sistema ya no es consistente, es preferible hacerlo solo con un mensaje, y justamente el objeto que más sentido tiene que lo haga es Luke.
@@ -324,28 +321,26 @@ Por otro lado, queremos que todos estos cambios se realicen al enviar un solo me
 Como dijimos, ya sabemos que las ciudades necesitan dos mensajes para funcionar polimorficamente con Luke:
 
 - `recuerdo`
-- `puedeViajarCon`
+- `puedeViajar`
 
 Hagamos entonces el código necesario. Podemos empezar con `Paris` del cual sabemos que:
 
 - Su recuerdo es un llavero de la torre eiffel
-- Luke puede viajar con el vehiculo dependiendo de:
-  - Si el vehiculo es el alambique veloz, que tenga el tanque lleno -> como dijimos que los vehiculos eran objetos, podemos tomar la decisión de que entienda el mensaje `tieneTanqueLLeno`, que luego podemos codear
-  - Los demás no tiene restricciones
+- Luke puede viajar con su vehiculo, que es el Alambique Veloz, dependiendo de tiene el tanque lleno -> como dijimos que era un objeto, podemos tomar la decisión de que entienda el mensaje `tieneTanqueLLeno`, que luego podemos codear
 
 Entonces, podemos definir el objeto y los métodos:
 
 ```wollok
 object paris{
 	method recuerdo() = "llavero"
-	method puedeViajarCon(vehiculo) = vehiculo == alambiqueVeloz && alambiqueVeloz.tieneTanqueLleno() || vehiculo != alambiqueVeloz
+	method puedeViajar() = alambiqueVeloz.tieneTanqueLleno()
 }
 ```
 
 Luego tenemos a Buenos Aires, del cual sabemos que:
 
 - Su recuerdo depende de quién es el presidente, es siempre un mate pero puede o no ir con yerba.
-- Luke puede viajar si el vehiculo es rápido -> siendo que los vehiculos son objetos, podemos hacer que entiendan `esRapido`, que luego podemos codear
+- Luke puede viajar si el Alambique Veloz es rápido -> siendo que es un objeto podemos hacer que entienda `esRapido`, que luego podemos codear
 
 ```wollok
 object buenosAires{
@@ -373,7 +368,7 @@ object bagdad{
 	recuerdo = nuevoRecuerdo
 	}
 	
-	method puedeViajarCon(vehiculo) = true //no tiene restricciones
+	method puedeViajar() = true //no tiene restricciones
 }
 ```
 
@@ -388,7 +383,7 @@ Pará pará pará... Vos me dijiste que si necesitaba el setter y el getter pod�
 object bagdad{
 	var property recuerdo = "bidon con petroleo crudo"
 	
-	method puedeViajarCon(vehiculo) = true //no tiene restricciones
+	method puedeViajar() = true //no tiene restricciones
 }
 ```
 
@@ -405,7 +400,7 @@ object lasVegas{
 	
 	method recuerdo() = homenajeado.recuerdo()
 	
-	method puedeViajarCon(vehiculo) = homenajeado.puedeViajarCon(vehiculo)
+	method puedeViajar() = homenajeado.puedeViajar()
 }
 ```
 
@@ -429,11 +424,11 @@ object lasVegas{
 	    }
  	 }
 	
-	method puedeViajarCon(vehiculo){
+	method puedeViajar(){
 	    if(ciudad == "buenos aires"){
-	      return vehiculo.esRapido()
+	      return alambiqueVeloz.esRapido()
 	    }else if(ciudad == "paris"){
-	      return vehiculo == alambiqueVeloz && alambiqueVeloz.tieneTanqueLleno() || vehiculo != alambiqueVeloz
+	      return alambiqueVeloz.tieneTanqueLleno() 
 	    }else if(){
 	      ...//etc
 	    }
@@ -452,26 +447,31 @@ Si vamos por la solución polimorfica, directamente preguntando a la ciudad home
 
 Ahora nos queda únicamente los vehiculos, ¡casi estamos! 
 
-Al igual que con las ciudades, ya sabemos gracias al analisis que hicimos antes, que necesitamos que las ciudades entiendan el mensaje `esRapido`, también tienen que tener consecuencias al viajar, por lo que habíamos definido que tenían que entender el mensaje `viajar`; y además que el vehiculo particular `alambiqueVeloz` tiene que entender el mensaje `tieneElTanqueLleno`.
-
-Hagamos al alambique que es del cual tenemos información:
+En principio tenemos al Alambique Veloz, del cual conocemos:
+> Necesita el tanque de combustible lleno para ir a Paris 
 > Cada viaje que hace el alambique veloz consume una cierta cantidad de combustible.
 
-Planteamos entonces el objeto y los mensajes que debe entender -> agregamos el atributo combustible, ya que es algo que irá cambiando con el tiempo
+Planteamos entonces el objeto y los mensajes que debe entender -> agregamos el atributo combustible, ya que es algo que irá cambiando con el tiempo y de lo cual depende su comportamiento. 
 
 ```wollok
 object alambiqueVeloz {
 	var combustible = 100
+	const capacidadTanque = 100 //inventamos un valor máximo del tanque y lo ponemos como constante
+
+	method tieneTanqueLleno() = combustible == capacidadTanque 
 	
-	method tieneTanqueLleno() = combustible == 500 //inventamos un valor máximo del tanque, podría ser una constante también
-	
-	method esRapido() = true 
+	method esRapido() = combustible >  capacidadTanque / 2 //inventamos una lógica utilizando también el tanque de combustible
 	
 	method viajar(){ //hacemos que gaste combustible
 		combustible -= 10
 	}
 }
 ```
+
+
+Al igual que con las ciudades, ya sabemos gracias al analisis que hicimos antes, que necesitamos que las ciudades entiendan el mensaje `esRapido`, también tienen que tener consecuencias al viajar, por lo que habíamos definido que tenían que entender el mensaje `viajar`; y además que el vehiculo particular `alambiqueVeloz` tiene que entender el mensaje `tieneElTanqueLleno`.
+
+
 
 Podemos inventar otro vehiculo, siempre y cuando entienda `viajar` y `esRapido`:
 
