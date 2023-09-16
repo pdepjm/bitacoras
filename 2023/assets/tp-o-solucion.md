@@ -282,9 +282,8 @@ object luke{
   method ultimoRecuerdo() = ultimoRecuerdo
 
   method viajarA(ciudad){
-    if(ciudad.puedeViajar()){
+    if(ciudad.puedeViajar())
       self.realmenteViajar() //es un mensaje de Luke, uso self entonces
-    }
   }
 
   method realmenteViajar(){
@@ -340,14 +339,14 @@ object paris{
 Luego tenemos a Buenos Aires, del cual sabemos que:
 
 - Su recuerdo depende de quién es el presidente, es siempre un mate pero puede o no ir con yerba.
-- Luke puede viajar si el Alambique Veloz es rápido -> siendo que es un objeto podemos hacer que entienda `esRapido`, que luego podemos codear
+- Luke puede viajar si el vehiculo en que viaja, o sea el Alambique Veloz, es rápido. Como es un objeto que ya tenemos definido, le podemos enviar un mensaje para preguntarse si es rápido, al que denominamos precisamente `esRapido` y luego codearemos.
 
 ```wollok
 object buenosAires{
 	var presidente = "Pepita"
 
 	method recuerdo() = "mate" + if(presidente == "Pepita") " con yerba" else ""
-	method puedeViajarCon(vehiculo) = vehiculo.esRapido()
+	method puedeViajar() = alambiqueVeloz.esRapido()
 }
 ```
 
@@ -467,11 +466,91 @@ object alambiqueVeloz {
 	}
 }
 ```
+Si no hubiera otro vehículo que Luke manejara, sino que sólo fuera Alambique Veloz, la solución realizada hasta el momento sería suficiente. Pero la consigna nos plantea un nuevo requerimiento, una extensión al problema en la que aparecen otros vehículos con los que el protagonista quiere viajar. 
+
+El haber definido al Alambique Veloz como un objeto diferente nos facilita la tarea, pero de todas maneras es necesario plantear algunos cambios en la solución, en particular ubicar las partes del código donde se mencioanaba explícitamente al Alambique Veloz y reemplazarlas por referencias variables, para que en otro momento de la ejecución del programa puedan hacer referencia a los otros objetos polimórficos en los que tambien pueda viajar, como por ejemplo el Espantomovil y cualquiera que se quiera agregar, y todo siga funcionando adecuadamente.
+
+Es probable que en caso de haber leído de manera completa la consigna ya  hubiérmos previsto la existencia de diversos vehículos y ya en la primera solución anterior hubiéramos implementado lo que vamos a realizar a continuación, pero fuimos avanzando paso a paso y es ante la aparición de este nuevo requerimiento que tiene sentido este cambio.  
+
+En Luke, es conveniente agregar un atributo variable, con el cual siempre sepa qué vehículo tiene disponible para viajar. Inicialmente puede hacer referencia al Alambique Veloz, y luego puede variar, para lo cual agregarmos un método `setter`. El términos de la consigna, el nombre mas evidente para ponerle a esa variable es `vehículo`.
+
+```wollok
+object luke{
+  var cantidadLugaresVisitados = 0
+  var ultimoRecuerdo = ""
+  var vehiculo = alambiqueVeloz   // Definimos un nuevo atributo variable y lo inicializamos
+  // ...
+
+  method vehiculo(nuevo) {        // Metodo para permitir cambiar el vehículo de Luke
+    vehiculo = nuevo
+  
+  // ...
+  method realmenteViajar(){ 
+      vehiculo.viajar()          // Ahora el mensaje viajar() se lo enviamos al vehículo que tenga en el momento 
+      cantidadLugaresVisitados = cantidadLugaresVisitados + 1
+      ultimoRecuerdo = ciudad.recuerdo()
+  }  
+}
+```
+
+También en Paris y Buenos Aires se hacía referencia explícita al Alambique Veloz, asumiendo que era el único vehículo posible. Ahora que puede haber otros es necesario que cada ciudad sepa cuál es el vehículo con que se quiere viajar para decidir si lo deja viajar con él o no. Para ello, cuando Luke le envía el mensaje `puedeViajar()` a la ciudad a la que quiere ir, le va a pasar como argumento el vehículo que tiene en ese momento.  Acompañamos el agregado del parámetro renombrando el mensaje con un término mas expresivo: `puedeViajarCon()`. 
+
+```wollok
+object luke{
+// ...
+method viajarA(ciudad){
+    if(ciudad.puedeViajarCon(vehiculo))    // Luke le pasa por parámetro el vehiculo a la ciudad  
+       self.realmenteViajar() //es un mensaje de Luke, uso self entonces
+  }
+//...
+}
+```
+
+Por su parte, ahora también modificamos la definición de París y Buenos Aires para agregarle el parámetro al método y utilizarlo como objeto receptor del mensaje correpondiente. No debemos olvidar cambiarte también el nombre al método para mantener la consistencia. 
+
+
+```wollok
+object paris{
+	method recuerdo() = "llavero"
+	method puedeViajarCon(vehiculo) = vehiculo.tieneTanqueLleno() // Con parametro y nuevo nombre
+}
+
+object buenosAires{
+	var presidente = "Pepita"
+
+	method recuerdo() = "mate" + if(presidente == "Pepita") " con yerba" else ""
+	method puedeViajarCon(vehiculo) = vehiculo.esRapido()  // Con parametro y nuevo nombre
+}
+
+```
+¿Y los otros lugares a los que Luke puede viajar?
+
+Efectivamente, con los cambios realizados, cuando Luke quiera viajar a Bagdad o Las Vegas, le va a enviar un mensaje que estos objetos no entienden, ya que sus métodos quedaron con el nombre anterior y sin parámetros. **¡Rompimos el polimorfismo!**. Pero arreglarlo es sencillo, hagamos el mismo cambio en las otras ciudades. 
 
 
 Al igual que con las ciudades, ya sabemos gracias al analisis que hicimos antes, que necesitamos que las ciudades entiendan el mensaje `esRapido`, también tienen que tener consecuencias al viajar, por lo que habíamos definido que tenían que entender el mensaje `viajar`; y además que el vehiculo particular `alambiqueVeloz` tiene que entender el mensaje `tieneElTanqueLleno`.
 
+En el caso de Bagdad alcanza con renombrar el método y agregarle el parámetro. Como no es necesario enviarle un mensaje ni utilizarlo para nada, simplemente lo ignoramos. No es un error no usar un parametro que se recibe, es lo que nos permite mantener el polimorfismo.
 
+```wollok
+object bagdad{
+	var property recuerdo = "bidon con petroleo crudo"
+	
+	method puedeViajarCon(vehiculo) = true //sigue sin tener restricciones, no hace nada con el objeto recibido por parámetro
+}
+```
+
+En Las Vegas hacemos el mismo cambio, pero además tenemos que pasarle por parámetro el vehiculo al enviarle el mensaje a la ciudad homenajeada. 
+
+```wollok
+object lasVegas{
+	var homenajeado = buenosAires
+	
+	method recuerdo() = homenajeado.recuerdo()
+	
+	method puedeViajarCon(vehiculo) = homenajeado.puedeViajarCon(vehiculo) // lasVegas recibe un vehiculo por parámetro y a su vez se lo envía a la ciudad homenajeada
+}
+```
 
 Podemos inventar otro vehiculo, siempre y cuando entienda `viajar` y `esRapido`:
 
