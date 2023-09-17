@@ -242,7 +242,7 @@ method viajarA(ciudad){
 }
 ```
 
-#### ⚠ Error común 
+#### ⚠ Error a evitar 
 
 Utilizar ifs anidados para saber por cada ciudad si puede o no viajar, cae en el mismo problema mencionado antes con el recuerdo, nos conviene usar una solución con **polimorfismo**, que a luke no le interese cómo implementa cada ciudad la restricción, si no que justamente sea responsabilidad de las ciudades.
 
@@ -296,7 +296,7 @@ object luke{
 
 ¡Tenemos a Luke! Cumple con lo que nos pide el enunciado, pero todavía nos está faltando codear las ciudades y al Alambique Veloz; pero habiendo hecho primero a Luke, partiendo del problema principal, hicimos un montón de análisis que ya nos sirve para saber por ejemplo que las ciudades son objetos y que necesitan entender los mensajes `recuerdo` y `puedeViajarCon`, ¡es un montón!
 
-#### ⚠ Error común 
+#### ⚠ Error a evitar 
 
 Un modelado que surgió con este TP fue hacer que las **ciudades** se encargaran de cambiar la cantidad de lugares visitados y el ultimo recuerdo de Luke. Esto nos trae dos problemas ligados a la repetición de lógica:
 
@@ -405,42 +405,35 @@ object lasVegas{
 
 En este caso, siendo la ciudad homenajeada Buenos Aires, el recuerdo será el mismo que Buenos Aires, al igual que la restricción.
 
-#### ⚠ Error común 
+#### ⚠ Error a evitar 
 
-Un modelado que se vió también es modelar la ciudad homenajeada como un _string_, y anidar ifs para saber qué comportamiento tiene que usar:
+Otra manera de modelar, más procedural y que por lo tanto queremos evitar, es aún habiendo definido objetos para las ciudades, compararlos con == dentro de un _if_ anidado: 
 
 ```wollok
 object lasVegas{
-	var homenajeado = "buenos aires"
+	var homenajeado = buenosAires
 	
 	method recuerdo(){
-	    if(ciudad == "buenos aires"){
+	    if(ciudad == buenosAires)
 	      return "mate con yerba"
-	    }else if(ciudad == "paris"){
+	    else if(ciudad == paris)
 	      return "llavero"
-	    }else if(){
-	      ...//etc
-	    }
+	    else 
+	      //... 
+	    
  	 }
-	
-	method puedeViajar(){
-	    if(ciudad == "buenos aires"){
-	      return alambiqueVeloz.esRapido()
-	    }else if(ciudad == "paris"){
-	      return alambiqueVeloz.tieneTanqueLleno() 
-	    }else if(){
-	      ...//etc
-	    }
-	}
+
+	//...
 }
 ```
 
 Esto nos trae los problemas que habíamos visto antes:
 
-- Repetir la lógica de las restricciones nos complica si a futuro cambian esas lógicas. Si mañana pueden viajar a buenos aires aquellos vehiculos que no sean rapidos, hay que cambiarlo en dos lugares
-- No podemos agregar fácilmente más ciudades, ya que habría que completar no uno, si no dos ifs con la condición `ciudad == "nueva ciudad"` además de codear la ciudad en sí.
+- Repetir la lógica de las restricciones nos complica las moficaciones. Si en un futuro las restricciones para viajar a buenos aires se modifican, no sólo hay que cambiar el código en el objeto buenosAires, sino también en lasVegas. En el mejor de los casos es doble trabajo. Peor aún es que quien haga la modificación crea que el programador anterior trabajaba bien y por lo tanto asuma que sólo es necesario hacer la modificación en `buenosAires`, que el código de `lasVegas` no es modifique y el sistema quede incosistente.
+   
+- Si se agregaran más ciudades en el problema no alcanza con codear los correspondientes nuevos objetos con su comportamiento, sino que también hay que modificar el método en las `lasVegas` agregando un `if` más con la condición `ciudad == nuevaCiudad`.
 
-Si vamos por la solución polimorfica, directamente preguntando a la ciudad homenajeada (a la cual tratamos como objeto) no tenemos estos problemas.
+Si vamos por la solución polimorfica, directamente preguntando a la ciudad homenajeada lo que necesitamos saber -y no "quiés es"-  no tenemos estos problemas.
 
 #### Volviendo al ejercicio
 
@@ -548,25 +541,50 @@ object lasVegas{
 	
 	method recuerdo() = homenajeado.recuerdo()
 	
-	method puedeViajarCon(vehiculo) = homenajeado.puedeViajarCon(vehiculo) // lasVegas recibe un vehiculo por parámetro y a su vez se lo envía a la ciudad homenajeada
+	method puedeViajarCon(vehiculo) = homenajeado.puedeViajarCon(vehiculo)
+	// lasVegas recibe un vehiculo por parámetro y a su vez se lo envía a la ciudad homenajeada
 }
 ```
 
-Podemos inventar otro vehiculo, siempre y cuando entienda `viajar` y `esRapido`:
+Ahora sí podemos inventar otro vehiculo, y que sea utilizado por Luke para viajar, siempre y cuando entienda todos los mensajes que se le envíen, en particular `viajar`, `tieneTanqueLleno` y `esRapido`:
 
 ```wollok
-object espantoMovil{ //es rapido si tiene menos de 2 ruedas pinchadas
+object espantoMovil{ 
 	var ruedasPinchadas = 0
 	
-	method esRapido() = ruedasPinchadas < 2
+	method esRapido() = ruedasPinchadas < 2  // inventamos que es rapido si tiene menos de 2 ruedas pinchadas
 	
-	method viajar(){} //no tiene consecuencias al viajar
+	method viajar(){
+		ruedasPinchadas = ruedasPinchadas + 1
+ 	} // Inventamos que cada vez que viaja se le pincha una rueda 
+
+	method tieneTanqueLleno() = false // Inventamos que siempre tiene el tanque lleno
 }
 ```
+#### Interpretaciones posibles  
 
-#### ⚠ Error común
+En la solución planteada implementamos una versión trivial del método `tieneTanqueLleno()`, pero mantuvimos el nombre del método para que sea polimórfico. La consigna no precisaba cuáles eran las restricciones de los nuevos vehículos, sino que quedaba abierto a la creatividad personal. Precisamente, para que haya mas variedad en las implementaciones, se indicaba que la restricción para que otros vehículos viajaran a Paris no fuese en base al tanque lleno cono en el Alambique Veloz. 
 
-El `espantoMovil` **no tiene por qué entender** el mensaje `tieneTanqueLleno`, ya que en ningún momento se usa ese método de forma polimorfica, solamente se usa en `paris` para preguntarle al `alambiqueVeloz`. En cambio sí necesita poder entender `viajar` (que usa Luke) y `esRapido` que usa Buenos Aires.
+Intentando una solucion no tan trivial, podríamos basarnos en las ruedas pinchadas, en una nueva cuanta, que delegue a otro objeto o lo que se nos ocurra, pero siempre evitando definir atributos que representen el tanque de combustible. 
+```wollok
+object espantoMovil{ 
+	//... 
+	method tieneTanqueLleno() = ruedasPinchadas < 4 // Le queda alguna rueda no pinchada
+	method tieneTanqueLleno() = 2 * ruedasPinchadas * ruedasPinchadas - 12 ruedasPinchadas + 10 == 0
+	// raíces del polinomio espantomoviliano
+	method tieneTanqueLleno() = otroObjeto.resolverProblema()
+	//... 
+ }
+```
+
+Estamos implementando un método que lo que hace no tiene nada que ver con lo que sugiere su nombre, está bueno que lo hagamos para mantener el **polimorfismo**, pero nos empieza a molestar la falta de **expresividad**.  Dado que la expresividad no tiene que ver tanto con el funcionamiento del código en sí, sino en su vínculo con la formulación del requerimiento, volvamos al dominio del problema a ver si en una nueva lectura de la consigna, ahora que tenemos una solución más genérica del problema original, encontramos mejor nombres para incluir en nuestro código.
+
+La consigna hablaba de "tanques llenos" para viajar a Paris cuando el Alambique Veloz era el único vehiculo posible, pero al generalizar con nuevos vehículos cuya restricción no depende del tanque, nos habilita a buscar un nombre más genérico para dicha resrticción que englobe a la de los diferentes vehículos.
+
+¿Con qué nombre común podriamos denominar a la restricción para entrar a Paris, que en un caso depende del tanque lleno y en otro de la cantidad de ruedas pinchadas? Tal vez, `puedeCircular()` sea un nombre lo suficientemente expresivo y abarcativo.  Aunque también podría haber en un futuro otros vehículos cuya restricción para viajar a Paris sea más diferente todavía. En el caso extremo, un nombre más genérico podria ser `puedeIngresarAParis()` aunque también a riesgo de perder expresividad por otro lado, por ejemplo si quisieramos reutilizar estos mismos métodos para requerimientos que no tengan nada qeu ver con la ciudad de Paris. 
+
+En definitiva, la discusión por el significade e intrepretación de los términos en el lenguaje humano es más sutil y compleja aún que en el lenguaje de programación. Las palabras con que planteamos los problemas son **polisémicas**.
+En el cógigo es más mecánico, llamémosle como le llamemos al método, que en todos los objetos se llame igual, y que cuando enviamos el mensaje sea el mismo nombre. Nuestro código es **polimorfico**.
 
 #### Volvemos al ejercicio
 
