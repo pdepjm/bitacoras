@@ -577,16 +577,17 @@ object espantoMovil{
  }
 ```
 
-Estamos implementando un método que lo que hace no tiene nada que ver con lo que sugiere su nombre, está bueno que lo hagamos para mantener el **polimorfismo**, pero nos empieza a molestar la falta de **expresividad**.  Dado que la expresividad no tiene que ver tanto con el funcionamiento del código en sí, sino en su vínculo con la formulación del requerimiento, volvamos al dominio del problema a ver si en una nueva lectura de la consigna, ahora que tenemos una solución más genérica del problema original, encontramos mejor nombres para incluir en nuestro código.
+Estamos implementando un método que lo que hace no tiene nada que ver con lo que sugiere su nombre, está bueno que lo hagamos para mantener el **polimorfismo**, pero nos empieza a molestar la falta de **expresividad**. Dado que la expresividad no tiene que ver tanto con el funcionamiento del código en sí, sino en su vínculo con la formulación del requerimiento, volvamos al dominio del problema a ver si en una nueva lectura de la consigna, ahora que tenemos una solución más genérica del problema original, encontramos mejores nombres para incluir en nuestro código.
 
-La consigna hablaba de "tanques llenos" para viajar a Paris cuando el Alambique Veloz era el único vehiculo posible, pero al generalizar con nuevos vehículos cuya restricción no depende del tanque, nos habilita a buscar un nombre más genérico para dicha resrticción que englobe a la de los diferentes vehículos.
+La consigna hablaba de "tanques llenos" para viajar a Paris cuando el Alambique Veloz era el único vehículo posible, pero al generalizar con nuevos vehículos cuya restricción no depende del tanque, nos habilita a buscar un nombre más genérico para dicha resrticción que englobe a la de los diferentes vehículos.
 
-¿Con qué nombre común podriamos denominar a la restricción para entrar a Paris, que en un caso depende del tanque lleno y en otro de la cantidad de ruedas pinchadas? Tal vez, `puedeCircular()` sea un nombre lo suficientemente expresivo y abarcativo.  Aunque también podría haber en un futuro otros vehículos cuya restricción para viajar a Paris sea más diferente todavía. En el caso extremo, un nombre más genérico podria ser `puedeIngresarAParis()` aunque también a riesgo de perder expresividad por otro lado, por ejemplo si quisieramos reutilizar estos mismos métodos para requerimientos que no tengan nada qeu ver con la ciudad de Paris. 
+¿Con qué nombre común podriamos denominar a la restricción para entrar a Paris, que en un caso depende del tanque lleno y en otro de la cantidad de ruedas pinchadas? Tal vez, `puedeCircular()` sea un nombre lo suficientemente expresivo y abarcativo.  Aunque también podría haber en un futuro otros vehículos cuya restricción para viajar a Paris sea más diferente todavía. En el caso extremo, un nombre más genérico podria ser `puedeIngresarAParis()` aunque también a riesgo de perder expresividad por otro lado, por ejemplo si quisieramos reutilizar estos mismos métodos para requerimientos que no tengan nada que ver con dicha ciudad. 
 
 En definitiva, la discusión por el significade e intrepretación de los términos en el lenguaje humano es más sutil y compleja aún que en el lenguaje de programación. Las palabras con que planteamos los problemas son **polisémicas**.
-En el cógigo es más mecánico, llamémosle como le llamemos al método, que en todos los objetos se llame igual, y que cuando enviamos el mensaje sea el mismo nombre. Nuestro código es **polimorfico**.
 
-#### Volvemos al ejercicio
+En el cógigo es más mecánico, llamémosle como le llamemos al método, que en todos los objetos se llame igual, y que cuando enviamos el mensaje sea el mismo nombre. Nuestro código es **polimórfico**.
+
+#### 
 
 ¡Y listo! Terminamos el TP 😎
 
