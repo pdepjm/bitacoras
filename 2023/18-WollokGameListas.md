@@ -17,7 +17,10 @@ Fecha: 14/09/2023
 ### Tarea obligatoria para la clase que viene 
 
 - El **05/10** tenemos la primera entrega del TPI. Se espera para esta fecha tener dos o tres ideas (o más si quieren) de posibles juegos para charlar cuál es más conveniente llevar adelante. Plantear en qué lugar podríamos encontrar polimorfimo y colecciones. Más adelante veremos temas nuevos y extenderemos los conceptos que nos interesan que queden plasmados en el TPI.
-- TP a definir, entrega también el 05/10.
+- TP Grupal:
+  - Fecha de entrega: 05/10
+  - [Enunciado](https://docs.google.com/document/d/1a6zCfKNGL0GbdcvZiA1gdZmtGPZwzDzuvtck7tNDc3Y/edit)
+  - [Classroom](https://classroom.github.com/a/AwuZVai5)
 
 
 ### Recursos para TPI - Imágenes / Audios
