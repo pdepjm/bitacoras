@@ -2,7 +2,7 @@
 
 Fecha: 19/10/2023
 
-![image](https://github.com/pdepjm/bitacoras/assets/5421992/44e86908-6276-4ca3-b8e6-d5c8dff16936)
+![Untitled](https://github.com/pdepjm/bitacoras/assets/5421992/b01ee1ea-83de-470e-8e02-128e9b7f6ae5)
 
 
 - Ejercicio hecho en clase y código: [La Porota](https://github.com/pdepjm/2023-o-clase20)
