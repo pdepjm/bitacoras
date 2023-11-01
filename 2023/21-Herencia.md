@@ -17,5 +17,5 @@ Fecha: 26/10/2023
 | Nombre | Descripción | Fecha de entrega |
 |-------|-------------|------------------|
 | TPI | [Entrega TP Game](https://docs.google.com/document/d/1zgrpnb2kgFDts-XOnC8Y5fjXyjqHN9bQCeUCdQ31ePM/edit#heading=h.5x4kmxbylg1p) | 02/11 - Presencial|
-| TPI | Presentación final del juego al curso entero | 08/11 - Presencial |
+| TPI | Presentación final del juego al curso entero | 09/11 - Presencial |
 | TP8 Grupal | [Enunciado](https://docs.google.com/document/d/1KldYwUcJFXM1Exgd-GnLj1ha0rqwWzs4ZT8e5_dRdls/edit) y [Classroom](https://classroom.github.com/a/7m5IlbQo) - Clase de repaso y consultas | 16/11 - Virtual |
