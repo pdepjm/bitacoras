@@ -10,7 +10,7 @@ Fecha: 26/10/2023
 - [Apunte](https://docs.google.com/document/d/1KdG7NrKPgPh4bAcyLuDG2G1iWP7Ze2GFs91qzlvDKqI/edit) sobre **Herencia**.
 
 ### Práctica opcional
-- La práctica de "Naves Espaciales", que tiene un código inicial y se pide hacer modificaciones, es muy completa. Quien quiera hacerla, [aquí la tarea del classroom](https://classroom.github.com/a/ohJ36njy)
+- La práctica de "Naves Espaciales", que tiene un código inicial y se pide hacer modificaciones, es muy completa. Quien quiera hacerla, [aquí la tarea del classroom](https://classroom.github.com/a/ASwP_6OT)
 
 ### Fechas importantes
 
