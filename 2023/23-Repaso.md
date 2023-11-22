@@ -4,8 +4,10 @@ Fecha: 16/11/2023
 
 ### Material que acompaña la clase de hoy
 
-* [Video de la clase]() (proximamente...)
-* [Código visto en clase](https://github.com/wollok/ejercicioIntegradorIntensamente)
+* Ejercicios hechos en clase
+  *  Intensamente [Video](https://youtu.be/nLISv9NrWmU) - [Codigo](https://github.com/wollok/ejercicioIntegradorIntensamente)
+  *  StarWars [Video](https://youtu.be/SiZPRTnW1d0) - [Código](https://github.com/wollok/EjercicioIntegradorStarWars)
+  *  TP de Herencia [Video](https://youtu.be/sPpbUGeIjRM) - [Consigna](https://docs.google.com/document/d/1KldYwUcJFXM1Exgd-GnLj1ha0rqwWzs4ZT8e5_dRdls/edit?usp=sharing)
 
 ### Parciales para prácticar
 
