@@ -4,6 +4,5 @@ Fecha: 23/11/2023
 
 ### Parcial objetos
 
-* Enunciado: 
-* Link al classroom: 
+* Classroom (con enunciado): 
 * [Solución propuesta]()
