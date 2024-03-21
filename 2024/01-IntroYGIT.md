@@ -21,3 +21,11 @@ Fecha: 21/03/2024
 3. Definir **Grupos** y llenar [este form](https://docs.google.com/forms/d/e/1FAIpQLSdcDdmfoaESgC0lcyCeHULzu2MaHMu6cyqEjcLraXQ22Pfnbg/viewform)
 4. Instalar **GHC con Pdepreludat** con [este instructivo](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/entorno.md).
 Suele haber algunos errores comunes al instalar que [están acá](https://github.com/pdep-utn/enunciados-miercoles-noche/blob/master/pages/haskell/troubleshooting.md). Cualquier consulta al Discord.
+
+
+
+------------------
+
+![menti1](assets/menti1.png)
+![menti2](assets/menti2.png)
+![menti3](assets/menti3.png)
