@@ -25,7 +25,7 @@ Se hace **individual en máquina**. Se entrega **impreso en una hoja con su nomb
 
 No hace falta carpeta, folio, caratula ni elementos extras, puede estar incluso escrito a mano si no tienen forma de imprimir, pero no olviden poner su nombre.
 
-* Enunciado (próximamente)
-* Tarea del classroom (próximamente)
+* Enunciado [Acá](https://docs.google.com/document/d/1_vWfRYa-Aqvk7-nr4sdOTt1A9q9LflfWUE7Qy1mIEt4/edit?usp=sharing)
+* Tarea del classroom que les crea su repo [Acá](https://classroom.github.com/a/JF7yLudi)
 
 Presentar el código de la solución y acompañar con un par de ejemplos de consulta y respuesta.
