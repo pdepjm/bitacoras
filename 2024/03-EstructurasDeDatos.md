@@ -19,4 +19,13 @@ Fecha: 11/04/2023
 * [Solucion propuesta](https://github.com/pdepjm/2024-f-practica-pdepop/blob/main/src/Library.hs)
 
   ### NO es obligatorio, pero sirve para practicar :)
+
+  ## Recuperatorio de TP1
+    Recuerden que solamente recuperan el trabajo las personas con nota [Reg - Reg+ - Mal - Ausente] :)
+
+    Fecha de entrega: 18/04/24 (Jueves que viene)
+    
+  * [Enunciado del ejercicio](https://docs.google.com/document/d/1PfexwewKen_KTuM-tUjftch7E3LiCH7r4Jy-0MLL4AM/edit?usp=drivesdk)
+  * [Link para crear el repositorio de este](https://classroom.github.com/a/IQ0cbQHJ)
+
   
