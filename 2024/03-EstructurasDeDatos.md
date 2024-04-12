@@ -17,6 +17,7 @@ Fecha: 11/04/2023
 
 * [Enunciado ejercicio PdePop](https://docs.google.com/document/d/1YSQqvULGcSTmLB9vcSMPWOABbtqqg8MS3zHinHD2f28/edit?usp=sharing)
 * [Solucion propuesta](https://github.com/pdepjm/2024-f-practica-pdepop/blob/main/src/Library.hs)
+* [Repo base para poder trabajar](https://github.com/pdepjm/2024-f-repoBase)
 
   ### NO es obligatorio, pero sirve para practicar :)
 
