@@ -4,7 +4,7 @@ Fecha: 11/04/2023
 
 ![image](https://github.com/pdepjm/bitacoras/assets/87919995/666ac8a5-8dea-4e22-b31e-2c41796c8ff2)
 
-* [Clase Grabada]() Proximamente...
+* [Clase Grabada](https://drive.google.com/file/d/1qImBB6Nu-zn-AQrZ5DSfLwGV6c74VL4v/view?usp=sharing)
 * [Diapos de hoy](https://docs.google.com/presentation/d/1JtZzfINXaNt6SbWgqq7u2SeGDPLnTsokNKOxw_Jurcc/edit?usp=sharing)
 * [Posible resolución del TP1](https://github.com/pdepjm/2024-f-tp1sueldo-asanzo/blob/main/src/Library.hs)
 * [Continuación TP1 + Posible Resolución]() Proximamente...
