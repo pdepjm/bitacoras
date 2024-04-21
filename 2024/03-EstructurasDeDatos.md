@@ -1,6 +1,6 @@
 # Clase 03: Estructuras de datos
 
-Fecha: 11/04/2023
+Fecha: 11/04/2024
 
 ![image](https://github.com/pdepjm/bitacoras/assets/87919995/666ac8a5-8dea-4e22-b31e-2c41796c8ff2)
 
