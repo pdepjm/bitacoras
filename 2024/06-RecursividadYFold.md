@@ -20,6 +20,7 @@ Fecha: 16/05/2023
 
 #### Antes del 27/05 - Recuperatorio TP2 Individual
 * Se hace en el [mismo repo](https://classroom.github.com/a/864bjaJG) que el TP2 Individual.
+* Se entrega **impreso** el jueves 23 o el 30.
 * El enunciado continúa el mismo trabajo práctico:
 
 **Enunciado**
