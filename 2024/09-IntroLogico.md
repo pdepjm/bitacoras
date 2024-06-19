@@ -16,7 +16,3 @@ Fecha: 13/06/2024
 
 ### Tarea obligatoria para la clase que viene
 * [Enunciado TP Individual ¿Quién Ayuda al Rasta?](https://docs.google.com/document/d/1JVjGLws_uPKNGgB5XuSC32IsScqSt4lHwiP_VrUwyog/edit?usp=sharing) y [classroom](https://classroom.github.com/a/UX5QT5_e). Se entrega en papel impreso la clase que viene.
-
-
-### Machetito
-![imagen](https://github.com/pdepjm/bitacoras/assets/48812037/f4664553-c513-4d23-aef7-cdbcce196a58)
