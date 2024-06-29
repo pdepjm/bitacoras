@@ -6,7 +6,7 @@ Fecha: 27/06/2022
 
 ### Materiales que dan soporte a los temas de hoy
 
-* Código hecho en clase `<<Próximamente>>`
+* [Código hecho en clase](https://github.com/pdepjm/2024-l-claseForall/tree/main)
 * Apunte sobre [inversibilidad](https://wiki.uqbar.org/wiki/articles/paradigma-logico---inversibilidad.html)
 * [Módulo 4](https://drive.google.com/open?id=1GGair_St5yWvItKRZH-FY_X2CdDREr60TrsV0zSiO5I) (menos findall, que lo veremos más adelante).
 
