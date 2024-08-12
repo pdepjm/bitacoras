@@ -6,7 +6,7 @@ Fecha: 04/07/2024
 
 ### Materiales que dan soporte a los temas de hoy
 
-* Hoy dimos functores y aritmética en la primera parte de la clase, para que en la segunda puedan encarar la segunda parte del TP grupal mientras corregimos la primera.
+* Hoy vimos functores y aritmética en la primera parte de la clase. [Código de ejemplo](https://github.com/pdepjm/2024-l-intro/blob/main/mapa.pl)
 * Repasamos el tema de **unificación**, y cómo una **variable ligada** cambia lo que significa una consulta como un forall (la _semántica_ de la misma).
 * Apuntes:
   * [Aritmética en Prolog](https://wiki.uqbar.org/wiki/articles/aritmetica-en-prolog.html)
