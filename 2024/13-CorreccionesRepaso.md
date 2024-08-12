@@ -4,6 +4,7 @@ Fecha: 08/08/2024
 
 ### Material que acompaña la clase de hoy
 
+* [Codigo hecho en clase](https://github.com/pdepjm/2024-l-intro/blob/main/practica%20jueves%208.pl)
 * [Parcial visto en clase](https://docs.google.com/document/d/139S8G0vwD5wJNfb8UqsH5BV75d7sfUk9ywdvFCXRcLI/edit#heading=h.b7fwzcvrhqzl)
 * [Posible solución](https://github.com/Prolog-Uqbar/Integrador-parqueAtracciones/blob/main/parquesAtracciones.pl).
 
