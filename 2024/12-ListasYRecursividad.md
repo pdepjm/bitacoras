@@ -4,6 +4,7 @@ Fecha: 11/07/2023
 
 ### Material que acompaña la clase de hoy
 
+[Codigo hecho en clase](https://github.com/pdepjm/2024-l-intro/blob/main/ejemploListas.pl)
 * Apuntes sobre listas:
   * [Módulo 3](https://docs.google.com/document/d/1I8Xvss7LBuUjV-GGiag7C8d9wa3vUB6B37Qi4LG-ts0/edit#heading=h.dr7shnx76bwb): Listas y functores
   * [Módulo 4](https://docs.google.com/document/d/1GGair_St5yWvItKRZH-FY_X2CdDREr60TrsV0zSiO5I/edit#heading=h.3a0qkoeg9mih): Findall
