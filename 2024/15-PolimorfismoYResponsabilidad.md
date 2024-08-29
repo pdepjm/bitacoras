@@ -5,7 +5,7 @@ Fecha: 29/08/2024
 ### Laboratorio
 * Classroom para trabajar: https://classroom.github.com/a/WrN7OlhU
 * Enunciado de superhéroes y misiones: https://docs.google.com/document/d/1km0K7wQC48Ty8FLnjaWAhJUxEe52UDvneHscqTAkK7A/edit?usp=drivesdk
-* Solución hecha en clase: 
+* Solución hecha en clase: https://github.com/pdepjm/2024-o-heroesHechoEnClase
 
 Subimos al aula en la segunda parte.
 
@@ -24,3 +24,4 @@ Es **individual** y se entrega impreso, código y tests.
 
 * [Enunciado de Entradas de Cine](https://docs.google.com/document/d/1v5MK0lleYCnjITK-EQGJ4q8t7hq1px87vhVeVnrFKqc/edit?usp=sharing)
 * [Classroom](https://classroom.github.com/a/qg3tAYF7) (Igual se entrega impreso, recordar imprimir también los tests)
+
