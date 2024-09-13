@@ -11,6 +11,7 @@ Fecha: 12/09/2024
 
 ### Tarea obligatoria para la clase que viene 
 
-Entrega de TP Grupal La Tierra Media
+Entrega de TP Grupal La Tierra Media 
 - Enunciado: https://docs.google.com/document/d/1S0OYbXEsyNDlcp0kqjiJmr3jUEOcKJToe0p5KeKOVXQ/edit#heading=h.h636er2gpslw
 - Classroom: https://classroom.github.com/a/O3EOhkbw
+- Fecha de entrega: 19/09
