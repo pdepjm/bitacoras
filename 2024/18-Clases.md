@@ -4,7 +4,7 @@ Fecha: 19/09/2024
 
 ### Aula y Labo
 - [Enunciado Wollok Game Worlds](https://docs.google.com/document/d/1RFkZHMMMi07dyEi2ulY19X8xaeFhukNQr1zHGABCKsE/edit#heading=h.5j9wb63mfol2) comenzado en clase (para seguir en el labo)
-- [Tarea de github classroom]() para seguir en el labo lo hecho en clase.
+- [Tarea de github classroom](https://classroom.github.com/a/ynuxm4y7) para seguir en el labo lo hecho en clase.
 
 
 ### Apuntes
