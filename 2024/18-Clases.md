@@ -8,7 +8,7 @@ Fecha: 19/09/2024
 
 
 ### Apuntes
-- Apunte teórico completo de la clase - próximamente
+- Video sobre [Guardar vs Calcular](https://www.youtube.com/watch?v=hTXEs8tez9E), que hicimos porque hubo varios de estos problemas en el TP.
 - [Apunte teórico de clases](https://docs.google.com/document/d/1Dgq_PfCbJHO1M7dXe-vGXtj4mbEUWlYhfvQ2i0RWOsk/edit#).
 - **Diagramas estáticos/de clase**
   - [Apunte teórico completo "Guía para comunicar un diseño"](https://docs.google.com/document/d/1eXLlNppAX-7E2M8Xxs0MCckdn4XVEYmeQNaS_E1RqTc/edit)
