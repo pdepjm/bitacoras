@@ -3,7 +3,7 @@
 Fecha: 03/10/2024
 
 ### Material
-- [Enunciado y solución de "la porota"]()
+- [Enunciado y solución de "la porota"](https://github.com/pdepjm/2024-o-claseExcepciones)
 - **Diagramas estáticos/de clase**
   - [Apunte teórico completo "Guía para comunicar un diseño"](https://docs.google.com/document/d/1eXLlNppAX-7E2M8Xxs0MCckdn4XVEYmeQNaS_E1RqTc/edit)
 - [Apunte teórico de excepciones](https://docs.google.com/document/d/1T87tmdXv_39RoE_zR7alVFK8TUl-KJYOhdoIsoVTRb4/edit?usp=drive_web).
