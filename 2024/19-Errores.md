@@ -1,6 +1,6 @@
 # Clase 19 - Errores y Diagrama estático
 
-Fecha: /10/2024
+Fecha: 03/10/2024
 
 ### Material
 - [Enunciado y solución de "la porota"]()
