@@ -2,6 +2,8 @@
 
 Fecha: 03/10/2024
 
+![image](https://github.com/user-attachments/assets/98299952-959d-484b-87d0-922afb20489d)
+
 ### Material
 - [Enunciado y solución de "la porota"](https://github.com/pdepjm/2024-o-claseExcepciones)
 - **Diagramas estáticos/de clase**
