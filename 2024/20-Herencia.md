@@ -1,5 +1,6 @@
 # Clase 20 - Herencia
 Fecha: 24/10/2024
+![image](https://github.com/user-attachments/assets/5a22df53-86a3-4ecd-ab40-65b392e60189)
 
 
 
