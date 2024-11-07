@@ -1,4 +1,4 @@
-# Clase 23 - Repaso
+# Clase 21 - Repaso
 
 Fecha: 31/10/2024
 
