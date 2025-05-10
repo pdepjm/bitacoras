@@ -2,6 +2,8 @@
 
 Fecha: 24/04/25
 
+![image](https://github.com/user-attachments/assets/e79984ca-25a0-4b79-8ebc-7c1aef82e0f8)
+
 ## Material que acompaña lo visto en clase
 
 * [Diapos](https://docs.google.com/presentation/d/1nKnXXoc1rRftu4cQdNhu2twYe_58NjEs4_zDdi1C7dw/edit?usp=sharing) de errores comunes TP1.
