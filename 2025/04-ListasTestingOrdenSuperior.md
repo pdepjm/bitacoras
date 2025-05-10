@@ -7,7 +7,7 @@ Fecha: 08/05/2024
 
 ## Material que acompaña la clase
 
-* [Código hecho en clase]() (proximamente...)
+* [Código hecho en clase](https://github.com/pdepjm/2025-f-clase-orden-superior),
 * [Enunciado Star Wars](https://docs.google.com/document/d/11ds2Zme9SYffUMRzZYjrYxrDxL44PWKZc08H-zx9r9A/edit?usp=sharing).
 * [Diapos de errores comunes](https://docs.google.com/presentation/d/1pZb4O8wiIsWWtPXpKWy0yjakQjQHeKyfwlF_DoN1gtA/edit?usp=sharing).
 * [Solución propuesta de Haskellicia 2](https://github.com/pdepjm/2025-f-haskelicia-2-solucion/blob/main/src/Library.hs).
