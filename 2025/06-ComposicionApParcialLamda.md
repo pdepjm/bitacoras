@@ -6,6 +6,7 @@ Fecha: 22/05/2023
 
 ### Material que acompaña la clase
 
+* [Enunciado](https://docs.google.com/document/d/14U57PlvLQNodvZ05gfwrI0PnXNPBuWHykwbD4ztc0bI/edit?usp=sharing) visto en clase.
 * Código hecho en clase de [aula auditorio](https://github.com/pdepjm/2025-f-composicion-ap-parcial-lambda/blob/clase-auditorio/src/Library.hs).
 * Código hecho en clase de [aula 505](https://github.com/pdepjm/2025-f-composicion-ap-parcial-lambda/blob/clase-505/src/Library.hs).
 * [Apunte Aplicacion Parcial y Composición](https://docs.google.com/document/d/1n7TPE2qRpFSnj95lIZFD-q7Ko_DT9XZLH9_kEkNClrU/edit).
