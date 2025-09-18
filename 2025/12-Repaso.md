@@ -8,8 +8,12 @@ Fecha: 14/08/2025
 
 * [Enunciado de práctica](https://docs.google.com/document/d/1SAuv3LjYEQ483QU16njhipm5ceOS9_QpWwCpWREKiP8/edit?tab=t.0)
 * Aula 3:
-  * [Clase grabada](proximamente...)
-  * [Código hecho en clase](proximamente...)
+  * Clase grabada:
+    * [Lógico functores polimorfismo](https://youtu.be/1ll6XM9wrXY).
+    * [Lógico declaratividad](https://youtu.be/U1mB8vK0TUA).
+    * [Lógico ejercicio de final](https://youtu.be/wYrITakB37k).
+    * [Lógico recursividad combinatoria](https://youtu.be/tvWmxVBQf-U).
+  * [Código hecho en clase](https://github.com/pdepjm/2025-l-repaso-aula-3/blob/main/programa.pl)
 * Aula Auditorio:
   * [Parcial 31 minutos](https://docs.google.com/document/d/14YTUK-hThbZk_2UM7gmh8CcaK1otaPdELtLLuSrvMlg/edit?usp=drivesdk)
   * [Código hecho en clase](https://github.com/pdepjm/2025-l-clase-repaso/blob/clase-auditorio/repaso.pl)
