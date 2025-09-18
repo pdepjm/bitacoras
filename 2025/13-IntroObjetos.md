@@ -16,6 +16,9 @@ Fecha: 04/09/2025
 * Apuntes 
   * [Módulo 01](https://docs.google.com/document/d/1RBfNmKZFKZ90XvfQsN7zhtuUPV2Mvj7t-iyZiL2bClQ/edit?usp=drive_web): Objeto. Mensaje. Métodos.
   * [Módulo 02](https://docs.google.com/document/d/14092iRsXDXih8-q_0UEXIGRSQmGtxL9pay1VXX4ceJg/edit?usp=drive_web): Referencias. Estado. Compartir objetos. Identidad.
+ 
+### Parcial lógico
+[Posible solución](https://github.com/pdepjm/2025-l-resolucion-monopologico)
 
 ### Recomendado para la clase que viene
 
