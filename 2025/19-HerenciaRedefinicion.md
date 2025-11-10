@@ -1,5 +1,7 @@
 # Clase 19 - Herencia, redefinición
 
+Fecha: 23/10/2025
+
 <img width="506" height="529" alt="image" src="https://github.com/user-attachments/assets/8e995ce6-3bd2-48ef-bd4b-7f167c28b642" />
 
 ### Material que acompaña la clase
