@@ -2,6 +2,7 @@
 
 Acá encontrarás las bitácoras del curso de los jueves a la mañana, de la Facultad Regional Buenos Aires de la Universidad Tecnológica Nacional.
 
+* [2026](2026)
 * [2025](2025)
 * [2024](2024)
 * [2023](2023)
