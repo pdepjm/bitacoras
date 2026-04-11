@@ -24,5 +24,5 @@ Fecha: 09/04/2026
 ### Extras
 
 * [Acá](https://github.com/pdepjm/bitacoras/blob/main/2023/assets/gitTuto.md) hay un tutorial de cómo aceptar una tarea de classroom y subir a Github un TP (desde la consola o desde el VSCode)
-* **Muy recomendado!!!!!!!!!**: Instalarse [Miyuki](miyuki.com.ar), la herramienta que mostramos en clase para hacer guías de ejercicios.
+* **Muy recomendado!!!!!!!!!**: Instalarse [Miyuki](https://miyuki.com.ar/), la herramienta que mostramos en clase para hacer guías de ejercicios.
 * En caso de que quieran tener un repositorio propio con lo necesario para ejecutar su programa en Haskell, pueden usar este [repo base](https://github.com/pdepjm/2026-f-repo-base) que tiene todo lo necesario. Es un template, eso siginifica que pueden usarlo para crear un repositorio propio donde tengan ustedes el control para subir cosas.
