@@ -6,6 +6,7 @@ Fecha: 09/04/2026
 
 ### Material que acompaña la clase de hoy
 
+* [Diapos](https://docs.google.com/presentation/d/13e_uPq5LOxHUyeA6ofd3mCkALgvxMssIXY04wVCTG2I/edit?usp=sharing) de la clase.
 * Código hecho en clase:
   * [Curso K2004](https://github.com/pdepjm/2026-f-intro-funcional/blob/diana/src/Library.hs) (Diana)
   * [Curso K2104](https://github.com/pdepjm/2026-f-intro-funcional/blob/tom/src/Library.hs) (Tom) 
