@@ -13,3 +13,10 @@ Fecha: 07/05/2026
 * [Apunte Expresiones Lambda](https://docs.google.com/document/d/1LKVaZHuJqxf2FcOK17vZjxq0CTT4sohqSsfhWmhQ6ks/edit).
 * [Apunte Currificación](https://wiki.uqbar.org/wiki/articles/currificacion.html).
 * Solución propuesta a ejercicio The Big Bang Haskell [acá](https://github.com/pdepjm/2026-f-big-bang-haskell-solucion/blob/main/src/Library.hs).
+
+### Ejercitación 
+
+Un buen ejercicio para practicar los temas vistos en la clase es el **Ejercicio 21: Cuantas muzzas** de la práctica _10. Práctica Listas_ de Miyuki. En caso de que no tengan instalado Miyuki, les dejamos acá el ejercicio:
+
+
+<img width="715" height="662" alt="image" src="https://github.com/user-attachments/assets/c13ec091-53f6-4961-9e63-c2bbb5aa557d" />
