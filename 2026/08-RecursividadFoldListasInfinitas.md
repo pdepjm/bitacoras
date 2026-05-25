@@ -1,4 +1,4 @@
-# Clase 07: Patrones de listas. Recursividad. Evaluación diferida. Listas infinitas
+# Clase 08: Patrones de listas. Recursividad. Evaluación diferida. Listas infinitas
 ![image](https://github.com/user-attachments/assets/2b13c5d1-b2e9-4d35-9f7a-14ffef5bdb3d)
 
 Fecha: 21/05/2026
