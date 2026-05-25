@@ -7,7 +7,7 @@ Fecha: 21/05/2026
 
 * [Enunciado](https://docs.google.com/document/d/1iecTh1diOIuS-AIIOkdHAZtTtrhXSz0VasC0LFu8vwA/edit?tab=t.0) visto en clase.
   * [Código hecho en clase](https://github.com/pdepjm/2026-f-estudiantes/blob/diana-caro/src/Library.hs) (aula 613).
-  * [Código hecho en clase](proximamente...) (aula 402) 
+  * [Código hecho en clase](https://github.com/pdepjm/2026-f-estudiantes/blob/mati-tom/src/Library.hs) (aula 402).
 * [Apunte de Recursividad y Evaluación diferida](https://docs.google.com/document/d/1JOlRcFZ7Ehm9gx_wH77MkhvObcyKS7Wqo4Sm8joMJBM/edit?tab=t.0).
 * [Apunte de la familia Fold](https://docs.google.com/document/d/1jSrU7lVMan4nbHBETGqvO5VpqJI0KXVWtH7fqnVASPU/edit?tab=t.0#heading=h.sbmafpayoc8p).
 * [Explicación de fold en video](https://www.youtube.com/watch?v=veiQkxz59NE&ab_channel=AlfSanzo).
