@@ -1,4 +1,4 @@
-# Clase 08: Simulacro
+# Clase 09: Simulacro
 
 <img width="704" height="560" alt="image" src="https://github.com/user-attachments/assets/8bd79dbb-a323-4a23-8bf7-282da966b752" />
 
