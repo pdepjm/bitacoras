@@ -9,4 +9,3 @@
 * [Parcial tomado en 2025](https://docs.google.com/document/d/1bOH7iAQpmTskxW_bPEXu-KDHMuMrG485-W6SAKZ-nvw/edit?usp=sharing). [Solución propuesta](proximamente...) ⚠️El punto 4 es un punto enfocado en testing, que **no entra en el parcial**. El punto 4b se puede no hacer, mientras que el 4a es una buena práctica resolver las funciones que se piden.⚠️
 * [Recuperatorio tomado en 2025](https://docs.google.com/document/d/1O7eenmxEjaIQ-T3K4pObUKyTl6MBdkpNpzn4S7fFinY/edit?tab=t.0). [Solución propuesta](proximamente...).
 * [Apunte](https://docs.google.com/document/d/11X_4N1VfZB78f5Ff6M3VcW40nazlEFQu1d2p3Lyjg5c/edit?usp=sharing) de _cómo rendir un parcial de paradigmas y no morir en el intento_.
-* El parcial tendrá formato de final, por lo que se puede practicar también de [finales de la materia](https://www.pdep.com.ar/material/finales), de la parte de funcional.
