@@ -13,6 +13,7 @@ Fecha: 18/06/2026
 * Apunte de [aritmetica](https://wiki.uqbar.org/wiki/articles/aritmetica-en-prolog.html).
 * Apunte de [inversibilidad](https://wiki.uqbar.org/wiki/articles/paradigma-logico---inversibilidad.html).
 * [Módulo 4](https://docs.google.com/document/d/1GGair_St5yWvItKRZH-FY_X2CdDREr60TrsV0zSiO5I/edit?tab=t.0) - Predicados de orden superior (Forall, Findall, Not).
+* [Solución propuesta](https://github.com/pdepjm/2026-l-my-little-prolony-solucion/blob/main/programa.pl) al ejercicio [My little prolony](https://docs.google.com/document/d/1nk020VmpXXm7iTVdiJE-GcXNg-5katjHPKoxJlXI1iU/edit?usp=sharing),
 
 ### Tarea recomendada para la clase que viene
 * Ejercicio de práctica con los temas vistos:
