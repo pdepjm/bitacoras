@@ -7,7 +7,7 @@ Fecha: 02/07/2026
 ### Materiales que dan soporte a la clase de hoy
 
 * [Enunciado](https://docs.google.com/document/d/1b8kyjtL_Ljt7BdfC1Z13UJmyrChle9JF74Y59_nprmc/edit?usp=sharing)
-  * Código
+  * [Código](https://github.com/pdepjm/2026-l-pilas-bloques-fest/blob/main/programa.pl)
 * [Módulo 5: Recursividad](https://docs.google.com/document/d/16SMBS6i_wjkdcVztpUDb-WTfASnCXQjld7VyKLUpC8A/edit?tab=t.0)
 * [Apunte recursividad](https://wiki.uqbar.org/wiki/articles/recursividad-en-logico.html)
 * [Módulo 7: Explosión combinatoria](https://docs.google.com/document/d/1tYWw-wiPWCysq2RbeEfhoe8D1sLusDuHMD6YLNHUmIo/edit?tab=t.0)
