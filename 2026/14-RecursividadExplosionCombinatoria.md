@@ -11,6 +11,7 @@ Fecha: 02/07/2026
 * [Módulo 5: Recursividad](https://docs.google.com/document/d/16SMBS6i_wjkdcVztpUDb-WTfASnCXQjld7VyKLUpC8A/edit?tab=t.0)
 * [Apunte recursividad](https://wiki.uqbar.org/wiki/articles/recursividad-en-logico.html)
 * [Módulo 7: Explosión combinatoria](https://docs.google.com/document/d/1tYWw-wiPWCysq2RbeEfhoe8D1sLusDuHMD6YLNHUmIo/edit?tab=t.0)
+* [Errores comunes: Expreso lógico](https://github.com/pdepjm/2026-l-expreso-logico-errores-comunes/blob/main/programa.pl)
 
 ### Extra
 
