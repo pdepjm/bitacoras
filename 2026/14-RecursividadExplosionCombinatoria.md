@@ -14,6 +14,11 @@ Fecha: 02/07/2026
 * [Errores comunes: Expreso lógico](https://github.com/pdepjm/2026-l-expreso-logico-errores-comunes/blob/main/programa.pl)
 * [Solución propuesta](https://github.com/pdepjm/2026-l-expreso-logico-solucion/blob/main/programa.pl) del ejercicio [Asesinato en el Expreso Lógico](https://docs.google.com/document/d/1amUhdu-lZOCPGp6YPmixZndfeGGZgKZVp1vsMfsAzLM/edit?tab=t.0#heading=h.7waat4rahklt).
 
+### Práctica integradora
+
+* Enunciado [31 minutos](https://docs.google.com/document/d/14YTUK-hThbZk_2UM7gmh8CcaK1otaPdELtLLuSrvMlg/edit?tab=t.0).
+* [Classroom](https://classroom.github.com/a/SPugG_qh).
+
 ### Extra
 
 * [Demo explosión combinatoria](https://explosion.noise.ar)
