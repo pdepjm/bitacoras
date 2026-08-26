@@ -1,4 +1,4 @@
-# Clase 16 - Introducción al paradigma de objetos
+# Clase 17 - Introducción al paradigma de objetos
 
 Fecha: 20/08/2025
 
