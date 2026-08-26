@@ -22,3 +22,7 @@ Fecha: 20/08/2025
 
 * [Instalación del entorno de wollok](https://www.wollok.org/getting_started/installation/).
 * Re instalación de Miyuki (ahora funcionan las guías de objetos!!!!!!!!) con el [último release](https://github.com/miyukiproject/miyuki/releases). Volver a instalarlo NO va a hacer que pierdan los ejercicios ya hechos.
+
+### Grupos
+
+* Armar grupos de 5 integrantes (no mas!!!) y llenar [este form](https://forms.gle/vgsFwuyga7pLKbUAA) una vez que el grupo esté completo.
