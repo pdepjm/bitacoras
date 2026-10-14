@@ -15,4 +15,4 @@ Fecha: 01/10/2026
 
 ### Solución ejercicio Tom y Jerry
 - [Enunciado](https://docs.google.com/document/d/1LMCWf2CiaTO5QtqHDQcXOzsxzVGxcp87apBqn82S7pQ/edit?tab=t.0#heading=h.qdd73gbpa95v)
-- [Solución propuesta](proximamente...)
+- [Solución propuesta](https://github.com/pdepjm/2026-o-tom-y-jerry)
