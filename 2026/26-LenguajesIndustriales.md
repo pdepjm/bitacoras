@@ -2,11 +2,12 @@
 
 Fecha: 05/11/2026
 
-<img height="550" alt="image" src="https://github.com/user-attachments/assets/7ca294f3-5565-49f0-8ee1-455846c636b7" />
+<img width="1552" height="529" alt="image" src="https://github.com/user-attachments/assets/3339b223-3137-44de-a0db-7a3b5d427d66" />
 
 ### Material que acompaña la clase
 
 * [Código visto en clases](https://github.com/pdepjm/2024-ultimaClase)
+* [Parahoot](https://parahoot.noise.ar/course/6a877abd96ced881ddaa348f/activities) donde pueden encontrar los cuestionarios hechos durante el cuatri.
 
 ### Parciales de práctica
 
